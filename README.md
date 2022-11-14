@@ -1,2 +1,2 @@
 # workscout-theme-translation
-WorkScout主题翻译
+WordPress WorkScout主题翻译
