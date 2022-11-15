@@ -22,7 +22,7 @@ def baidu_translation_api(q, from_lang:str='en', to_lang:str='zh') :
     params['sign'] = _sign(params)
 
     api_url = 'https://fanyi-api.baidu.com/api/trans/vip/translate'
-    
+
     r = requests.get(api_url, params)
 
     return r.text
@@ -37,4 +37,4 @@ for entry in po:
     entry.msgstr = trans_result['trans_result'][0]['dst']
     print(entry.msgid, entry.msgstr)
 
-po.save('zh_CN_baidu.po')
+po.save('zh_CN.po')
