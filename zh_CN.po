@@ -31,8 +31,8 @@ msgid_plural ""
 "We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job offers</"
 "em> for you"
 msgstr[0] ""
-"Vi <em class=\"count_jobs\">har%s</em> <em class=\"job_text\">job tilbud</"
-"em> til dig"
+"有 <em class=\"count_jobs\">%s</em> <em class=\"job_text\">个工作机会</"
+"em>"
 
 #: archive-job_listing.php:111
 msgid "Jobs"
@@ -583,11 +583,8 @@ msgid "or assign posts to an existing user:"
 msgstr ""
 
 #: envato_setup/importer/wordpress-importer.php:324
-#, fuzzy
 msgid "- Select -"
-msgstr ""
-"看起来你已经在这个网站上安装了内容。如果你想安装默认的演示内容，以及您可以选"
-"择它下面。否则只需选择升级选项，以确保一切都是最新的。"
+msgstr "- 请选择 -"
 
 #: envato_setup/importer/wordpress-importer.php:374
 #, fuzzy
@@ -631,23 +628,20 @@ msgid "Menu item skipped due to invalid menu slug: %s"
 msgstr ""
 
 #: envato_setup/importer/wordpress-importer.php:853
-#, fuzzy
 msgid "Fetching attachments is not enabled"
-msgstr "下载和导入文件附件"
+msgstr "未启用提取附件"
 
 #: envato_setup/importer/wordpress-importer.php:866
-#, fuzzy
 msgid "Invalid file type"
-msgstr "工作类型"
+msgstr "文件类型错误"
 
 #: envato_setup/importer/wordpress-importer.php:916
 msgid "Remote server returned error response %1$d %2$s"
 msgstr ""
 
 #: envato_setup/importer/wordpress-importer.php:1033
-#, fuzzy
 msgid "Import WordPress"
-msgstr "导入附件"
+msgstr "导入WordPress"
 
 #: envato_setup/importer/wordpress-importer.php:1040
 msgid ""
@@ -681,24 +675,20 @@ msgid "Primary Menu"
 msgstr ""
 
 #: functions.php:84
-#, fuzzy
 msgid "Employer Dashboard Menu"
-msgstr "现在没时间？如果你不想通过向导，你可以跳回并返回。"
+msgstr "雇主主页菜单"
 
 #: functions.php:85
-#, fuzzy
 msgid "Candidate Dashboard Menu"
-msgstr "现在没时间？如果你不想通过向导，你可以跳回并返回。"
+msgstr "候选主页菜单"
 
 #: functions.php:86
-#, fuzzy
 msgid "Default Dashboard Menu"
-msgstr "现在没时间？如果你不想通过向导，你可以跳回并返回。"
+msgstr "默认主页菜单"
 
 #: functions.php:142
-#, fuzzy
 msgid "Sidebar"
-msgstr "插入演示中看到的默认侧边栏widaets"
+msgstr "侧边栏"
 
 #: functions.php:151
 msgid "Jobs page sidebar"
@@ -713,14 +703,12 @@ msgid "Single job sidebar after"
 msgstr ""
 
 #: functions.php:178
-#, fuzzy
 msgid "Resumes page sidebar"
-msgstr "哎呀！ 该页面无法找到。"
+msgstr "简历页侧栏"
 
 #: functions.php:187
-#, fuzzy
 msgid "Shop page sidebar"
-msgstr "哎呀！ 该页面无法找到。"
+msgstr "商店页边栏"
 
 #: functions.php:197
 msgid "Footer 1st Column"
@@ -767,63 +755,54 @@ msgid "Load previous listings"
 msgstr ""
 
 #: functions.php:388
-#, fuzzy
 msgid "job offer"
-msgstr ""
-"Vi <em class=\"count_jobs\">har%s</em> <em class=\"job_text\">job tilbud</"
-"em> til dig"
+msgstr "工作机会"
 
 #: functions.php:389
-#, fuzzy
 msgid "job offers"
-msgstr ""
-"Vi <em class=\"count_jobs\">har%s</em> <em class=\"job_text\">job tilbud</"
-"em> til dig"
+msgstr "工作机会"
 
 #: functions.php:508
 msgid "No results match"
-msgstr ""
+msgstr "没有找到结果"
 
 #: header-dashboard.php:129 header-dashboard.php:134 header-dashboard.php:172
 #: header.php:145 header.php:150 header.php:189
 msgid "Log In"
-msgstr ""
+msgstr "登录"
 
 #: header-dashboard.php:130 header-dashboard.php:135 header.php:146
 #: header.php:151 inc/registration.php:59 template-dashboard.php:180
 #: template-login.php:99 woocommerce/myaccount/form-login.php:37
 #: woocommerce/myaccount/form-login.php:122
 msgid "Register"
-msgstr ""
+msgstr "注册"
 
 #: header-dashboard.php:184 header.php:201
 msgid "Sign Up"
-msgstr ""
+msgstr "注册"
 
 #: header-old.php:125
 msgid "Sign In"
-msgstr ""
+msgstr "登录"
 
 #: inc/class-tgm-plugin-activation.php:334
 msgid "Install Required Plugins"
 msgstr ""
 
 #: inc/class-tgm-plugin-activation.php:335
-#, fuzzy
 msgid "Install Plugins"
 msgstr "插件"
 
 #. translators: %s: plugin name.
 #: inc/class-tgm-plugin-activation.php:337
-#, fuzzy
 msgid "Installing Plugin: %s"
-msgstr "安装插件"
+msgstr "安装插件: %s"
 
 #. translators: %s: plugin name.
 #: inc/class-tgm-plugin-activation.php:339
-#, fuzzy
 msgid "Updating Plugin: %s"
-msgstr "更新插件"
+msgstr "更新插件: %s"
 
 #: inc/class-tgm-plugin-activation.php:340
 msgid "Something went wrong with the plugin API."
@@ -853,15 +832,13 @@ msgstr ""
 #: inc/class-tgm-plugin-activation.php:912
 #: inc/class-tgm-plugin-activation.php:2618
 #: inc/class-tgm-plugin-activation.php:3665
-#, fuzzy
 msgid "Return to the Dashboard"
-msgstr "现在没时间？如果你不想通过向导，你可以跳回并返回。"
+msgstr "返回个人中心"
 
 #: inc/class-tgm-plugin-activation.php:394
 #: inc/class-tgm-plugin-activation.php:3244
-#, fuzzy
 msgid "Plugin activated successfully."
-msgstr "Dette plugin blev korrekt aktiveret:"
+msgstr "插件已启用"
 
 #: inc/class-tgm-plugin-activation.php:395
 #: inc/class-tgm-plugin-activation.php:3037
@@ -1178,7 +1155,6 @@ msgid "Testimonials info"
 msgstr ""
 
 #: inc/cmb2-meta-boxes.php:18
-#, fuzzy
 msgid "Author of testimonial"
 msgstr "输入作者："
 
@@ -1212,14 +1188,12 @@ msgid "Set image for header, should be 1920px wide."
 msgstr ""
 
 #: inc/cmb2-meta-boxes.php:129 inc/theme-options.php:49
-#, fuzzy
 msgid "No Sliders Found"
-msgstr "未找到内容"
+msgstr "未找到边栏"
 
 #: inc/cmb2-meta-boxes.php:135
-#, fuzzy
 msgid "Slider settings"
-msgstr "设定"
+msgstr "边栏设定"
 
 #: inc/cmb2-meta-boxes.php:136
 msgid ""
@@ -1382,9 +1356,8 @@ msgid ""
 msgstr ""
 
 #: inc/customizer/blog.php:64
-#, fuzzy
 msgid "Comments"
-msgstr "Kommentar%1$s"
+msgstr "评论"
 
 #: inc/customizer/blog.php:71
 msgid "Blog title"
@@ -1739,9 +1712,8 @@ msgid "Post a Job! It's Free!"
 msgstr "免费发布职位"
 
 #: inc/customizer/jobs.php:135 inc/customizer/resumes.php:58
-#, fuzzy
 msgid "Post a Resume! It's Free!"
-msgstr "%s cver"
+msgstr "免费发布简历"
 
 #: inc/customizer/jobs.php:136 inc/customizer/resumes.php:59
 msgid "Show nothing"
@@ -2191,9 +2163,8 @@ msgid "Resumes related options"
 msgstr "简历相关选项"
 
 #: inc/customizer/resumes.php:15
-#, fuzzy
 msgid "Resume related options"
-msgstr "%s cver"
+msgstr "简历相关设置"
 
 #: inc/customizer/resumes.php:27
 msgid "Resumes Page layout"
@@ -2221,18 +2192,16 @@ msgid "Turn it off for rectangular photos"
 msgstr ""
 
 #: inc/customizer/resumes.php:87
-#, fuzzy
 msgid "Resume Archive order"
-msgstr "%s cver"
+msgstr "简历排序"
 
 #: inc/customizer/resumes.php:100
-#, fuzzy
 msgid "Resume Archive orderby"
-msgstr "%s cver"
+msgstr "简历排序"
 
 #: inc/customizer/resumes.php:121
 msgid "Resume Archive number of listings"
-msgstr ""
+msgstr "简历存档列表数"
 
 #: inc/customizer/resumes.php:134
 msgid "Square list bullets"
@@ -2350,14 +2319,12 @@ msgid "Body font"
 msgstr "Body字体"
 
 #: inc/customizer/typography.php:40
-#, fuzzy
 msgid "Text logo font"
-msgstr "标志&设计"
+msgstr "文字logo字体"
 
 #: inc/customizer/typography.php:64
-#, fuzzy
 msgid "h1..h6 font"
-msgstr "重置字体样式和颜色"
+msgstr "h1..h6字体"
 
 #: inc/mini_cart.php:13
 msgid "%d item"
@@ -2392,76 +2359,66 @@ msgstr ""
 #: inc/registration.php:38 inc/registration.php:86
 #: woocommerce/myaccount/form-login.php:52
 #: woocommerce/myaccount/form-login.php:100
-#, fuzzy
 msgid "Password"
-msgstr ""
-"如果WordPress创建了一个新用户，新密码将随机生成，新用户的角色将设置为%s。手动"
-"更改新用户的详细信息将是必要的。"
+msgstr "密码"
 
 #: inc/registration.php:52 woocommerce/myaccount/form-login.php:115
 msgid "Anti-spam"
 msgstr ""
 
 #: inc/registration.php:66
-#, fuzzy
 msgid "User registration is not enabled"
-msgstr "或使用登录名创建新用户:"
+msgstr "未开放用户注册"
 
 #: inc/registration.php:81 woocommerce/myaccount/form-login.php:47
 msgid "Username or email address"
-msgstr ""
+msgstr "用户名或电子邮件"
 
 #: inc/registration.php:95 template-dashboard.php:179 template-login.php:97
 #: woocommerce/myaccount/form-login.php:34
 #: woocommerce/myaccount/form-login.php:61
-#, fuzzy
 msgid "Login"
-msgstr "登录以获取%s更新"
+msgstr "登录"
 
 #: inc/registration.php:97 woocommerce/myaccount/form-login.php:63
 msgid "Remember me"
-msgstr ""
+msgstr "记住我"
 
 #: inc/registration.php:102 woocommerce/myaccount/form-login.php:67
-#, fuzzy
 msgid "Lost your password?"
-msgstr "准备好了"
+msgstr "找回密码"
 
 #: inc/registration.php:167 inc/registration.php:266 inc/registration.php:524
 msgid "Invalid username"
-msgstr ""
+msgstr "无效用户名"
 
 #: inc/registration.php:173
-#, fuzzy
 msgid "Please enter a password"
-msgstr "搜索类型并按回车"
+msgstr "输入密码"
 
 #: inc/registration.php:180
-#, fuzzy
 msgid "Incorrect password"
-msgstr "远程文件大小不正确"
+msgstr "密码错误"
 
 #: inc/registration.php:262 inc/registration.php:518
 msgid "Username already taken"
 msgstr ""
 
 #: inc/registration.php:270 inc/registration.php:530
-#, fuzzy
 msgid "Please enter a username"
-msgstr "搜索类型并按回车"
+msgstr "输入用户名"
 
 #: inc/registration.php:274 inc/registration.php:536
 msgid "Invalid email"
-msgstr ""
+msgstr "邮件错误"
 
 #: inc/registration.php:278 inc/registration.php:542
 msgid "Email already registered"
-msgstr ""
+msgstr "邮件已经注册"
 
 #: inc/registration.php:287 inc/registration.php:555 inc/registration.php:621
-#, fuzzy
 msgid "Captcha fail! Please try again"
-msgstr "文件不存在，请重试。"
+msgstr "验证码错误，请重试"
 
 #: inc/registration.php:291 inc/registration.php:560
 msgid "You forgot about captcha"
@@ -2472,19 +2429,16 @@ msgid "New user registration on your site %s:"
 msgstr ""
 
 #: inc/registration.php:381 inc/registration.php:387
-#, fuzzy
 msgid "Username: %s"
-msgstr "%s job"
+msgstr "用户名: %s"
 
 #: inc/registration.php:382
-#, fuzzy
 msgid "E-mail: %s"
-msgstr "%s job"
+msgstr "电子邮件: %s"
 
 #: inc/registration.php:384
-#, fuzzy
 msgid "[%s] New User Registration"
-msgstr "作为新用户:"
+msgstr "[%s] 作为新用户"
 
 #: inc/registration.php:388
 msgid "Password: %s"
@@ -2503,12 +2457,8 @@ msgid "If you have any problems, please contact us at %s. "
 msgstr ""
 
 #: inc/registration.php:397
-#, fuzzy
 msgid "Thank you!"
-msgstr ""
-"感谢您选择ThemeForest的 %s主题。 这个快速设置向导将帮助您配置您的新网站。 此"
-"向导将安装所需的WordPress插件，默认内容和logo，并告诉您一些关于“帮助和支持”选"
-"项的信息。 应该只需要5分钟。"
+msgstr "感谢！"
 
 #: inc/registration.php:399
 msgid "[%s] Your username and password info"
