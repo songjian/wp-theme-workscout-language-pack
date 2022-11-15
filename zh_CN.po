@@ -17,26 +17,24 @@ msgstr ""
 
 #: 404.php:21
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "哎呀！ 该页面无法找到。"
+msgstr "哎呀！该页面可以；找不到。"
 
 #: archive-job_listing.php:101 template-parts/archive-jobs-regular.php:35
 msgid "Browse Jobs"
-msgstr "显示工作"
+msgstr "浏览职位"
 
 #: archive-job_listing.php:104 template-parts/archive-jobs-regular.php:38
 msgid ""
-"We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job offer</"
-"em> for you"
+"We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job "
+"offer</em> for you"
 msgid_plural ""
-"We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job offers</"
-"em> for you"
-msgstr[0] ""
-"有 <em class=\"count_jobs\">%s</em> <em class=\"job_text\">个工作机会</"
-"em>"
+"We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job "
+"offers</em> for you"
+msgstr[0] "有 <em class=\"count_jobs\">%s</em> <em class=\"job_text\">个工作机会</em>"
 
 #: archive-job_listing.php:111
 msgid "Jobs"
-msgstr "职位"
+msgstr "乔布斯"
 
 #: archive-job_listing.php:167 search-fields/split-jobs-keywords.php:7
 #: sidebar-jobs.php:39 sidebar-jobs.php:53 single-company.php:72
@@ -47,7 +45,7 @@ msgstr "职位"
 #: template-jobs-no-map.php:70 template-jobs.php:85
 #: template-parts/archive-jobs-regular.php:93
 msgid "job title, keywords or company name"
-msgstr "职位名称、关键词或者公司名称"
+msgstr "职位、关键字或公司名称"
 
 #: archive-job_listing.php:180 archive-resume.php:128
 #: job_manager/job-dashboard.php:61 job_manager/job-dashboard.php:80
@@ -66,7 +64,7 @@ msgstr "编辑"
 #: archive-resume.php:72 resumes.php:21
 #: template-parts/archive-resumes-regular.php:22
 msgid "We have %s resumes in our database"
-msgstr ""
+msgstr "我们的数据库中有%s份简历"
 
 #: archive-resume.php:73 functions.php:422 resumes.php:22
 #: template-parts/archive-resumes-regular.php:24
@@ -77,7 +75,7 @@ msgstr "显示所有简历"
 #: search-fields/split-resume-keywords.php:7 template-home-resumes.php:54
 #: template-parts/archive-resumes-regular.php:78
 msgid "Search freelancer services (e.g. logo design)"
-msgstr "搜索自由职业者服务（例如：徽标设计）"
+msgstr "搜索自由职业者服务（如徽标设计）"
 
 #: comments.php:38 comments.php:60
 msgid "Comment navigation"
@@ -85,15 +83,15 @@ msgstr "注释导航"
 
 #: comments.php:41 comments.php:63
 msgid "Older Comments"
-msgstr "旧评论"
+msgstr "旧的注释"
 
 #: comments.php:42 comments.php:64
 msgid "Newer Comments"
-msgstr "较新的评论"
+msgstr "更新的评论"
 
 #: comments.php:76
 msgid "Comments are closed."
-msgstr "评论已经关闭"
+msgstr "评论已关闭。"
 
 #: envato_setup/envato_setup.php:356 envato_setup/envato_setup.php:361
 msgid "Setup Wizard"
@@ -109,15 +107,15 @@ msgstr "插件"
 
 #: envato_setup/envato_setup.php:399
 msgid "Content"
-msgstr "内容"
+msgstr "所容纳之物"
 
 #: envato_setup/envato_setup.php:404
 msgid "Logo & Design"
-msgstr "标志&设计"
+msgstr "徽标和设计"
 
 #: envato_setup/envato_setup.php:409
 msgid "Customize"
-msgstr "计算机用户化"
+msgstr "定制"
 
 #: envato_setup/envato_setup.php:414
 msgid "Support"
@@ -125,50 +123,49 @@ msgstr "支持"
 
 #: envato_setup/envato_setup.php:419
 msgid "Ready!"
-msgstr "准备好了"
+msgstr "准备好的"
 
 #: envato_setup/envato_setup.php:452
 msgid "...verifying"
-msgstr "验证"
+msgstr "…正在验证"
 
 #: envato_setup/envato_setup.php:507
 msgid "Theme &rsaquo; Setup Wizard"
-msgstr "主题 设置向导"
+msgstr "主题&rsaquo；安装向导"
 
 #: envato_setup/envato_setup.php:540
 msgid "Return to the WordPress Dashboard"
-msgstr "现在没时间？如果你不想通过向导，你可以跳回并返回。"
+msgstr "返回WordPress仪表板"
 
 #: envato_setup/envato_setup.php:622 envato_setup/envato_setup.php:633
 #: envato_setup/envato_setup.php:656
 msgid "Welcome to the setup wizard for %s."
-msgstr "欢迎使用%s的安装向导"
+msgstr "欢迎使用%s的安装向导。"
 
 #: envato_setup/envato_setup.php:623
 msgid ""
 "It looks like you may have recently upgraded to this theme. Great! This "
 "setup wizard will help ensure all the default settings are correct. It will "
 "also show some information about your new website and support options."
-msgstr ""
-"看起来您已经升级到这个新的主题了，太好了！此安装向导将帮助确保所有默认设置都"
-"是正确的。它将显示一些关于您的新网站和支持网站的信息。"
+msgstr "看起来您最近可能已升级到此主题。太棒了此安装向导将帮助确保所有默认设置都正确。它还将显示有关您的新网站和支持选项的一些信息。"
 
 #: envato_setup/envato_setup.php:626 envato_setup/envato_setup.php:669
 msgid "Let's Go!"
-msgstr "我们走"
+msgstr "走吧！"
 
 #: envato_setup/envato_setup.php:628 envato_setup/envato_setup.php:671
 msgid "Not right now"
-msgstr "不是现在"
+msgstr "现在不行"
 
 #: envato_setup/envato_setup.php:634
 msgid ""
-"It looks like you have already run the setup wizard. Below are some options: "
-msgstr "看来您已经运行了安装向导。以下是一些选项："
+"It looks like you have already run the setup wizard. Below are some options:"
+" "
+msgstr "看起来您已经运行了安装向导。以下是一些选项："
 
 #: envato_setup/envato_setup.php:638
 msgid "Run Setup Wizard Again"
-msgstr "再次安装运行向导"
+msgstr "再次运行安装向导"
 
 #: envato_setup/envato_setup.php:644
 msgid "Reset font style and colors"
@@ -185,22 +182,20 @@ msgid ""
 "the required WordPress plugins, default content, logo and tell you a little "
 "about Help &amp; Support options. It should only take 5 minutes."
 msgstr ""
-"感谢您选择ThemeForest的 %s主题。 这个快速设置向导将帮助您配置您的新网站。 此"
-"向导将安装所需的WordPress插件，默认内容和logo，并告诉您一些关于“帮助和支持”选"
-"项的信息。 应该只需要5分钟。"
+"感谢您从ThemeForest中选择%s主题。此快速设置向导将帮助您配置新网站。此向导将安装所需的WordPress插件、默认内容、徽标，并告诉您有关帮助和；支持选项。只需5分钟。"
 
 #: envato_setup/envato_setup.php:666
 msgid ""
 "No time right now? If you don't want to go through the wizard, you can skip "
 "and return to the WordPress dashboard. Come back anytime if you change your "
 "mind!"
-msgstr "现在没时间？如果你不想通过向导，你可以跳回并返回。"
+msgstr "现在没有时间？如果您不想完成向导，可以跳过并返回WordPress仪表板。如果你改变主意，随时回来！"
 
 #: envato_setup/envato_setup.php:713
 msgid ""
 "Options have been reset. Please go to Appearance > Customize in the "
 "WordPress backend."
-msgstr "选项己被重置。请转到外观＞在WordPress后端自定义。"
+msgstr "选项已重置。请转到WordPress后端的外观>自定义。"
 
 #: envato_setup/envato_setup.php:789
 msgid "Default Plugins"
@@ -210,31 +205,32 @@ msgstr "默认插件"
 msgid ""
 "Your website needs a few essential plugins. The following plugins will be "
 "installed or updated:"
-msgstr "你的网站需要几个必不可少的插件。下面的插件将被安装上"
+msgstr "您的网站需要一些基本插件。将安装或更新以下插件："
 
 #: envato_setup/envato_setup.php:821
 msgid ""
-"Good news! All plugins are already installed and up to date. Please continue."
-msgstr "好消息！所有的插件都已经安装并且是最新的。请继续。"
+"Good news! All plugins are already installed and up to date. Please "
+"continue."
+msgstr "好消息！所有插件都已安装并更新。请继续。"
 
 #: envato_setup/envato_setup.php:824
 msgid "You can add and remove plugins later on from within WordPress."
-msgstr "您可以添加和别除插件以后从WordPress。"
+msgstr "您可以稍后在WordPress中添加和删除插件。"
 
 #: envato_setup/envato_setup.php:829 envato_setup/envato_setup.php:1036
 #: envato_setup/envato_setup.php:2489 envato_setup/envato_setup.php:2574
 #: envato_setup/envato_setup.php:2645
 msgid "Continue"
-msgstr "继续"
+msgstr "持续"
 
 #: envato_setup/envato_setup.php:831 envato_setup/envato_setup.php:1038
 #: envato_setup/envato_setup.php:2491 envato_setup/envato_setup.php:2590
 msgid "Skip this step"
-msgstr "跳过这一步"
+msgstr "跳过此步骤"
 
 #: envato_setup/envato_setup.php:841
 msgid "No Slug Found"
-msgstr "没有找到弹头"
+msgstr "未发现弹头"
 
 #: envato_setup/envato_setup.php:857
 msgid "Activating Plugin"
@@ -253,18 +249,17 @@ msgid "Success"
 msgstr "成功"
 
 #: envato_setup/envato_setup.php:928
-#, fuzzy
 msgid "This will create default %s as seen in the demo."
-msgstr "插入演示中看到的默认侧边栏widaets"
+msgstr "这将创建默认%s，如演示中所示。"
 
 #: envato_setup/envato_setup.php:929 envato_setup/envato_setup.php:958
 #: envato_setup/envato_setup.php:976 envato_setup/envato_setup_init.php:67
 msgid "Pending."
-msgstr "等待"
+msgstr "悬而未决的"
 
 #: envato_setup/envato_setup.php:930
 msgid "Installing."
-msgstr "正在安装"
+msgstr "正在安装。"
 
 #: envato_setup/envato_setup.php:931 envato_setup/envato_setup.php:960
 #: envato_setup/envato_setup.php:978 envato_setup/envato_setup_init.php:69
@@ -277,23 +272,23 @@ msgstr "小部件"
 
 #: envato_setup/envato_setup.php:957
 msgid "Insert default sidebar widgets as seen in the demo."
-msgstr "插入演示中看到的默认侧边栏widaets"
+msgstr "如演示中所示，插入默认侧边栏小部件。"
 
 #: envato_setup/envato_setup.php:959
 msgid "Installing Default Widgets."
-msgstr "安装默认部件"
+msgstr "安装默认小工具。"
 
 #: envato_setup/envato_setup.php:974
 msgid "Settings"
-msgstr "设定"
+msgstr "设置"
 
 #: envato_setup/envato_setup.php:975
 msgid "Configure default settings."
-msgstr "配置默认设置"
+msgstr "配置默认设置。"
 
 #: envato_setup/envato_setup.php:977
 msgid "Installing Default Settings."
-msgstr "安装默认设置"
+msgstr "正在安装默认设置。"
 
 #: envato_setup/envato_setup.php:995
 msgid "Default Content"
@@ -305,20 +300,16 @@ msgid ""
 "would like to install the default demo content as well you can select it "
 "below. Otherwise just choose the upgrade option to ensure everything is up "
 "to date."
-msgstr ""
-"看起来你已经在这个网站上安装了内容。如果你想安装默认的演示内容，以及您可以选"
-"择它下面。否则只需选择升级选项，以确保一切都是最新的。"
+msgstr "您似乎已经在此网站上安装了内容。如果你想安装默认的演示内容，你可以在下面选择它。否则，只需选择升级选项以确保一切都是最新的。"
 
 #: envato_setup/envato_setup.php:1000
 msgid ""
 "It's time to insert some default content for your new WordPress website. "
 "Choose what you would like inserted below and click Continue. It is "
-"recommended to leave everything selected. Once inserted, this content can be "
-"managed from the WordPress admin dashboard. "
+"recommended to leave everything selected. Once inserted, this content can be"
+" managed from the WordPress admin dashboard. "
 msgstr ""
-"是时候为新的WordPress网站插入一些默认内容了。选择要插入下面的内容，然后单"
-"击“继续”。建议保留选中的所有内容。一旦插入，这些内容可以从WordPress管理仪表板"
-"进行管理。"
+"是时候为你的新WordPress网站插入一些默认内容了。选择要在下面插入的内容，然后单击“继续”。建议选择所有选项。插入后，可以从WordPress管理面板管理此内容。"
 
 #: envato_setup/envato_setup.php:1007
 msgid "Item"
@@ -332,7 +323,7 @@ msgstr "描述"
 #: wp-job-manager-alerts/my-alerts.php:16
 #: wp-job-manager-applications/past-applications.php:5
 msgid "Status"
-msgstr "状态"
+msgstr "地位"
 
 #: envato_setup/envato_setup.php:1049
 msgid "No content Found"
@@ -345,7 +336,7 @@ msgstr "错误"
 #: envato_setup/envato_setup.php:2124
 #: envato_setup/importer/wordpress-importer.php:910
 msgid "Remote server did not respond"
-msgstr "远程服务器没有响应"
+msgstr "远程服务器未响应"
 
 #: envato_setup/envato_setup.php:2132
 #: envato_setup/importer/wordpress-importer.php:923
@@ -355,16 +346,16 @@ msgstr "远程文件大小不正确"
 #: envato_setup/envato_setup.php:2138
 #: envato_setup/importer/wordpress-importer.php:928
 msgid "Zero size file downloaded"
-msgstr "下载的零大小文件"
+msgstr "下载的文件大小为零"
 
 #: envato_setup/envato_setup.php:2144
 #: envato_setup/importer/wordpress-importer.php:934
 msgid "Remote file is too large, limit is %s"
-msgstr "远程文件大大，限制为%s"
+msgstr "远程文件太大，限制为%s"
 
 #: envato_setup/envato_setup.php:2423
 msgid "Logo &amp; Design"
-msgstr "标志&设计"
+msgstr "徽标和；设计"
 
 #: envato_setup/envato_setup.php:2425
 msgid ""
@@ -373,35 +364,30 @@ msgid ""
 "from the Appearance > Customize area in your dashboard. Try %sEnvato "
 "Studio%s if you need a new logo designed."
 msgstr ""
-"请在下面添加您的标志。为了达到最佳效果，徽标应该是一个透明的PNG（200×40像"
-"素）。您可以随时从仪表板中的外观>自定义区域更改徽标。尝试%sEnvato工作室%s如果"
-"你需要一个新的标志设计。"
+"请在下面添加您的徽标。为获得最佳效果，徽标应为透明PNG（200 x "
+"40像素）。可以随时从仪表板的“外观”>“自定义”区域更改徽标。如果需要设计新徽标，请尝试%sEnvato Studio%s。"
 
 #: envato_setup/envato_setup.php:2445
 msgid "Upload New Logo"
-msgstr "上传新徵标"
+msgstr "上载新徽标"
 
 #: envato_setup/envato_setup.php:2457
 msgid ""
 "Please choose the color scheme for this website. The color scheme (along "
 "with font colors &amp; styles) can be changed at any time from the "
 "Appearance > Customize area in your dashboard."
-msgstr ""
-"请选择本网站的配色方案。配色方案（以及字体颜色和样式）可以随时从仪表板中的外"
-"观>自定义区域更改。"
+msgstr "请选择此网站的配色方案。可以随时从仪表板的“外观”>“自定义”区域更改配色方案（以及字体颜色和样式）。"
 
 #: envato_setup/envato_setup.php:2545
 msgid "Theme Updates"
-msgstr "更新"
+msgstr "主题更新"
 
 #: envato_setup/envato_setup.php:2579
 msgid ""
 "Please login using your ThemeForest account to enable Theme Updates. We "
 "update themes when a new feature is added or a bug is fixed. It is highly "
 "recommended to enable Theme Updates."
-msgstr ""
-"请使用您的ThemeForest帐户登录以启用主题更新。当添加新功能或修复bug时，我们会"
-"更新主题。强烈建议启用主题更新。"
+msgstr "请使用您的ThemeForest帐户登录以启用主题更新。当添加新功能或修复错误时，我们会更新主题。强烈建议启用主题更新。"
 
 #: envato_setup/envato_setup.php:2588
 msgid "Login with Envato"
@@ -413,11 +399,11 @@ msgstr "同意并继续"
 
 #: envato_setup/envato_setup.php:2712
 msgid "Your Website is Ready!"
-msgstr "准备好了"
+msgstr "您的网站已就绪！"
 
 #: envato_setup/envato_setup.php:2721
 msgid "Next Steps"
-msgstr "下一步"
+msgstr "接下来的步骤"
 
 #: envato_setup/envato_setup.php:2725
 msgid "View your new website!"
@@ -429,31 +415,31 @@ msgstr "更多资源"
 
 #: envato_setup/envato_setup.php:2733
 msgid "Read the Theme Documentation"
-msgstr "主题 设置向导"
+msgstr "阅读主题文档"
 
 #: envato_setup/envato_setup.php:2736
 msgid "Learn how to use WordPress"
-msgstr "学习如何使用WordPress"
+msgstr "了解如何使用WordPress"
 
 #: envato_setup/envato_setup.php:2739
 msgid "Leave an Item Rating"
-msgstr "留下一个项目评级"
+msgstr "留下物品评级"
 
 #: envato_setup/envato_setup.php:2741
 msgid "Get Help and Support"
-msgstr "获得帮助和支持"
+msgstr "获取帮助和支持"
 
 #: envato_setup/envato_setup.php:2801
 msgid "Something went wrong while trying to retrieve oauth token: %s"
-msgstr "尝试检索授权令牌时出错:%s"
+msgstr "尝试检索oauth令牌时出错：%s"
 
 #: envato_setup/envato_setup.php:2818
 msgid "Login for %s updates"
-msgstr "登录以获取%s更新"
+msgstr "登录%s更新"
 
 #: envato_setup/envato_setup.php:2825
 msgid "oAuth Login"
-msgstr "OAuth登录"
+msgstr "oAuth登录"
 
 #: envato_setup/envato_setup_init.php:65
 msgid "Upgrade"
@@ -465,7 +451,7 @@ msgstr "升级内容和设置"
 
 #: envato_setup/envato_setup_init.php:68
 msgid "Installing Updates."
-msgstr "安装更新。"
+msgstr "正在安装更新。"
 
 #: envato_setup/importer/parsers.php:42 envato_setup/importer/parsers.php:72
 #: envato_setup/importer/parsers.php:80
@@ -476,13 +462,13 @@ msgstr "读取此WXR文件时出错"
 msgid ""
 "Details are shown above. The importer will now try again with a different "
 "parser..."
-msgstr "详情如上图所示。导入程序现在将使用不同的解析器再次尝试..."
+msgstr "详情如上文所示。导入程序现在将使用其他解析器重试。。。"
 
 #: envato_setup/importer/parsers.php:84 envato_setup/importer/parsers.php:89
 #: envato_setup/importer/parsers.php:279 envato_setup/importer/parsers.php:468
 msgid ""
 "This does not appear to be a WXR file, missing/invalid WXR version number"
-msgstr "这似乎不是一个WXR文件，缺少/无效的WXR版本号"
+msgstr "这似乎不是WXR文件，缺少/无效的WXR版本号"
 
 #: envato_setup/importer/wordpress-importer.php:134
 #: envato_setup/importer/wordpress-importer.php:143
@@ -490,7 +476,7 @@ msgstr "这似乎不是一个WXR文件，缺少/无效的WXR版本号"
 #: envato_setup/importer/wordpress-importer.php:198
 #: envato_setup/importer/wordpress-importer.php:207
 msgid "Sorry, there has been an error."
-msgstr "很抱歉，出现了一个错误。"
+msgstr "抱歉，出现错误。"
 
 #: envato_setup/importer/wordpress-importer.php:135
 msgid "The file does not exist, please try again."
@@ -498,11 +484,11 @@ msgstr "文件不存在，请重试。"
 
 #: envato_setup/importer/wordpress-importer.php:178
 msgid "All done."
-msgstr "显示所有简历"
+msgstr "全部完成。"
 
 #: envato_setup/importer/wordpress-importer.php:178
 msgid "Have fun!"
-msgstr "玩得开心"
+msgstr "玩得高兴"
 
 #: envato_setup/importer/wordpress-importer.php:179
 msgid "Remember to update the passwords and roles of imported users."
@@ -512,7 +498,7 @@ msgstr "请记住更新导入用户的密码和角色。"
 msgid ""
 "The export file could not be found at <code>%s</code>. It is likely that "
 "this was caused by a permissions problem."
-msgstr "在<code>%s中找不到导出文件。很可能是权限问题造成的。"
+msgstr "在<code>%s</code>处找不到导出文件。这很可能是由权限问题引起的。"
 
 #: envato_setup/importer/wordpress-importer.php:215
 msgid ""
@@ -524,7 +510,7 @@ msgstr "此版本的导入程序可能不支持此WXR文件（版本%s）。请�
 msgid ""
 "Failed to import author %s. Their posts will be attributed to the current "
 "user."
-msgstr "导入作者%s失败。他们的帖子将归属于当前用户。"
+msgstr "无法导入作者%s。他们的帖子将归属于当前用户。"
 
 #: envato_setup/importer/wordpress-importer.php:266
 msgid "Assign Authors"
@@ -533,21 +519,19 @@ msgstr "分配作者"
 #: envato_setup/importer/wordpress-importer.php:267
 msgid ""
 "To make it easier for you to edit and save the imported content, you may "
-"want to reassign the author of the imported item to an existing user of this "
-"site. For example, you may want to import all the entries as <code>admin</"
-"code>s entries."
+"want to reassign the author of the imported item to an existing user of this"
+" site. For example, you may want to import all the entries as "
+"<code>admin</code>s entries."
 msgstr ""
-"为了方便您编辑和保存导入的内容，您可能需要将导入项目的作者重新分配给此网站的"
-"现有用户。例如，您可能希望将所有条目导入为《code》管理员的条目。"
+"为了便于编辑和保存导入的内容，您可能需要将导入项目的作者重新分配给此网站的现有用户。例如，您可能希望将所有条目导入为<code>admin</code>s条目。"
 
 #: envato_setup/importer/wordpress-importer.php:269
 msgid ""
 "If a new user is created by WordPress, a new password will be randomly "
-"generated and the new user&#8217;s role will be set as %s. Manually changing "
-"the new user&#8217;s details will be necessary."
+"generated and the new user&#8217;s role will be set as %s. Manually changing"
+" the new user&#8217;s details will be necessary."
 msgstr ""
-"如果WordPress创建了一个新用户，新密码将随机生成，新用户的角色将设置为%s。手动"
-"更改新用户的详细信息将是必要的。"
+"如果WordPress创建了一个新用户，将随机生成一个新密码，新用户&#8217；s角色将被设置为%s。手动更改新用户&#8217；的详细信息将是必需的。"
 
 #: envato_setup/importer/wordpress-importer.php:279
 msgid "Import Attachments"
@@ -564,68 +548,66 @@ msgstr "提交"
 
 #: envato_setup/importer/wordpress-importer.php:299
 msgid "Import author:"
-msgstr "输入作者："
+msgstr "导入作者："
 
 #: envato_setup/importer/wordpress-importer.php:310
 msgid "or create new user with login name:"
-msgstr "或使用登录名创建新用户:"
+msgstr "或使用登录名创建新用户："
 
 #: envato_setup/importer/wordpress-importer.php:313
 msgid "as a new user:"
-msgstr "作为新用户:"
+msgstr "作为新用户："
 
 #: envato_setup/importer/wordpress-importer.php:321
 msgid "assign posts to an existing user:"
-msgstr ""
+msgstr "将帖子分配给现有用户："
 
 #: envato_setup/importer/wordpress-importer.php:323
 msgid "or assign posts to an existing user:"
-msgstr ""
+msgstr "或将帖子分配给现有用户："
 
 #: envato_setup/importer/wordpress-importer.php:324
 msgid "- Select -"
-msgstr "- 请选择 -"
+msgstr "-选择-"
 
 #: envato_setup/importer/wordpress-importer.php:374
-#, fuzzy
 msgid ""
 "Failed to create new user for %s. Their posts will be attributed to the "
 "current user."
-msgstr "导入作者%s失败。他们的帖子将归属于当前用户。"
+msgstr "无法为%s创建新用户。他们的帖子将归属于当前用户。"
 
 #: envato_setup/importer/wordpress-importer.php:425
 msgid "Failed to import category %s"
-msgstr ""
+msgstr "无法导入类别%s"
 
 #: envato_setup/importer/wordpress-importer.php:465
 msgid "Failed to import post tag %s"
-msgstr ""
+msgstr "导入帖子标记%s失败"
 
 #: envato_setup/importer/wordpress-importer.php:511
 #: envato_setup/importer/wordpress-importer.php:652
 msgid "Failed to import %s %s"
-msgstr ""
+msgstr "导入%s%s失败"
 
 #: envato_setup/importer/wordpress-importer.php:537
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-msgstr ""
+msgstr "无法导入&#8220；%s&#8221；：帖子类型%s无效"
 
 #: envato_setup/importer/wordpress-importer.php:559
 msgid "%s &#8220;%s&#8221; already exists."
-msgstr ""
+msgstr "%s&#8220；%s&#8221；已存在。"
 
 #: envato_setup/importer/wordpress-importer.php:618
-#, fuzzy
 msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr "导入作者%s失败。他们的帖子将归属于当前用户。"
+msgstr "无法导入%s&#8220；%s&#8221；"
 
 #: envato_setup/importer/wordpress-importer.php:783
 msgid "Menu item skipped due to missing menu slug"
-msgstr ""
+msgstr "由于缺少菜单段而跳过菜单项"
 
 #: envato_setup/importer/wordpress-importer.php:790
 msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr ""
+msgstr "由于无效的菜单段而跳过菜单项：%s"
 
 #: envato_setup/importer/wordpress-importer.php:853
 msgid "Fetching attachments is not enabled"
@@ -633,11 +615,11 @@ msgstr "未启用提取附件"
 
 #: envato_setup/importer/wordpress-importer.php:866
 msgid "Invalid file type"
-msgstr "文件类型错误"
+msgstr "文件类型无效"
 
 #: envato_setup/importer/wordpress-importer.php:916
 msgid "Remote server returned error response %1$d %2$s"
-msgstr ""
+msgstr "远程服务器返回错误响应%1$d%2$s"
 
 #: envato_setup/importer/wordpress-importer.php:1033
 msgid "Import WordPress"
@@ -647,112 +629,112 @@ msgstr "导入WordPress"
 msgid ""
 "A new version of this importer is available. Please update to version %s to "
 "ensure compatibility with newer export files."
-msgstr ""
+msgstr "此导入程序的新版本可用。请更新到版本%s，以确保与较新的导出文件兼容。"
 
 #: envato_setup/importer/wordpress-importer.php:1055
 msgid ""
 "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
 "the posts, pages, comments, custom fields, categories, and tags into this "
 "site."
-msgstr ""
+msgstr "你好！上传您的WordPress扩展RSS（WXR）文件，我们&#8217；我会将帖子、页面、评论、自定义字段、类别和标签导入此网站。"
 
 #: envato_setup/importer/wordpress-importer.php:1056
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr ""
+msgstr "选择要上载的WXR（.xml）文件，然后单击上载文件并导入。"
 
 #: envato_setup/importer/wordpress-importer.php:1131
 msgid ""
-"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
-"strong> from a WordPress export file."
-msgstr ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr "从WordPress导出文件导入<strong>帖子、页面、评论、自定义字段、类别和标签</strong>。"
 
 #: footer-old.php:41
 msgid "Follow us"
-msgstr ""
+msgstr "关注我们"
 
 #: functions.php:83
 msgid "Primary Menu"
-msgstr ""
+msgstr "主菜单"
 
 #: functions.php:84
 msgid "Employer Dashboard Menu"
-msgstr "雇主主页菜单"
+msgstr "雇主仪表板菜单"
 
 #: functions.php:85
 msgid "Candidate Dashboard Menu"
-msgstr "候选主页菜单"
+msgstr "候选仪表板菜单"
 
 #: functions.php:86
 msgid "Default Dashboard Menu"
-msgstr "默认主页菜单"
+msgstr "默认仪表板菜单"
 
 #: functions.php:142
 msgid "Sidebar"
-msgstr "侧边栏"
+msgstr "提要栏"
 
 #: functions.php:151
 msgid "Jobs page sidebar"
-msgstr "职位页边栏"
+msgstr "作业页侧边栏"
 
 #: functions.php:160
 msgid "Single job sidebar before"
-msgstr ""
+msgstr "之前的单个作业侧边栏"
 
 #: functions.php:169
 msgid "Single job sidebar after"
-msgstr ""
+msgstr "后面的单个作业侧边栏"
 
 #: functions.php:178
 msgid "Resumes page sidebar"
-msgstr "简历页侧栏"
+msgstr "简历页面侧边栏"
 
 #: functions.php:187
 msgid "Shop page sidebar"
-msgstr "商店页边栏"
+msgstr "商店页面侧边栏"
 
 #: functions.php:197
 msgid "Footer 1st Column"
-msgstr ""
+msgstr "页脚第一列"
 
 #: functions.php:198
 msgid "1st column for widgets in Footer"
-msgstr ""
+msgstr "页脚中小部件的第一列"
 
 #: functions.php:206
 msgid "Footer 2nd Column"
-msgstr ""
+msgstr "页脚第2列"
 
 #: functions.php:207
 msgid "2nd column for widgets in Footer"
-msgstr ""
+msgstr "页脚中小部件的第二列"
 
 #: functions.php:215
 msgid "Footer 3rd Column"
-msgstr ""
+msgstr "页脚第3列"
 
 #: functions.php:216
 msgid "3rd column for widgets in Footer"
-msgstr ""
+msgstr "页脚中小部件的第3列"
 
 #: functions.php:224
 msgid "Footer 4th Column"
-msgstr ""
+msgstr "页脚第4列"
 
 #: functions.php:225
 msgid "4th column for widgets in Footer"
-msgstr ""
+msgstr "页脚中小部件的第4列"
 
 #: functions.php:233
 msgid "Footer 5th Column"
-msgstr ""
+msgstr "页脚第5列"
 
 #: functions.php:234
 msgid "5th column for widgets in Footer"
-msgstr ""
+msgstr "页脚中小部件的第5列"
 
 #: functions.php:383
 msgid "Load previous listings"
-msgstr ""
+msgstr "加载以前的列表"
 
 #: functions.php:388
 msgid "job offer"
@@ -764,7 +746,7 @@ msgstr "工作机会"
 
 #: functions.php:508
 msgid "No results match"
-msgstr "没有找到结果"
+msgstr "没有匹配的结果"
 
 #: header-dashboard.php:129 header-dashboard.php:134 header-dashboard.php:172
 #: header.php:145 header.php:150 header.php:189
@@ -776,7 +758,7 @@ msgstr "登录"
 #: template-login.php:99 woocommerce/myaccount/form-login.php:37
 #: woocommerce/myaccount/form-login.php:122
 msgid "Register"
-msgstr "注册"
+msgstr "登记"
 
 #: header-dashboard.php:184 header.php:201
 msgid "Sign Up"
@@ -788,25 +770,25 @@ msgstr "登录"
 
 #: inc/class-tgm-plugin-activation.php:334
 msgid "Install Required Plugins"
-msgstr ""
+msgstr "安装所需的插件"
 
 #: inc/class-tgm-plugin-activation.php:335
 msgid "Install Plugins"
-msgstr "插件"
+msgstr "安装插件"
 
 #. translators: %s: plugin name.
 #: inc/class-tgm-plugin-activation.php:337
 msgid "Installing Plugin: %s"
-msgstr "安装插件: %s"
+msgstr "正在安装插件：%s"
 
 #. translators: %s: plugin name.
 #: inc/class-tgm-plugin-activation.php:339
 msgid "Updating Plugin: %s"
-msgstr "更新插件: %s"
+msgstr "正在更新插件：%s"
 
 #: inc/class-tgm-plugin-activation.php:340
 msgid "Something went wrong with the plugin API."
-msgstr ""
+msgstr "插件API出现问题。"
 
 #. translators: 1: plugin name(s).
 #: inc/class-tgm-plugin-activation.php:377
@@ -826,141 +808,131 @@ msgstr[0] "Begynd at aktivere plugin"
 
 #: inc/class-tgm-plugin-activation.php:392
 msgid "Return to Required Plugins Installer"
-msgstr ""
+msgstr "返回所需的插件安装程序"
 
 #: inc/class-tgm-plugin-activation.php:393
 #: inc/class-tgm-plugin-activation.php:912
 #: inc/class-tgm-plugin-activation.php:2618
 #: inc/class-tgm-plugin-activation.php:3665
 msgid "Return to the Dashboard"
-msgstr "返回个人中心"
+msgstr "返回仪表板"
 
 #: inc/class-tgm-plugin-activation.php:394
 #: inc/class-tgm-plugin-activation.php:3244
 msgid "Plugin activated successfully."
-msgstr "插件已启用"
+msgstr "插件已成功激活。"
 
 #: inc/class-tgm-plugin-activation.php:395
 #: inc/class-tgm-plugin-activation.php:3037
 msgid "The following plugin was activated successfully:"
-msgstr "Dette plugin blev korrekt aktiveret:"
+msgstr "已成功激活以下插件："
 
 #. translators: 1: plugin name.
 #: inc/class-tgm-plugin-activation.php:397
 msgid "No action taken. Plugin %1$s was already active."
-msgstr ""
+msgstr "未采取任何措施。插件%1$s已处于活动状态。"
 
 #. translators: 1: plugin name.
 #: inc/class-tgm-plugin-activation.php:399
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
 "Please update the plugin."
-msgstr ""
+msgstr "插件未激活。此主题需要更高版本的%s。请更新插件。"
 
 #. translators: 1: dashboard link.
 #: inc/class-tgm-plugin-activation.php:401
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
+msgstr "已成功安装并激活所有插件。%1美元"
 
 #: inc/class-tgm-plugin-activation.php:402
 msgid "Dismiss this notice"
-msgstr ""
+msgstr "解除此通知"
 
 #: inc/class-tgm-plugin-activation.php:403
 msgid ""
 "There are one or more required or recommended plugins to install, update or "
 "activate."
-msgstr ""
+msgstr "需要安装、更新或激活一个或多个必需或推荐的插件。"
 
 #: inc/class-tgm-plugin-activation.php:404
 msgid "Please contact the administrator of this site for help."
-msgstr ""
+msgstr "请与此网站的管理员联系以获取帮助。"
 
 #: inc/class-tgm-plugin-activation.php:607
 msgid "This plugin needs to be updated to be compatible with your theme."
-msgstr ""
+msgstr "此插件需要更新以与您的主题兼容。"
 
 #: inc/class-tgm-plugin-activation.php:608
-#, fuzzy
 msgid "Update Required"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "需要更新"
 
 #: inc/class-tgm-plugin-activation.php:1019
 msgid ""
 "The remote plugin package does not contain a folder with the desired slug "
 "and renaming did not work."
-msgstr ""
+msgstr "远程插件包不包含包含所需slug的文件夹，重命名不起作用。"
 
 #: inc/class-tgm-plugin-activation.php:1019
 #: inc/class-tgm-plugin-activation.php:1022
 msgid ""
 "Please contact the plugin provider and ask them to package their plugin "
 "according to the WordPress guidelines."
-msgstr ""
+msgstr "请联系插件提供商，要求他们根据WordPress指南打包插件。"
 
 #: inc/class-tgm-plugin-activation.php:1022
 msgid ""
 "The remote plugin package consists of more than one file, but the files are "
 "not packaged in a folder."
-msgstr ""
+msgstr "远程插件包包含多个文件，但这些文件不打包在一个文件夹中。"
 
 #. translators: %s: version number
 #: inc/class-tgm-plugin-activation.php:2067
-#, fuzzy
 msgid "TGMPA v%s"
-msgstr "%s job"
+msgstr "TGMPA版本%s"
 
 #: inc/class-tgm-plugin-activation.php:2358
-#, fuzzy
 msgid "Required"
-msgstr "Følgende påkrævede plugin er i øjeblikket inaktiv:%1$s."
+msgstr "要求的"
 
 #: inc/class-tgm-plugin-activation.php:2361
-#, fuzzy
 msgid "Recommended"
-msgstr "Følgende anbefalede plugin er i øjeblikket inaktiv:%1$s."
+msgstr "推荐"
 
 #: inc/class-tgm-plugin-activation.php:2377
-#, fuzzy
 msgid "WordPress Repository"
-msgstr "学习如何使用WordPress"
+msgstr "WordPress存储库"
 
 #: inc/class-tgm-plugin-activation.php:2380
 msgid "External Source"
-msgstr ""
+msgstr "外部来源"
 
 #: inc/class-tgm-plugin-activation.php:2383
 msgid "Pre-Packaged"
-msgstr ""
+msgstr "预包装"
 
 #: inc/class-tgm-plugin-activation.php:2400
-#, fuzzy
 msgid "Not Installed"
-msgstr "好消息！所有的插件都已经安装并且是最新的。请继续。"
+msgstr "未安装"
 
 #: inc/class-tgm-plugin-activation.php:2404
-#, fuzzy
 msgid "Installed But Not Activated"
-msgstr "Dette plugin blev korrekt aktiveret:"
+msgstr "已安装但未激活"
 
 #: inc/class-tgm-plugin-activation.php:2406
 msgid "Active"
-msgstr ""
+msgstr "忙碌的"
 
 #: inc/class-tgm-plugin-activation.php:2412
-#, fuzzy
 msgid "Required Update not Available"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "所需更新不可用"
 
 #: inc/class-tgm-plugin-activation.php:2415
-#, fuzzy
 msgid "Requires Update"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "需要更新"
 
 #: inc/class-tgm-plugin-activation.php:2418
-#, fuzzy
 msgid "Update recommended"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "建议更新"
 
 #. translators: 1: number of plugins.
 #: inc/class-tgm-plugin-activation.php:2477
@@ -982,262 +954,248 @@ msgstr[0] "Aktivering <span class=\"count\">(%s)</span>"
 
 #: inc/class-tgm-plugin-activation.php:2575
 msgid "Installed version:"
-msgstr ""
+msgstr "已安装版本："
 
 #: inc/class-tgm-plugin-activation.php:2583
 msgid "Minimum required version:"
-msgstr ""
+msgstr "最低要求版本："
 
 #: inc/class-tgm-plugin-activation.php:2595
-#, fuzzy
 msgid "Available version:"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "可用版本："
 
 #: inc/class-tgm-plugin-activation.php:2618
 msgid "No plugins to install, update or activate."
-msgstr ""
+msgstr "没有要安装、更新或激活的插件。"
 
 #: inc/class-tgm-plugin-activation.php:2632
-#, fuzzy
 msgid "Plugin"
-msgstr "Begynd at installere plugin"
+msgstr "插件"
 
 #: inc/class-tgm-plugin-activation.php:2633
 msgid "Source"
-msgstr ""
+msgstr "来源"
 
 #: inc/class-tgm-plugin-activation.php:2634
-#, fuzzy
 msgid "Type"
-msgstr "搜索类型并按回车"
+msgstr "类型"
 
 #: inc/class-tgm-plugin-activation.php:2638
-#, fuzzy
 msgid "Version"
-msgstr "这似乎不是一个WXR文件，缺少/无效的WXR版本号"
+msgstr "版本"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/class-tgm-plugin-activation.php:2688
 msgid "Install %2$s"
-msgstr ""
+msgstr "安装%2$s"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/class-tgm-plugin-activation.php:2693
-#, fuzzy
 msgid "Update %2$s"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "更新%2$s"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: inc/class-tgm-plugin-activation.php:2699
 msgid "Activate %2$s"
-msgstr ""
+msgstr "激活%2$s"
 
 #: inc/class-tgm-plugin-activation.php:2769
 msgid "Upgrade message from the plugin author:"
-msgstr ""
+msgstr "来自插件作者的升级消息："
 
 #: inc/class-tgm-plugin-activation.php:2802
-#, fuzzy
 msgid "Install"
-msgstr "At installere <span class=\"count\">(%s)</span>"
+msgstr "安装"
 
 #: inc/class-tgm-plugin-activation.php:2808
-#, fuzzy
 msgid "Update"
-msgstr "请记住更新导入用户的密码和角色。"
+msgstr "使现代化"
 
 #: inc/class-tgm-plugin-activation.php:2811
-#, fuzzy
 msgid "Activate"
-msgstr "Aktivering <span class=\"count\">(%s)</span>"
+msgstr "使活动"
 
 #: inc/class-tgm-plugin-activation.php:2842
 msgid "No plugins were selected to be installed. No action taken."
-msgstr ""
+msgstr "未选择要安装的插件。未采取任何措施。"
 
 #: inc/class-tgm-plugin-activation.php:2844
 msgid "No plugins were selected to be updated. No action taken."
-msgstr ""
+msgstr "未选择要更新的插件。未采取任何措施。"
 
 #: inc/class-tgm-plugin-activation.php:2885
-#, fuzzy
 msgid "No plugins are available to be installed at this time."
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "目前没有可安装的插件。"
 
 #: inc/class-tgm-plugin-activation.php:2887
-#, fuzzy
 msgid "No plugins are available to be updated at this time."
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "目前没有可更新的插件。"
 
 #: inc/class-tgm-plugin-activation.php:2993
 msgid "No plugins were selected to be activated. No action taken."
-msgstr ""
+msgstr "没有选择要激活的插件。未采取任何措施。"
 
 #: inc/class-tgm-plugin-activation.php:3019
-#, fuzzy
 msgid "No plugins are available to be activated at this time."
-msgstr "Dette plugin blev korrekt aktiveret:"
+msgstr "此时没有可激活的插件。"
 
 #: inc/class-tgm-plugin-activation.php:3243
-#, fuzzy
 msgid "Plugin activation failed."
-msgstr "激活插件"
+msgstr "插件激活失败。"
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/class-tgm-plugin-activation.php:3583
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "正在更新插件%1$s（%2$d/%3$d）"
 
 #. translators: 1: plugin name, 2: error message.
 #: inc/class-tgm-plugin-activation.php:3586
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
+msgstr "安装%1$s时出错：<strong>%2$s</strong>。"
 
 #. translators: 1: plugin name.
 #: inc/class-tgm-plugin-activation.php:3588
-#, fuzzy
 msgid "The installation of %1$s failed."
-msgstr "Kommentar%1$s"
+msgstr "%1$s的安装失败。"
 
 #: inc/class-tgm-plugin-activation.php:3592
 msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
-msgstr ""
+"The installation and activation process is starting. This process may take a"
+" while on some hosts, so please be patient."
+msgstr "安装和激活过程正在启动。在某些主机上，此过程可能需要一段时间，因此请耐心等待。"
 
 #. translators: 1: plugin name.
 #: inc/class-tgm-plugin-activation.php:3594
 msgid "%1$s installed and activated successfully."
-msgstr ""
+msgstr "%已成功安装并激活1$s。"
 
 #: inc/class-tgm-plugin-activation.php:3594
 #: inc/class-tgm-plugin-activation.php:3602
 msgid "Show Details"
-msgstr "详情"
+msgstr "显示详细信息"
 
 #: inc/class-tgm-plugin-activation.php:3594
 #: inc/class-tgm-plugin-activation.php:3602
 msgid "Hide Details"
-msgstr ""
+msgstr "隐藏详细信息"
 
 #: inc/class-tgm-plugin-activation.php:3595
 msgid "All installations and activations have been completed."
-msgstr ""
+msgstr "所有安装和激活都已完成。"
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/class-tgm-plugin-activation.php:3597
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "安装并激活插件%1$s（%2$d/%3$d）"
 
 #: inc/class-tgm-plugin-activation.php:3600
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
-msgstr ""
+msgstr "安装过程正在启动。在某些主机上，此过程可能需要一段时间，因此请耐心等待。"
 
 #. translators: 1: plugin name.
 #: inc/class-tgm-plugin-activation.php:3602
-#, fuzzy
 msgid "%1$s installed successfully."
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "%已成功安装1$s。"
 
 #: inc/class-tgm-plugin-activation.php:3603
 msgid "All installations have been completed."
-msgstr ""
+msgstr "所有安装都已完成。"
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: inc/class-tgm-plugin-activation.php:3605
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "正在安装插件%1$s（%2$d/%3$d）"
 
 #: inc/cmb2-meta-boxes.php:12
 msgid "Testimonials info"
-msgstr ""
+msgstr "证词信息"
 
 #: inc/cmb2-meta-boxes.php:18
 msgid "Author of testimonial"
-msgstr "输入作者："
+msgstr "证词作者"
 
 #: inc/cmb2-meta-boxes.php:24
 msgid "Link to author's website (optional)"
-msgstr ""
+msgstr "链接到作者的网站（可选）"
 
 #: inc/cmb2-meta-boxes.php:30
 msgid "Enter their position in their specific company."
-msgstr ""
+msgstr "输入他们在特定公司的职位。"
 
 #: inc/cmb2-meta-boxes.php:84 inc/cmb2-meta-boxes.php:258
 msgid "Background image for header"
-msgstr ""
+msgstr "标题的背景图像"
 
 #: inc/cmb2-meta-boxes.php:90
 msgid "Make header transparent "
-msgstr ""
+msgstr "使标题透明"
 
 #: inc/cmb2-meta-boxes.php:91 inc/cmb2-meta-boxes.php:187
 #: inc/cmb2-meta-boxes.php:228
 msgid "Works only if the \"header background\" image is added"
-msgstr ""
+msgstr "仅当添加“标题背景”图像时有效"
 
 #: inc/cmb2-meta-boxes.php:96
 msgid "Header background "
-msgstr ""
+msgstr "标题背景"
 
 #: inc/cmb2-meta-boxes.php:97
 msgid "Set image for header, should be 1920px wide."
-msgstr ""
+msgstr "为标题设置图像，宽度应为1920px。"
 
 #: inc/cmb2-meta-boxes.php:129 inc/theme-options.php:49
 msgid "No Sliders Found"
-msgstr "未找到边栏"
+msgstr "未找到滑块"
 
 #: inc/cmb2-meta-boxes.php:135
 msgid "Slider settings"
-msgstr "边栏设定"
+msgstr "滑块设置"
 
 #: inc/cmb2-meta-boxes.php:136
 msgid ""
 "Enable option below to dispay Revolution Slider on this page (the page "
 "template \"Revolution Page\" is now deprecated)."
-msgstr ""
+msgstr "启用下面的选项可在此页面上显示旋转滑块（页面模板“旋转页面”现已弃用）。"
 
 #: inc/cmb2-meta-boxes.php:143
 msgid "Display Revolution Slider on this page"
-msgstr ""
+msgstr "在此页面上显示旋转滑块"
 
 #: inc/cmb2-meta-boxes.php:151
 msgid "Revolution Slider"
-msgstr ""
+msgstr "旋转滑块"
 
 #: inc/cmb2-meta-boxes.php:179 inc/cmb2-meta-boxes.php:207
 msgid "Layout"
-msgstr ""
+msgstr "布局"
 
 #: inc/cmb2-meta-boxes.php:180 inc/cmb2-meta-boxes.php:208
 msgid ""
-"You can choose a sidebar from the list below. Sidebars can be created in the "
-"Theme Options and configured in the Appearance -> Widgets."
-msgstr ""
+"You can choose a sidebar from the list below. Sidebars can be created in the"
+" Theme Options and configured in the Appearance -> Widgets."
+msgstr "您可以从下面的列表中选择一个侧边栏。边栏可以在主题选项中创建，并在外观->小部件中配置。"
 
 #: inc/cmb2-meta-boxes.php:186 inc/cmb2-meta-boxes.php:227
 msgid "Layout "
-msgstr ""
+msgstr "布局"
 
 #: inc/cmb2-meta-boxes.php:191 inc/cmb2-meta-boxes.php:232
 msgid "Left sidebar"
-msgstr ""
+msgstr "左侧边栏"
 
 #: inc/cmb2-meta-boxes.php:192 inc/cmb2-meta-boxes.php:234
 msgid "Right sidebar"
-msgstr "右边栏"
+msgstr "右侧边栏"
 
 #: inc/cmb2-meta-boxes.php:197 inc/cmb2-meta-boxes.php:239
 msgid "Select sidebar"
-msgstr ""
+msgstr "选择侧边栏"
 
 #: inc/cmb2-meta-boxes.php:214
 msgid "Titlebar "
-msgstr ""
+msgstr "标题栏"
 
 #: inc/cmb2-meta-boxes.php:215
 msgid "Titlebar status"
@@ -1250,7 +1208,7 @@ msgstr "标题栏状态"
 #: kirki/controls/php/class-kirki-control-switch.php:52
 #: kirki/field/class-kirki-field-switch.php:39
 msgid "On"
-msgstr ""
+msgstr "在…上"
 
 #: inc/cmb2-meta-boxes.php:220 inc/cmb2-meta-boxes.php:270
 #: inc/cmb2-meta-boxes.php:282 inc/cmb2-meta-boxes.php:293
@@ -1259,77 +1217,77 @@ msgstr ""
 #: kirki/controls/php/class-kirki-control-switch.php:56
 #: kirki/field/class-kirki-field-switch.php:40
 msgid "Off"
-msgstr ""
+msgstr "关"
 
 #: inc/cmb2-meta-boxes.php:233
 msgid "Full Width"
-msgstr ""
+msgstr "全宽（Full Width）"
 
 #: inc/cmb2-meta-boxes.php:264
 msgid "Location/resume filter "
-msgstr "地点过滤"
+msgstr "位置/恢复筛选器"
 
 #: inc/cmb2-meta-boxes.php:265 inc/cmb2-meta-boxes.php:277
 #: inc/cmb2-meta-boxes.php:288 inc/cmb2-meta-boxes.php:299
 #: inc/cmb2-meta-boxes.php:310 inc/cmb2-meta-boxes.php:321
 msgid "set to OFF to hide it from filters"
-msgstr ""
+msgstr "设置为OFF可将其从过滤器中隐藏"
 
 #: inc/cmb2-meta-boxes.php:276
 msgid "Job types filter"
-msgstr "职位类型过滤"
+msgstr "作业类型筛选器"
 
 #: inc/cmb2-meta-boxes.php:287
 msgid "Job categories filter"
-msgstr "职位分类过滤"
+msgstr "作业类别筛选器"
 
 #: inc/cmb2-meta-boxes.php:298
 msgid "Salary filter"
-msgstr "按薪水过滤"
+msgstr "薪资过滤器"
 
 #: inc/cmb2-meta-boxes.php:309
 msgid "Rate filter"
-msgstr "按薪酬过滤"
+msgstr "速率过滤器"
 
 #: inc/cmb2-meta-boxes.php:320
 msgid "Job tags  filter"
-msgstr "职位标签过滤"
+msgstr "作业标签过滤器"
 
 #: inc/customizer/blog.php:3
 msgid "Blog Options"
-msgstr ""
+msgstr "博客选项"
 
 #: inc/customizer/blog.php:4
 msgid "Blog related options"
-msgstr ""
+msgstr "博客相关选项"
 
 #: inc/customizer/blog.php:14
 msgid "Blog layout"
-msgstr ""
+msgstr "博客布局"
 
 #: inc/customizer/blog.php:15
 msgid "Choose the sidebar side for blog"
-msgstr ""
+msgstr "选择博客的侧边栏"
 
 #: inc/customizer/blog.php:28
 msgid "Blog header image"
-msgstr ""
+msgstr "博客标题图像"
 
 #: inc/customizer/blog.php:29
 msgid "Set image for header, should be 1920px wide"
-msgstr ""
+msgstr "为标题设置图像，宽度应为1920px"
 
 #: inc/customizer/blog.php:38
 msgid "Post meta informations on single post"
-msgstr ""
+msgstr "在单个帖子上发布元信息"
 
 #: inc/customizer/blog.php:39
 msgid "Set which elements of posts meta data you want to display"
-msgstr ""
+msgstr "设置要显示的帖子元数据元素"
 
 #: inc/customizer/blog.php:44 inc/customizer/blog.php:60
 msgid "Author"
-msgstr "输入作者："
+msgstr "著者"
 
 #: inc/customizer/blog.php:45 inc/customizer/blog.php:61
 msgid "Date"
@@ -1337,23 +1295,23 @@ msgstr "日期"
 
 #: inc/customizer/blog.php:46 inc/customizer/blog.php:62
 msgid "Tags"
-msgstr ""
+msgstr "标签"
 
 #: inc/customizer/blog.php:47 inc/customizer/blog.php:63
 #: template-home-resumes.php:93 template-home.php:92
 #: wp-job-manager-alerts/alert-form.php:48
 msgid "Categories"
-msgstr "分类"
+msgstr "类别"
 
 #: inc/customizer/blog.php:54
 msgid "Post meta informations on blog post"
-msgstr ""
+msgstr "在博客上发布元信息"
 
 #: inc/customizer/blog.php:55
 msgid ""
 "Set which elements of posts meta data you want to display on blog and "
 "archive pages"
-msgstr ""
+msgstr "设置要在博客和存档页面上显示的帖子元数据元素"
 
 #: inc/customizer/blog.php:64
 msgid "Comments"
@@ -1365,398 +1323,399 @@ msgstr "博客标题"
 
 #: inc/customizer/blog.php:72
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
 #: inc/customizer/blog.php:80
 msgid "Blog subtitle"
-msgstr ""
+msgstr "博客副标题"
 
 #: inc/customizer/blog.php:81
 msgid "Keep up to date with the latest news"
-msgstr ""
+msgstr "了解最新消息"
 
 #: inc/customizer/blog.php:89
 msgid "Share buttons on single post"
-msgstr ""
+msgstr "单个帖子上的共享按钮"
 
 #: inc/customizer/blog.php:90
 msgid "Set which share buttons you want to display on single post"
-msgstr ""
+msgstr "设置要在单个帖子上显示的共享按钮"
 
 #: inc/customizer/blog.php:95 inc/customizer/jobs.php:307
 msgid "Facebook"
-msgstr ""
+msgstr "脸谱网"
 
 #: inc/customizer/blog.php:96 inc/customizer/jobs.php:308
 #: job_manager/content-single-job_listing.php:120 single-job_listing.php:149
 #: template-parts/content-single.php:39
 msgid "Twitter"
-msgstr ""
+msgstr "啁啾"
 
 #: inc/customizer/blog.php:97 inc/customizer/jobs.php:309
 msgid "Google Plus"
-msgstr ""
+msgstr "谷歌Plus"
 
 #: inc/customizer/blog.php:98 inc/customizer/jobs.php:310
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest公司"
 
 #: inc/customizer/blog.php:99 inc/customizer/jobs.php:311
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn公司"
 
 #: inc/customizer/colors.php:8
 msgid "Select main theme color"
-msgstr ""
+msgstr "选择主主题颜色"
 
 #: inc/customizer/contact.php:6
 msgid "Contact Page Map"
-msgstr "联系人地图"
+msgstr "联系人页面地图"
 
 #: inc/customizer/contact.php:7
 msgid "Contact Page Map related options"
-msgstr ""
+msgstr "联系人页面地图相关选项"
 
 #: inc/customizer/contact.php:18
 msgid "Zoom level for map"
-msgstr ""
+msgstr "地图的缩放级别"
 
 #: inc/customizer/contact.php:49
 msgid "Markers on map"
-msgstr ""
+msgstr "地图上的标记"
 
 #: inc/customizer/contact.php:54
 msgid "Marker"
-msgstr ""
+msgstr "标记"
 
 #: inc/customizer/contact.php:56 inc/customizer/footer.php:92
 msgid "\"Add new\" button label (optional) "
-msgstr ""
+msgstr "“添加新”按钮标签（可选）"
 
 #: inc/customizer/contact.php:62 inc/customizer/footer.php:98
 msgid "Address of marker on map"
-msgstr ""
+msgstr "地图上标记的地址"
 
 #: inc/customizer/contact.php:68
 msgid "Latitude (required)"
-msgstr ""
+msgstr "纬度（必填）"
 
 #: inc/customizer/contact.php:74
 msgid "Longitude (required)"
-msgstr ""
+msgstr "经度（必填）"
 
 #: inc/customizer/contact.php:80
 msgid "HTML content of marker"
-msgstr "HTML内容编辑器"
+msgstr "标记的HTML内容"
 
 #: inc/customizer/footer.php:5
 msgid "Footer Options"
-msgstr ""
+msgstr "页脚选项"
 
 #: inc/customizer/footer.php:6
 msgid "Footer related options"
-msgstr ""
+msgstr "页脚相关选项"
 
 #: inc/customizer/footer.php:16
 msgid "Footer Logo image"
-msgstr "底部Logo图片"
+msgstr "页脚徽标图像"
 
 #: inc/customizer/footer.php:17
 msgid "Upload logo for footer top area"
-msgstr ""
+msgstr "上载页脚顶部区域的徽标"
 
 #: inc/customizer/footer.php:31
 msgid "Stats counter"
-msgstr ""
+msgstr "统计计数器"
 
 #: inc/customizer/footer.php:36
 msgid "Counter"
-msgstr ""
+msgstr "柜台"
 
 #: inc/customizer/footer.php:38
 msgid "\"Add new\" counter "
-msgstr "新计数器"
+msgstr "“添加新”计数器"
 
 #: inc/customizer/footer.php:44 inc/customizer/footer.php:90
 msgid "Icon"
-msgstr ""
+msgstr "偶像"
 
 #: inc/customizer/footer.php:51
 msgid "Number"
-msgstr "数量"
+msgstr "数字"
 
 #: inc/customizer/footer.php:57
 msgid "Label"
-msgstr ""
+msgstr "标签"
 
 #: inc/customizer/footer.php:66
 msgid "Copyrights text"
-msgstr ""
+msgstr "版权文本"
 
 #: inc/customizer/footer.php:75
 msgid "Footer widgets layout"
-msgstr "小部件"
+msgstr "页脚小部件布局"
 
 #: inc/customizer/footer.php:76
 msgid ""
 "Total width of footer is 12 columns, here you can decide layout based on "
 "columns number for each widget area in footer"
-msgstr ""
+msgstr "页脚的总宽度为12列，在这里您可以根据页脚中每个小部件区域的列数决定布局"
 
 #: inc/customizer/footer.php:85
 msgid "Social Icons"
-msgstr ""
+msgstr "社交图标"
 
 #: inc/customizer/footer.php:140
 msgid "URL to profile page"
-msgstr "Profile地址"
+msgstr "配置文件页面的URL"
 
 #: inc/customizer/header.php:6
 msgid "Header Options"
-msgstr ""
+msgstr "标题选项"
 
 #: inc/customizer/header.php:7
 msgid "Header related options"
-msgstr ""
+msgstr "标题相关选项"
 
 #: inc/customizer/header.php:21
 msgid "Enable old header"
-msgstr ""
+msgstr "启用旧标头"
 
 #: inc/customizer/header.php:22
 msgid "Header before the version 2 was released"
-msgstr ""
+msgstr "版本2发布前的标题"
 
 #: inc/customizer/header.php:32
 msgid "Header style"
-msgstr "重置字体样式和颜色"
+msgstr "标题样式"
 
 #: inc/customizer/header.php:38
 #: kirki/controls/php/class-kirki-control-base.php:134
-#: kirki/controls/views/image.php:36 kirki/field/class-kirki-field-image.php:49
+#: kirki/controls/views/image.php:36
+#: kirki/field/class-kirki-field-image.php:49
 msgid "Default"
-msgstr "默认"
+msgstr "违约"
 
 #: inc/customizer/header.php:39
 msgid "Alternative"
-msgstr ""
+msgstr "可供替代的"
 
 #: inc/customizer/header.php:40 inc/customizer/layout.php:22
 msgid "Full-width"
-msgstr ""
+msgstr "全宽度"
 
 #: inc/customizer/header.php:54
 msgid "Mini shop cart in header"
-msgstr ""
+msgstr "标题中的迷你购物车"
 
 #: inc/customizer/header.php:56
 msgid "Enable/disable mini shop cart in header"
-msgstr ""
+msgstr "启用/禁用标题中的迷你购物车"
 
 #: inc/customizer/header.php:72
 msgid "Sticky header"
-msgstr ""
+msgstr "粘性收割台"
 
 #: inc/customizer/header.php:74
 msgid "Enable/disable sticky header"
-msgstr ""
+msgstr "启用/禁用粘性收割台"
 
 #: inc/customizer/header.php:83
 msgid "Make header full-width"
-msgstr ""
+msgstr "使收割台全宽"
 
 #: inc/customizer/header.php:85
 msgid "Enable/disable full width header"
-msgstr ""
+msgstr "启用/禁用全宽标题"
 
 #: inc/customizer/header.php:100
 msgid "Alternative header breakpoint"
-msgstr ""
+msgstr "备选标头断点"
 
 #: inc/customizer/header.php:101
 msgid ""
 "If your screen width will be smaller than this value, the menu will always "
 "switch to alternatvie"
-msgstr ""
+msgstr "如果您的屏幕宽度小于此值，菜单将始终切换到alternative"
 
 #: inc/customizer/header.php:123
 msgid "Login/Sign Up buttons in header"
-msgstr ""
+msgstr "标题中的登录/注册按钮"
 
 #: inc/customizer/header.php:125
 msgid "Enable/disable Login/Sing Up buttons in header"
-msgstr ""
+msgstr "启用/禁用标题中的登录/登录按钮"
 
 #: inc/customizer/header.php:133
 msgid "User Page button in header"
-msgstr ""
+msgstr "页眉中的“用户页面”按钮"
 
 #: inc/customizer/header.php:135
 msgid "Enable/disable link to User Page in header"
-msgstr ""
+msgstr "启用/禁用标题中指向用户页面的链接"
 
 #: inc/customizer/header.php:150
 msgid "Set header height"
-msgstr ""
+msgstr "设置收割台高度"
 
 #: inc/customizer/header.php:151
 msgid "Only for screen width higher then 1366px"
-msgstr ""
+msgstr "仅适用于大于1366px的屏幕宽度"
 
 #: inc/customizer/homesearch.php:5
 msgid "Home Search Options"
-msgstr "首页搜索选项"
+msgstr "主页搜索选项"
 
 #: inc/customizer/homesearch.php:6
 msgid "Options for Page with Job/Resume Search"
-msgstr ""
+msgstr "带有工作/简历搜索的页面选项"
 
 #: inc/customizer/jobs.php:6
 msgid "Jobs Options"
-msgstr "工作选项"
+msgstr "作业选项"
 
 #: inc/customizer/jobs.php:7
 msgid "Job related options"
-msgstr "职位名称、关键词或者公司名称"
+msgstr "与工作相关的选项"
 
 #: inc/customizer/jobs.php:15
 msgid "Jobs Lists Options"
-msgstr "职位列表选项"
+msgstr "作业列表选项"
 
 #: inc/customizer/jobs.php:16
 msgid "Job search list related options"
-msgstr ""
+msgstr "工作搜索列表相关选项"
 
 #: inc/customizer/jobs.php:26
 msgid "Jobs Page layout"
-msgstr "职位页布局"
+msgstr "作业页面布局"
 
 #: inc/customizer/jobs.php:32 inc/customizer/resumes.php:33
 msgid "Classic"
-msgstr ""
+msgstr "经典"
 
 #: inc/customizer/jobs.php:33 inc/customizer/resumes.php:34
 msgid "Split page with map on right"
-msgstr ""
+msgstr "右图拆分页面"
 
 #: inc/customizer/jobs.php:41
 msgid "Move keyword search to the sidebar on Jobs list"
-msgstr ""
+msgstr "将关键字搜索移动到“作业”列表的侧边栏"
 
 #: inc/customizer/jobs.php:43
 msgid "Disable to use jobs search input obove the job list"
-msgstr ""
+msgstr "禁止在作业列表上使用作业搜索输入"
 
 #: inc/customizer/jobs.php:51
 msgid "Disable RSS button"
-msgstr "\"浏览分类\" 按钮"
+msgstr "禁用RSS按钮"
 
 #: inc/customizer/jobs.php:53
 msgid "Set to ON to hide it"
-msgstr ""
+msgstr "设置为ON以隐藏它"
 
 #: inc/customizer/jobs.php:62
 msgid "Jobs counter on Browse Jobs page"
-msgstr ""
+msgstr "浏览作业页面上的作业计数器"
 
 #: inc/customizer/jobs.php:64
 msgid "Set to OFF to show default titlebar"
-msgstr ""
+msgstr "设置为OFF以显示默认标题栏"
 
 #: inc/customizer/jobs.php:73
 msgid "Enable old jobs list layout"
-msgstr ""
+msgstr "启用旧作业列表布局"
 
 #: inc/customizer/jobs.php:74 inc/customizer/resumes.php:68
 msgid "Layout before the 1.5v update"
-msgstr ""
+msgstr "1.5v更新前的布局"
 
 #: inc/customizer/jobs.php:84
 msgid "Show job types below title"
-msgstr ""
+msgstr "在标题下方显示作业类型"
 
 #: inc/customizer/jobs.php:85
 msgid "Instead of the right side floated types"
-msgstr ""
+msgstr "而不是右侧浮动类型"
 
 #: inc/customizer/jobs.php:96
 msgid "Jobs header image"
-msgstr "职位头部图片"
+msgstr "作业标题图像"
 
 #: inc/customizer/jobs.php:97
 msgid "Used on Job archive page. Set image for header, should be 1920px wide"
-msgstr ""
+msgstr "用于作业存档页面。为标题设置图像，宽度应为1920px"
 
 #: inc/customizer/jobs.php:106
 msgid "Transparent header on Jobs page"
-msgstr ""
+msgstr "作业页面上的透明标题"
 
 #: inc/customizer/jobs.php:108
 msgid "Enabling transparent on browse jobs page"
-msgstr ""
+msgstr "在浏览作业页面上启用透明"
 
 #: inc/customizer/jobs.php:117
 msgid "Hide titlebar on Jobs page"
-msgstr ""
+msgstr "隐藏“作业”页面上的标题栏"
 
 #: inc/customizer/jobs.php:119
 msgid "Set to ON to hide titlebar on browse jobs page"
-msgstr ""
+msgstr "设置为ON可隐藏浏览作业页面上的标题栏"
 
 #: inc/customizer/jobs.php:128 inc/customizer/resumes.php:51
 msgid "Call to action button in header"
-msgstr ""
+msgstr "标题中的“调用操作”按钮"
 
 #: inc/customizer/jobs.php:134 inc/customizer/resumes.php:57
 msgid "Post a Job! It's Free!"
-msgstr "免费发布职位"
+msgstr "发布作业！它是免费的！"
 
 #: inc/customizer/jobs.php:135 inc/customizer/resumes.php:58
 msgid "Post a Resume! It's Free!"
-msgstr "免费发布简历"
+msgstr "发布简历！它是免费的！"
 
 #: inc/customizer/jobs.php:136 inc/customizer/resumes.php:59
 msgid "Show nothing"
-msgstr "不显示内容"
+msgstr "不显示任何内容"
 
 #: inc/customizer/jobs.php:144
 msgid "Default company logo"
-msgstr "默认公司logo"
+msgstr "默认公司徽标"
 
 #: inc/customizer/jobs.php:145 inc/customizer/jobs.php:155
 #: inc/customizer/jobs.php:185
 msgid "Used on jobs lists"
-msgstr "用于职位列表"
+msgstr "用于作业列表"
 
 #: inc/customizer/jobs.php:154
 msgid "Hide company logo if not set by user"
-msgstr ""
+msgstr "如果用户未设置，则隐藏公司徽标"
 
 #: inc/customizer/jobs.php:165
 msgid "Job meta informations on jobs list"
-msgstr ""
+msgstr "作业列表上的作业元信息"
 
 #: inc/customizer/jobs.php:166
 msgid "Set which elements you want to display"
-msgstr ""
+msgstr "设置要显示的元素"
 
 #: inc/customizer/jobs.php:171
 msgid "Company"
-msgstr "公司名称"
+msgstr "公司"
 
 #: inc/customizer/jobs.php:172 inc/customizer/jobs.php:289
 #: job_manager/content-single-job_listing.php:188
-#: search-fields/split-location.php:8 sidebar-jobs.php:109 sidebar-jobs.php:118
-#: sidebar-resumes.php:49 sidebar-resumes.php:58 single-job_listing.php:229
-#: wp-job-manager-alerts/alert-form.php:40
+#: search-fields/split-location.php:8 sidebar-jobs.php:109
+#: sidebar-jobs.php:118 sidebar-resumes.php:49 sidebar-resumes.php:58
+#: single-job_listing.php:229 wp-job-manager-alerts/alert-form.php:40
 #: wp-job-manager-alerts/my-alerts.php:14
 msgid "Location"
-msgstr "地点"
+msgstr "地方"
 
 #: inc/customizer/jobs.php:173 inc/customizer/jobs.php:292
 #: search-fields/split-jobs-rate.php:3 search-fields/split-resume-rate.php:3
 msgid "Rate"
-msgstr "薪酬"
+msgstr "速度"
 
 #: inc/customizer/jobs.php:174 inc/customizer/jobs.php:293
 #: search-fields/split-jobs-salary.php:3
@@ -1765,243 +1724,243 @@ msgstr "薪水"
 
 #: inc/customizer/jobs.php:175
 msgid "Date created"
-msgstr ""
+msgstr "创建日期"
 
 #: inc/customizer/jobs.php:176
 msgid "Deadline"
-msgstr ""
+msgstr "最后期限"
 
 #: inc/customizer/jobs.php:177 job_manager/content-job_listing.php:79
 #: job_manager/content-job_listing.php:204
 msgid "Expires"
-msgstr ""
+msgstr "到期"
 
 #: inc/customizer/jobs.php:184
 msgid "Hide job listing excerpt on the jobs list"
-msgstr ""
+msgstr "在作业列表中隐藏作业列表摘要"
 
 #: inc/customizer/jobs.php:195
 msgid "Jobs Archive orderby"
-msgstr "职位排序"
+msgstr "作业存档排序依据"
 
 #: inc/customizer/jobs.php:214
 msgid "Jobs Archive order"
-msgstr "职位排序"
+msgstr "作业存档顺序"
 
 #: inc/customizer/jobs.php:227
 msgid "Jobs Archive number of listings"
-msgstr ""
+msgstr "工作存档列表数量"
 
 #: inc/customizer/jobs.php:240
 msgid "Logo position on jobs list"
-msgstr ""
+msgstr "工作列表上的徽标位置"
 
 #: inc/customizer/jobs.php:242
 msgid "If you don't like cropped out logos, move them to the right!"
-msgstr ""
+msgstr "如果你不喜欢裁剪的徽标，请将其移到右侧！"
 
 #: inc/customizer/jobs.php:246
 #: kirki/controls/php/class-kirki-control-dimensions.php:131
 #: kirki/controls/php/class-kirki-control-typography.php:145
 #: kirki/field/class-kirki-field-spacing.php:34
 msgid "Left"
-msgstr ""
+msgstr "左边"
 
 #: inc/customizer/jobs.php:247
 #: kirki/controls/php/class-kirki-control-dimensions.php:132
 #: kirki/controls/php/class-kirki-control-typography.php:157
 #: kirki/field/class-kirki-field-spacing.php:35
 msgid "Right"
-msgstr "不是现在"
+msgstr "正确的"
 
 #: inc/customizer/jobs.php:252
 msgid "Single Job Options"
-msgstr "单个职位选项"
+msgstr "单个作业选项"
 
 #: inc/customizer/jobs.php:253
 msgid "Job options"
-msgstr "职位选项"
+msgstr "工作选项"
 
 #: inc/customizer/jobs.php:265
 msgid "Single Job layout"
-msgstr "单个职位布局"
+msgstr "单个作业布局"
 
 #: inc/customizer/jobs.php:266
 msgid "Choose the sidebar side for single job"
-msgstr ""
+msgstr "为单个作业选择侧边栏"
 
 #: inc/customizer/jobs.php:280
 msgid "Job Overview elements to display"
-msgstr ""
+msgstr "要显示的作业概述元素"
 
 #: inc/customizer/jobs.php:281
 msgid "Set which elements you want to display on single job post"
-msgstr ""
+msgstr "设置要在单个工作岗位上显示的元素"
 
 #: inc/customizer/jobs.php:286 job_manager/content-single-job_listing.php:149
 #: single-job_listing.php:189
 msgid "Date Posted"
-msgstr ""
+msgstr "发布日期"
 
 #: inc/customizer/jobs.php:287
 msgid "Expiration Date"
-msgstr ""
+msgstr "到期日期"
 
 #: inc/customizer/jobs.php:288
 msgid "Application Deadline"
-msgstr ""
+msgstr "申请截止日期"
 
 #: inc/customizer/jobs.php:290 job_manager/content-single-job_listing.php:197
 #: single-job_listing.php:238
 msgid "Job Title"
-msgstr "职位名称、关键词或者公司名称"
+msgstr "职位名称"
 
 #: inc/customizer/jobs.php:291 job_manager/content-single-job_listing.php:209
 #: single-job_listing.php:250
 msgid "Hours"
-msgstr ""
+msgstr "小时"
 
 #: inc/customizer/jobs.php:301
 msgid "Share buttons on single job"
-msgstr ""
+msgstr "单个作业上的共享按钮"
 
 #: inc/customizer/jobs.php:302
 msgid "Set which share buttons you want to display on single job post"
-msgstr ""
+msgstr "设置要在单个工作岗位上显示的共享按钮"
 
 #: inc/customizer/jobs.php:320
 msgid "Enable related Jobs on Single Job"
-msgstr ""
+msgstr "在单个作业上启用相关作业"
 
 #: inc/customizer/jobs.php:329
 msgid "Enable map on Single Job"
-msgstr ""
+msgstr "在单个作业上启用映射"
 
 #: inc/customizer/jobs.php:338
 msgid "Default Map zoom level"
-msgstr ""
+msgstr "默认地图缩放级别"
 
 #: inc/customizer/jobs_home.php:4
 msgid "Jobs Home Page Options"
-msgstr ""
+msgstr "作业主页选项"
 
 #: inc/customizer/jobs_home.php:5
 msgid "Options for Page with Job Search"
-msgstr ""
+msgstr "带工作搜索的页面选项"
 
 #: inc/customizer/jobs_home.php:16 inc/customizer/resume_home.php:17
 msgid "Search banner Title"
-msgstr "搜索Banner标题"
+msgstr "搜索横幅标题"
 
 #: inc/customizer/jobs_home.php:17 inc/customizer/resume_home.php:18
 msgid "Text above search form "
-msgstr ""
+msgstr "搜索表单上方的文本"
 
 #: inc/customizer/jobs_home.php:19 template-parts/jobs-split-filters.php:16
 msgid "Find Job"
-msgstr "找工作"
+msgstr "查找作业"
 
 #: inc/customizer/jobs_home.php:26 inc/customizer/resume_home.php:27
 msgid "Search banner Subtitle"
-msgstr "搜索Banner副标题"
+msgstr "搜索横幅副标题"
 
 #: inc/customizer/jobs_home.php:27
 msgid "Subtitle above search form "
-msgstr ""
+msgstr "搜索表单上方的副标题"
 
 #: inc/customizer/jobs_home.php:29 inc/customizer/resume_home.php:28
 msgid "Hire experts or be hired in"
-msgstr ""
+msgstr "聘请专家或"
 
 #: inc/customizer/jobs_home.php:36 inc/customizer/resume_home.php:37
 msgid "Enable Typed words effect"
-msgstr ""
+msgstr "启用键入文字效果"
 
 #: inc/customizer/jobs_home.php:41 inc/customizer/resume_home.php:42
 #: wp-job-manager-alerts/my-alerts.php:79
 msgid "Enable"
-msgstr "启用"
+msgstr "使可能"
 
 #: inc/customizer/jobs_home.php:42 inc/customizer/resume_home.php:43
 #: wp-job-manager-alerts/my-alerts.php:79
 msgid "Disable"
-msgstr ""
+msgstr "使残废"
 
 #: inc/customizer/jobs_home.php:50 inc/customizer/resume_home.php:51
 msgid "Text to display in \"typed\" Banner Subtitle"
-msgstr ""
+msgstr "要在“键入”横幅副标题中显示的文本"
 
 #: inc/customizer/jobs_home.php:51 inc/customizer/resume_home.php:52
 msgid "Separate with coma"
-msgstr ""
+msgstr "昏迷分离"
 
 #: inc/customizer/jobs_home.php:53 inc/customizer/resume_home.php:54
 msgid "healthcare, automotive, sales & marketing, accounting & finance"
-msgstr ""
+msgstr "医疗保健、汽车、销售与营销、会计与财务"
 
 #: inc/customizer/jobs_home.php:70
 msgid "Jobs Search Form elements to display"
-msgstr ""
+msgstr "要显示的工作搜索表单元素"
 
 #: inc/customizer/jobs_home.php:71 inc/customizer/resume_home.php:140
 msgid "Set which elements you want to display on Search Banner"
-msgstr ""
+msgstr "设置要在搜索横幅上显示的元素"
 
 #: inc/customizer/jobs_home.php:76 inc/customizer/resume_home.php:145
 msgid "Keyword input"
-msgstr ""
+msgstr "关键字输入"
 
 #: inc/customizer/jobs_home.php:77 inc/customizer/resume_home.php:146
 msgid "Location/Region input"
-msgstr "地点"
+msgstr "位置/地区输入"
 
 #: inc/customizer/jobs_home.php:78 inc/customizer/resume_home.php:147
 msgid "Category dropdown"
-msgstr "分类下拉"
+msgstr "类别下拉列表"
 
 #: inc/customizer/jobs_home.php:86 inc/customizer/resume_home.php:70
 msgid "Height of the search banner"
-msgstr "搜索条宽度"
+msgstr "搜索横幅的高度"
 
 #: inc/customizer/jobs_home.php:87 inc/customizer/resume_home.php:71
 msgid "Height is set by adjusting top and bottom padding"
-msgstr ""
+msgstr "通过调整顶部和底部填充设置高度"
 
 #: inc/customizer/jobs_home.php:134
 msgid "Background for search banner on homepage"
-msgstr ""
+msgstr "主页上搜索横幅的背景"
 
 #: inc/customizer/jobs_home.php:135 inc/customizer/resume_home.php:99
 msgid "Set image for search banner, should be 1920px wide"
-msgstr ""
+msgstr "设置搜索横幅的图像，宽度应为1920px"
 
 #: inc/customizer/jobs_home.php:144 inc/customizer/resume_home.php:109
 msgid "Search banner overlay color"
-msgstr ""
+msgstr "搜索横幅覆盖颜色"
 
 #: inc/customizer/jobs_home.php:183 inc/customizer/resume_home.php:156
 msgid "Show \"Advanced Search\" link"
-msgstr ""
+msgstr "显示“高级搜索”链接"
 
 #: inc/customizer/jobs_home.php:185 inc/customizer/resume_home.php:158
 msgid "Disable to hide text below search form"
-msgstr ""
+msgstr "禁用在搜索表单下方隐藏文本"
 
 #: inc/customizer/jobs_home.php:194
 msgid "Show job counter"
-msgstr "显示职位计数"
+msgstr "显示作业计数器"
 
 #: inc/customizer/jobs_home.php:196
 msgid "Disable to hide jobs counter (works on old home page template)"
-msgstr ""
+msgstr "禁用隐藏作业计数器（适用于旧主页模板）"
 
 #: inc/customizer/layout.php:4
 msgid "Layout Options"
-msgstr ""
+msgstr "布局选项"
 
 #: inc/customizer/layout.php:5
 msgid "Layout and header options"
-msgstr ""
+msgstr "布局和标题选项"
 
 #: inc/customizer/layout.php:15
 msgid "Layout style"
@@ -2009,91 +1968,91 @@ msgstr "布局样式"
 
 #: inc/customizer/layout.php:21
 msgid "Boxed"
-msgstr ""
+msgstr "装箱"
 
 #: inc/customizer/layout.php:28
 msgid "Comments on pages"
-msgstr "评论"
+msgstr "页面上的评论"
 
 #: inc/customizer/layout.php:42
 msgid "Sidebar generator"
-msgstr ""
+msgstr "提要栏生成器"
 
 #: inc/customizer/layout.php:50
 msgid "Sidebar name"
-msgstr ""
+msgstr "提要栏名称"
 
 #: inc/customizer/layout.php:51
 msgid "This will be name of sidebar"
-msgstr ""
+msgstr "这将是侧边栏的名称"
 
 #: inc/customizer/layout.php:56
 msgid "Sidebar ID"
-msgstr ""
+msgstr "提要栏ID"
 
 #: inc/customizer/layout.php:57
 msgid "Replace x with a number"
-msgstr ""
+msgstr "用数字替换x"
 
 #: inc/customizer/maps.php:3
 msgid "Maps Options"
-msgstr ""
+msgstr "地图选项"
 
 #: inc/customizer/maps.php:4
 msgid "Maps related options"
-msgstr ""
+msgstr "地图相关选项"
 
 #: inc/customizer/maps.php:15
 msgid "Enable map on Jobs page"
-msgstr ""
+msgstr "在“作业”页面上启用映射"
 
 #: inc/customizer/maps.php:25
 msgid "Use all jobs map"
-msgstr ""
+msgstr "使用所有作业映射"
 
 #: inc/customizer/maps.php:26
 msgid ""
 "If enabled map will show ALL your jobs instead of the jobs currently "
 "filteres/searched for. "
-msgstr ""
+msgstr "如果启用，地图将显示所有作业，而不是当前筛选/搜索的作业。"
 
 #: inc/customizer/maps.php:42
 msgid "Enable map on Resumes page"
-msgstr ""
+msgstr "在“简历”页面上启用映射"
 
 #: inc/customizer/maps.php:51
 msgid "Use all resumes map"
-msgstr "使用简历地图"
+msgstr "使用所有简历映射"
 
 #: inc/customizer/maps.php:52
 msgid ""
 "If enabled map will show ALL your resumes instead of the resumes currently "
 "filteres/searched for. "
-msgstr ""
+msgstr "如果启用，地图将显示您的所有简历，而不是当前筛选/搜索的简历。"
 
 #: inc/customizer/maps.php:70
 msgid "Map height"
-msgstr ""
+msgstr "地图高度"
 
 #: inc/customizer/maps.php:80
 msgid "Marker color"
-msgstr ""
+msgstr "标记颜色"
 
 #: inc/customizer/maps.php:89
 msgid "Use Job Type color for markers color"
-msgstr ""
+msgstr "使用作业类型颜色作为标记颜色"
 
 #: inc/customizer/maps.php:98
 msgid "Group nearby markes in clusters"
-msgstr ""
+msgstr "将附近的标记分组为簇"
 
 #: inc/customizer/maps.php:106
 msgid "Autofit all job markers on map"
-msgstr ""
+msgstr "自动调整地图上的所有作业标记"
 
 #: inc/customizer/maps.php:114
 msgid "Default zoom level"
-msgstr "默认放大等级"
+msgstr "默认缩放级别"
 
 #: inc/customizer/maps.php:153
 msgid "Map type"
@@ -2101,58 +2060,58 @@ msgstr "地图类型"
 
 #: inc/customizer/maps.php:168
 msgid "Set zoom with scrollwheel"
-msgstr ""
+msgstr "使用滚轮设置缩放"
 
 #: inc/customizer/maps.php:169
 msgid "Disabled by default as it might create problems witch scrolling page"
-msgstr ""
+msgstr "默认情况下禁用，因为它可能会在切换滚动页面时产生问题"
 
 #: inc/customizer/resume_home.php:6
 msgid "Resume Home Page Options"
-msgstr ""
+msgstr "恢复主页选项"
 
 #: inc/customizer/resume_home.php:7
 msgid "Options for Page with Resume Search"
-msgstr ""
+msgstr "带有简历搜索的页面选项"
 
 #: inc/customizer/resume_home.php:20 inc/customizer/resume_home.php:30
 #: template-parts/resume-split-filters.php:5
 msgid "Find Candidate"
-msgstr ""
+msgstr "查找候选人"
 
 #: inc/customizer/resume_home.php:98
 msgid "Background for search banner on Resumes homepage"
-msgstr ""
+msgstr "简历主页上搜索横幅的背景"
 
 #: inc/customizer/resume_home.php:127
 msgid "Transparent header"
-msgstr ""
+msgstr "透明标题"
 
 #: inc/customizer/resume_home.php:129
 msgid "Enabling transparent header works only on 'Page with Resumes Search'"
-msgstr ""
+msgstr "启用透明标题仅适用于“带简历搜索的页面”"
 
 #: inc/customizer/resume_home.php:139
 msgid "Resume Search Form elements to display"
-msgstr ""
+msgstr "要显示的继续搜索表单元素"
 
 #: inc/customizer/resume_home.php:167
 msgid "Show resumes counter"
-msgstr "显示简历计数"
+msgstr "显示简历计数器"
 
 #: inc/customizer/resume_home.php:169
 msgid "Disable to hide resumes counter"
-msgstr ""
+msgstr "禁用隐藏恢复计数器"
 
 #: inc/customizer/resume_home.php:180
 msgid "Choose \"Browse Resume Categories Page\""
-msgstr ""
+msgstr "选择“浏览简历类别页”"
 
 #: inc/customizer/resume_home.php:182
 msgid ""
 "This page needs to use template named \"Job/resumes Categories Page "
 "Template\""
-msgstr ""
+msgstr "此页面需要使用名为“工作/简历类别页面模板”的模板"
 
 #: inc/customizer/resumes.php:6 inc/customizer/resumes.php:14
 msgid "Resumes Options"
@@ -2164,24 +2123,24 @@ msgstr "简历相关选项"
 
 #: inc/customizer/resumes.php:15
 msgid "Resume related options"
-msgstr "简历相关设置"
+msgstr "恢复相关选项"
 
 #: inc/customizer/resumes.php:27
 msgid "Resumes Page layout"
-msgstr "简历页布局"
+msgstr "恢复页面布局"
 
 #: inc/customizer/resumes.php:41
 msgid "Resumes header image"
-msgstr "简历头部图片"
+msgstr "恢复标题图像"
 
 #: inc/customizer/resumes.php:42
 msgid ""
 "Used on Resumes archive page. Set image for header, should be 1920px wide"
-msgstr ""
+msgstr "用于简历存档页面。为标题设置图像，宽度应为1920px"
 
 #: inc/customizer/resumes.php:67
 msgid "Enable old resume list layout"
-msgstr ""
+msgstr "启用旧简历列表布局"
 
 #: inc/customizer/resumes.php:77
 msgid "Rounded resumes photos"
@@ -2189,15 +2148,15 @@ msgstr "圆形简历照片"
 
 #: inc/customizer/resumes.php:78
 msgid "Turn it off for rectangular photos"
-msgstr ""
+msgstr "关闭矩形照片"
 
 #: inc/customizer/resumes.php:87
 msgid "Resume Archive order"
-msgstr "简历排序"
+msgstr "恢复存档顺序"
 
 #: inc/customizer/resumes.php:100
 msgid "Resume Archive orderby"
-msgstr "简历排序"
+msgstr "恢复存档顺序"
 
 #: inc/customizer/resumes.php:121
 msgid "Resume Archive number of listings"
@@ -2205,122 +2164,122 @@ msgstr "简历存档列表数"
 
 #: inc/customizer/resumes.php:134
 msgid "Square list bullets"
-msgstr ""
+msgstr "方形列表项目符号"
 
 #: inc/customizer/shop.php:3
 msgid "WorkScout Woo Settings"
-msgstr "WorkScout设定"
+msgstr "WorkScout Woo设置"
 
 #: inc/customizer/shop.php:4
 msgid "Theme related settings"
-msgstr "主题相关设定"
+msgstr "主题相关设置"
 
 #: inc/customizer/shop.php:13
 msgid "Shop layout"
-msgstr ""
+msgstr "车间布局"
 
 #: inc/customizer/shop.php:14
 msgid "Choose the sidebar side for shop"
-msgstr ""
+msgstr "选择购物侧边栏"
 
 #: inc/customizer/shop.php:29
 msgid "Show/hide results count and order select on shop page"
-msgstr ""
+msgstr "在商店页面上显示/隐藏结果计数和订单选择"
 
 #: inc/customizer/shop.php:31
 msgid ""
 "With this setting set to On, results count and order select on shop page "
 "will be displayed"
-msgstr ""
+msgstr "此设置设置为“开”时，将显示店铺页面上的结果计数和订单选择"
 
 #: inc/customizer/shop.php:39
 msgid "MyAccount navigation control "
-msgstr "用户中心导航"
+msgstr "MyAccount导航控件"
 
 #: inc/customizer/shop.php:41
 msgid ""
 "Check the checkbox to hide that element in the WooCommerce My Account menu"
-msgstr ""
+msgstr "选中复选框可在WooCommerce“我的帐户”菜单中隐藏该元素"
 
 #: inc/customizer/shop.php:46 template-dashboard.php:233
 #: template-dashboard.php:442
 msgid "Dashboard"
-msgstr "用户主页"
+msgstr "仪表板"
 
 #: inc/customizer/shop.php:47
 msgid "Orders"
-msgstr ""
+msgstr "订单"
 
 #: inc/customizer/shop.php:48
 msgid "Downloads"
-msgstr ""
+msgstr "下载"
 
 #: inc/customizer/shop.php:49
 msgid "Addresses"
-msgstr ""
+msgstr "地址"
 
 #: inc/customizer/shop.php:50
 msgid "Account details"
-msgstr ""
+msgstr "帐户详细信息"
 
 #: inc/customizer/shop.php:51 template-dashboard.php:373
 msgid "Logout"
-msgstr "退出"
+msgstr "注销"
 
 #: inc/customizer/title_tagline.php:7
 msgid "Logo image"
-msgstr "Logo图片"
+msgstr "徽标图像"
 
 #: inc/customizer/title_tagline.php:8
 msgid "Upload logo for your website"
-msgstr "上传logo"
+msgstr "为您的网站上载徽标"
 
 #: inc/customizer/title_tagline.php:17
 msgid "Retina Logo image"
-msgstr "视网膜Logo图片"
+msgstr "视网膜标志图像"
 
 #: inc/customizer/title_tagline.php:18
 msgid "Upload Retina logo for your website"
-msgstr ""
+msgstr "为您的网站上传视网膜标志"
 
 #: inc/customizer/title_tagline.php:27
 msgid "Home Page Logo for transparent header"
-msgstr ""
+msgstr "透明页眉的主页徽标"
 
 #: inc/customizer/title_tagline.php:28 inc/customizer/title_tagline.php:37
 msgid ""
 "If you need to use different logo in case yours not readable on transparent "
 "header"
-msgstr ""
+msgstr "如果您需要使用不同的徽标，以防您的徽标在透明标题上不可读"
 
 #: inc/customizer/title_tagline.php:36
 msgid "Home Page Retina Logo for transparent header"
-msgstr ""
+msgstr "主页透明标题的视网膜徽标"
 
 #: inc/customizer/title_tagline.php:46
 msgid "Logo image size"
-msgstr "logo图片大小"
+msgstr "徽标图像大小"
 
 #: inc/customizer/title_tagline.php:47
 msgid ""
 "Set image height for retina version in case the logo is displayed too big"
-msgstr ""
+msgstr "设置视网膜版本的图像高度，以防徽标显示过大"
 
 #: inc/customizer/typography.php:5
 msgid "Typography"
-msgstr ""
+msgstr "印刷术"
 
 #: inc/customizer/typography.php:6
 msgid "Fonts options"
-msgstr ""
+msgstr "字体选项"
 
 #: inc/customizer/typography.php:16
 msgid "Body font"
-msgstr "Body字体"
+msgstr "正文字体"
 
 #: inc/customizer/typography.php:40
 msgid "Text logo font"
-msgstr "文字logo字体"
+msgstr "文本徽标字体"
 
 #: inc/customizer/typography.php:64
 msgid "h1..h6 font"
@@ -2333,46 +2292,45 @@ msgstr[0] "%d vare"
 
 #: inc/mini_cart.php:13
 msgid "in the shopping cart"
-msgstr ""
+msgstr "在购物车里"
 
 #: inc/mini_cart.php:43
 msgid "No products in the cart."
-msgstr ""
+msgstr "购物车中没有产品。"
 
 #: inc/mini_cart.php:47
-#, fuzzy
 msgid "View Cart &rarr;"
-msgstr "查看您的新网站！"
+msgstr "查看购物车&rarr；"
 
 #: inc/mini_cart.php:48
 msgid "Checkout &rarr;"
-msgstr ""
+msgstr "签出&rarr；"
 
 #: inc/registration.php:22 woocommerce/myaccount/form-login.php:85
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: inc/registration.php:30 woocommerce/myaccount/form-login.php:92
 msgid "Email address"
-msgstr ""
+msgstr "电子邮件地址"
 
 #: inc/registration.php:38 inc/registration.php:86
 #: woocommerce/myaccount/form-login.php:52
 #: woocommerce/myaccount/form-login.php:100
 msgid "Password"
-msgstr "密码"
+msgstr "暗语"
 
 #: inc/registration.php:52 woocommerce/myaccount/form-login.php:115
 msgid "Anti-spam"
-msgstr ""
+msgstr "反垃圾邮件"
 
 #: inc/registration.php:66
 msgid "User registration is not enabled"
-msgstr "未开放用户注册"
+msgstr "未启用用户注册"
 
 #: inc/registration.php:81 woocommerce/myaccount/form-login.php:47
 msgid "Username or email address"
-msgstr "用户名或电子邮件"
+msgstr "用户名或电子邮件地址"
 
 #: inc/registration.php:95 template-dashboard.php:179 template-login.php:97
 #: woocommerce/myaccount/form-login.php:34
@@ -2386,15 +2344,15 @@ msgstr "记住我"
 
 #: inc/registration.php:102 woocommerce/myaccount/form-login.php:67
 msgid "Lost your password?"
-msgstr "找回密码"
+msgstr "丢失密码？"
 
 #: inc/registration.php:167 inc/registration.php:266 inc/registration.php:524
 msgid "Invalid username"
-msgstr "无效用户名"
+msgstr "用户名无效"
 
 #: inc/registration.php:173
 msgid "Please enter a password"
-msgstr "输入密码"
+msgstr "请输入密码"
 
 #: inc/registration.php:180
 msgid "Incorrect password"
@@ -2402,260 +2360,235 @@ msgstr "密码错误"
 
 #: inc/registration.php:262 inc/registration.php:518
 msgid "Username already taken"
-msgstr ""
+msgstr "用户名已被使用"
 
 #: inc/registration.php:270 inc/registration.php:530
 msgid "Please enter a username"
-msgstr "输入用户名"
+msgstr "请输入用户名"
 
 #: inc/registration.php:274 inc/registration.php:536
 msgid "Invalid email"
-msgstr "邮件错误"
+msgstr "电子邮件无效"
 
 #: inc/registration.php:278 inc/registration.php:542
 msgid "Email already registered"
-msgstr "邮件已经注册"
+msgstr "电子邮件已注册"
 
 #: inc/registration.php:287 inc/registration.php:555 inc/registration.php:621
 msgid "Captcha fail! Please try again"
-msgstr "验证码错误，请重试"
+msgstr "Captcha失败！请重试"
 
 #: inc/registration.php:291 inc/registration.php:560
 msgid "You forgot about captcha"
-msgstr ""
+msgstr "你忘了captcha"
 
 #: inc/registration.php:380
 msgid "New user registration on your site %s:"
-msgstr ""
+msgstr "在站点%s上注册新用户："
 
 #: inc/registration.php:381 inc/registration.php:387
 msgid "Username: %s"
-msgstr "用户名: %s"
+msgstr "用户名：%s"
 
 #: inc/registration.php:382
 msgid "E-mail: %s"
-msgstr "电子邮件: %s"
+msgstr "电子邮件：%s"
 
 #: inc/registration.php:384
 msgid "[%s] New User Registration"
-msgstr "[%s] 作为新用户"
+msgstr "[%s]新用户注册"
 
 #: inc/registration.php:388
 msgid "Password: %s"
-msgstr ""
+msgstr "密码：%s"
 
 #: inc/registration.php:391
 msgid "You can access your account area and change your password here "
-msgstr ""
+msgstr "您可以在此处访问您的帐户区域并更改密码"
 
 #: inc/registration.php:393
 msgid "To log into the admin area please us the following address "
-msgstr ""
+msgstr "要登录管理区，请使用以下地址"
 
 #: inc/registration.php:396
 msgid "If you have any problems, please contact us at %s. "
-msgstr ""
+msgstr "如果您有任何问题，请通过%s与我们联系。"
 
 #: inc/registration.php:397
 msgid "Thank you!"
-msgstr "感谢！"
+msgstr "非常感谢。"
 
 #: inc/registration.php:399
 msgid "[%s] Your username and password info"
-msgstr ""
+msgstr "[%s]您的用户名和密码信息"
 
 #: inc/registration.php:428 template-login.php:63
-#, fuzzy
 msgid "Password changed successfully"
-msgstr "Dette plugin blev korrekt aktiveret:"
+msgstr "密码更改成功"
 
 #: inc/registration.php:434
-#, fuzzy
 msgid "New Password"
-msgstr ""
-"如果WordPress创建了一个新用户，新密码将随机生成，新用户的角色将设置为%s。手动"
-"更改新用户的详细信息将是必要的。"
+msgstr "新密码"
 
 #: inc/registration.php:438
 msgid "Password Confirm"
-msgstr ""
+msgstr "密码确认"
 
 #: inc/registration.php:445
 msgid "Change Password"
-msgstr ""
+msgstr "修改密码"
 
 #: inc/registration.php:476
 msgid "Please enter a password, and confirm it"
-msgstr ""
+msgstr "请输入密码并确认"
 
 #: inc/registration.php:480
 msgid "Passwords do not match"
-msgstr ""
+msgstr "密码不匹配"
 
 #: inc/registration.php:576
 msgid "This username is already registered."
-msgstr ""
+msgstr "此用户名已注册。"
 
 #: inc/registration.php:578
 msgid "This email address is already registered."
-msgstr ""
+msgstr "此电子邮件地址已注册。"
 
 #: inc/registration.php:593
 msgid "Wrong username or password."
-msgstr ""
+msgstr "用户名或密码错误。"
 
 #: inc/registration.php:599
 msgid "Registration successful, redirecting..."
-msgstr ""
+msgstr "注册成功，正在重定向。。。"
 
 #: inc/registration.php:624
 msgid "You forgot about captcha!"
-msgstr ""
+msgstr "你忘了captcha！"
 
 #: inc/template-tags.php:21 inc/template-tags.php:55
 msgid "By"
-msgstr ""
+msgstr "通过"
 
 #: inc/template-tags.php:47 inc/template-tags.php:82
-#, fuzzy
 msgid "With 0 comments"
-msgstr "旧评论"
+msgstr "有0条评论"
 
 #: inc/template-tags.php:47 inc/template-tags.php:82
-#, fuzzy
 msgid "With 1 comment"
-msgstr "注释导航"
+msgstr "有1条评论"
 
 #: inc/template-tags.php:47 inc/template-tags.php:82
-#, fuzzy
 msgid "With % comments"
-msgstr "旧评论"
+msgstr "有%条评论"
 
 #: inc/template-tags.php:47 inc/template-tags.php:82
-#, fuzzy
 msgid "Comments are off"
-msgstr "旧评论"
+msgstr "评论已关闭"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:97 inc/template-tags.php:103
 msgid ", "
-msgstr ""
+msgstr ","
 
 #: inc/template-tags.php:99
-#, fuzzy
 msgid "Posted in %1$s"
-msgstr "Kommentar%1$s"
+msgstr "发布于%1$s"
 
 #: inc/template-tags.php:105
-#, fuzzy
 msgid "Tagged %1$s"
-msgstr "Kommentar%1$s"
+msgstr "标记了%1$s"
 
 #: inc/template-tags.php:111
-#, fuzzy
 msgid "Leave a comment"
-msgstr "注释导航"
+msgstr "留下评论"
 
 #: inc/template-tags.php:111
-#, fuzzy
 msgid "1 Comment"
-msgstr "注释导航"
+msgstr "1条评论"
 
 #: inc/template-tags.php:111
-#, fuzzy
 msgid "% Comments"
-msgstr "旧评论"
+msgstr "%注释"
 
 #. translators: %s: Name of current post
 #: inc/template-tags.php:118
-#, fuzzy
 msgid "Edit %s"
-msgstr "编辑"
+msgstr "编辑%s"
 
 #: inc/template-tags.php:185
-#, fuzzy
 msgid "Posts navigation"
-msgstr "注释导航"
+msgstr "帖子导航"
 
 #: inc/template-tags.php:189
-#, fuzzy
 msgid "Older posts"
-msgstr "旧评论"
+msgstr "旧帖子"
 
 #: inc/template-tags.php:193
-#, fuzzy
 msgid "Newer posts"
-msgstr "较新的评论"
+msgstr "更新的帖子"
 
 #: inc/template-tags.php:219
 msgid "Pingback:"
-msgstr ""
+msgstr "Pingback："
 
 #: inc/template-tags.php:219
-#, fuzzy
 msgid "(Edit)"
-msgstr "编辑"
+msgstr "（编辑）"
 
 #: inc/template-tags.php:229
-#, fuzzy
 msgid "%1$s at %2$s"
-msgstr "Kommentar%1$s"
+msgstr "%%1$s在%2$s"
 
 #: inc/template-tags.php:230
 msgid "<i class=\"fa fa-reply\"></i> Reply"
-msgstr ""
+msgstr "<i class=“fa fa reply”></i>回复"
 
 #: inc/template-tags.php:275
-#, fuzzy
 msgid "Author: %s"
-msgstr "导入作者%s失败。他们的帖子将归属于当前用户。"
+msgstr "作者：%s"
 
 #. Template Name of the plugin/theme
 msgid "Contact Page"
-msgstr ""
+msgstr "联系人页面"
 
 #: inc/theme-options.php:66
 msgid "General"
-msgstr ""
+msgstr "全体的"
 
 #: inc/theme-options.php:72
 msgid "Sidebars"
-msgstr ""
+msgstr "文献类文章"
 
 #: inc/widgets.php:106
 msgid "Recent posts"
-msgstr ""
+msgstr "最近的帖子"
 
 #: inc/widgets.php:109
-#, fuzzy
 msgid "Recent posts Title"
-msgstr "职位名称、关键词或者公司名称"
+msgstr "最近的帖子标题"
 
 #: inc/widgets.php:114
 msgid "Popular posts"
-msgstr ""
+msgstr "热门帖子"
 
 #: inc/widgets.php:117
-#, fuzzy
 msgid "Popular posts Title"
-msgstr "职位名称、关键词或者公司名称"
+msgstr "热门帖子标题"
 
 #: inc/widgets.php:122
-#, fuzzy
 msgid "Latest comments"
-msgstr "旧评论"
+msgstr "最新评论"
 
 #: inc/widgets.php:125
-#, fuzzy
 msgid "Latest comments Title"
-msgstr "职位名称、关键词或者公司名称"
+msgstr "最新评论标题"
 
 #: inc/woocommerce.php:32 template-jobpackages.php:122
 #: woocommerce/content-product.php:83
 #: woocommerce/single-product/tabs/description.php:38
-#, fuzzy
 msgid "Unlimited number of jobs"
-msgstr "显示更多职位"
+msgstr "无限数量的作业"
 
 #: inc/woocommerce.php:36 inc/woocommerce.php:58 template-jobpackages.php:126
 #: template-resumepackages.php:128 woocommerce/content-product.php:87
@@ -2663,7 +2596,7 @@ msgstr "显示更多职位"
 #: woocommerce/single-product/tabs/description.php:42
 #: woocommerce/single-product/tabs/description.php:66
 msgid "This plan includes "
-msgstr ""
+msgstr "该计划包括"
 
 #: inc/woocommerce.php:36 template-jobpackages.php:126
 #: woocommerce/content-product.php:87
@@ -2675,9 +2608,8 @@ msgstr[0] "%s job"
 #: inc/woocommerce.php:42 template-jobpackages.php:133
 #: woocommerce/content-product.php:94
 #: woocommerce/single-product/tabs/description.php:49
-#, fuzzy
 msgid "Jobs are posted "
-msgstr "显示工作"
+msgstr "已发布作业"
 
 #: inc/woocommerce.php:42 inc/woocommerce.php:65 template-jobpackages.php:133
 #: template-resumepackages.php:136 woocommerce/content-product.php:94
@@ -2690,9 +2622,8 @@ msgstr[0] "%s dag"
 
 #: inc/woocommerce.php:54 woocommerce/content-product.php:107
 #: woocommerce/single-product/tabs/description.php:62
-#, fuzzy
 msgid "Unlimited number of Resumes"
-msgstr "显示所有简历"
+msgstr "简历数量不限"
 
 #: inc/woocommerce.php:58 template-resumepackages.php:128
 #: woocommerce/content-product.php:111
@@ -2704,19 +2635,15 @@ msgstr[0] "%s cver"
 #: inc/woocommerce.php:65 template-resumepackages.php:136
 #: woocommerce/content-product.php:118
 #: woocommerce/single-product/tabs/description.php:73
-#, fuzzy
 msgid "Resumes are posted "
-msgstr "显示所有简历"
+msgstr "已发布简历"
 
 #: inc/wp-job-manager-colors-types.php:123
 #: inc/wp-job-manager-colors-types.php:138
 #: inc/wp-job-manager-colors-types.php:151
 #: kirki/controls/php/class-kirki-control-typography.php:221
-#, fuzzy
 msgid "Color"
-msgstr ""
-"请选择本网站的配色方案。配色方案（以及字体颜色和样式）可以随时从仪表板中的外"
-"观>自定义区域更改。"
+msgstr "颜色"
 
 #: inc/wp-job-manager-maps.php:83 inc/wp-job-manager-maps.php:132
 #: job_manager/content-job_listing.php:152 single-resume.php:49
@@ -2724,65 +2651,65 @@ msgstr ""
 #: wp-job-manager-resumes/content-resume.php:44
 #: wp-job-manager-resumes/content-single-resume.php:26
 msgid "/ hour"
-msgstr ""
+msgstr "/小时"
 
 #: inc/wp-job-manager.php:61
 msgid "I want to register as"
-msgstr ""
+msgstr "我想注册为"
 
 #: inc/wp-job-manager.php:64 inc/wp-job-manager.php:68
 #: template-dashboard.php:288
 msgid "Candidate"
-msgstr ""
+msgstr "候选人"
 
 #: inc/wp-job-manager.php:66 template-dashboard.php:255
 msgid "Employer"
-msgstr "雇主"
+msgstr "雇用者"
 
 #: inc/wp-job-manager.php:81
 msgid "<strong>ERROR</strong>: You must include a role."
-msgstr ""
+msgstr "<strong>错误</strong>：必须包含角色。"
 
-#: job_manager/account-signin.php:4 wp-job-manager-resumes/account-signin.php:6
-#, fuzzy
+#: job_manager/account-signin.php:4
+#: wp-job-manager-resumes/account-signin.php:6
 msgid "Welcome to"
-msgstr "欢迎使用%s的安装向导"
+msgstr "欢迎使用"
 
 #: job_manager/account-signin.php:7
 msgid "You are currently signed in as <strong>%s</strong>."
-msgstr ""
+msgstr "您当前以<strong>%s</strong>身份登录。"
 
 #: job_manager/account-signin.php:10
 #: wp-job-manager-resumes/account-signin.php:13
 msgid "Sign out"
-msgstr "登出"
+msgstr "退出"
 
 #: job_manager/account-signin.php:21
 #: wp-job-manager-resumes/account-signin.php:26
 msgid "Have an account?"
-msgstr "已有账号？"
+msgstr "有账户吗？"
 
 #: job_manager/account-signin.php:25
 msgid ""
 "If you don&rsquo;t have an account you can %screate one below by entering "
 "your email address/username. Your account details will be confirmed via "
 "email."
-msgstr ""
+msgstr "如果您不这样做；t没有帐户，您可以通过输入您的电子邮件地址/用户名在下面%screate一个帐户。您的帐户详细信息将通过电子邮件确认。"
 
 #: job_manager/account-signin.php:25
 msgid "optionally"
-msgstr ""
+msgstr "可选地"
 
 #: job_manager/account-signin.php:29
 msgid "You must sign in to create a new listing."
-msgstr ""
+msgstr "您必须登录才能创建新列表。"
 
 #: job_manager/account-signin.php:33 job_manager/job-dashboard-login.php:4
 #: wp-job-manager-applications/application-form-login.php:2
 #: wp-job-manager-resumes/account-signin.php:37
 #: wp-job-manager-resumes/candidate-dashboard-login.php:4
 msgid "Sign in"
-msgstr ""
+msgstr "登录"
 
 #: job_manager/account-signin.php:42 job_manager/job-submit.php:33
 #: job_manager/job-submit.php:55
@@ -2793,7 +2720,7 @@ msgstr ""
 #: wp-job-manager-resumes/form-fields/repeated-field.php:32
 #: wp-job-manager-resumes/resume-submit.php:50
 msgid "(optional)"
-msgstr ""
+msgstr "（可选）"
 
 #: job_manager/content-job_listing.php:60
 msgid "new"
@@ -2803,13 +2730,13 @@ msgstr "新"
 #: job_manager/content-job_listing.php:197
 #: job_manager/content-single-job_listing.php:181 single-job_listing.php:221
 msgid "Closed"
-msgstr "评论已经关闭"
+msgstr "关闭"
 
 #: job_manager/content-job_listing.php:72
 #: job_manager/content-job_listing.php:197
 #: job_manager/content-single-job_listing.php:181 single-job_listing.php:221
 msgid "Closes"
-msgstr ""
+msgstr "关闭"
 
 #: job_manager/content-job_listing.php:112
 #: job_manager/content-single-job_listing.php:46 single-job_listing.php:56
@@ -2823,27 +2750,27 @@ msgstr "网站"
 
 #: job_manager/content-single-job_listing.php:139
 msgid "Overview"
-msgstr ""
+msgstr "概述"
 
 #: job_manager/content-single-job_listing.php:164 single-job_listing.php:204
 msgid "Expiration date"
-msgstr ""
+msgstr "到期日期"
 
 #: job_manager/content-single-job_listing.php:210 single-job_listing.php:251
 msgid "h / week"
-msgstr ""
+msgstr "小时/周"
 
 #: job_manager/content-single-job_listing.php:226 single-job_listing.php:267
 msgid "Rate:"
-msgstr "薪酬"
+msgstr "费率："
 
 #: job_manager/content-single-job_listing.php:246 single-job_listing.php:287
 msgid " / hour"
-msgstr ""
+msgstr "/小时"
 
 #: job_manager/content-single-job_listing.php:261 single-job_listing.php:302
 msgid "Salary:"
-msgstr "薪水"
+msgstr "工资："
 
 #: job_manager/content-single-job_listing.php:307 single-job_listing.php:359
 msgid "Job Location"
@@ -2855,13 +2782,12 @@ msgid "Browse"
 msgstr "浏览"
 
 #: job_manager/form-fields/file-field.php:53
-#, fuzzy
 msgid "Maximum file size: %s."
-msgstr "下载的零大小文件"
+msgstr "最大文件大小：%s。"
 
-#: job_manager/form-fields/text-field.php:21 search-fields/split-location.php:9
-#: sidebar-jobs.php:119 sidebar-resumes.php:59 template-home-resumes.php:81
-#: template-home.php:80
+#: job_manager/form-fields/text-field.php:21
+#: search-fields/split-location.php:9 sidebar-jobs.php:119
+#: sidebar-resumes.php:59 template-home-resumes.php:81 template-home.php:80
 msgid "Find My Location"
 msgstr "查找我的位置"
 
@@ -2869,7 +2795,7 @@ msgstr "查找我的位置"
 #: search-fields/split-location.php:10 sidebar-jobs.php:120
 #: sidebar-resumes.php:60 template-home-resumes.php:82 template-home.php:81
 msgid "type and hit enter"
-msgstr "按回车搜索"
+msgstr "键入并按enter键"
 
 #: job_manager/job-application.php:8 single-job_listing.php:339
 msgid "Apply for job"
@@ -2877,19 +2803,19 @@ msgstr "申请工作"
 
 #: job_manager/job-application.php:12 template-parts/jobs-related.php:133
 msgid "Apply For This Job"
-msgstr "申请这个工作"
+msgstr "申请此工作"
 
 #: job_manager/job-dashboard-login.php:3
 msgid "You need to be signed in to manage your listings."
-msgstr ""
+msgstr "您需要登录才能管理您的物品。"
 
 #: job_manager/job-dashboard.php:2
 msgid "Your listings are shown in the table below."
-msgstr ""
+msgstr "您的列表如下表所示。"
 
 #: job_manager/job-dashboard.php:22
 msgid "You do not have any active listings."
-msgstr ""
+msgstr "您没有任何活动列表。"
 
 #: job_manager/job-dashboard.php:46
 msgid "Show"
@@ -2897,20 +2823,20 @@ msgstr "显示"
 
 #: job_manager/job-dashboard.php:65
 msgid "Mark not filled"
-msgstr ""
+msgstr "标记未填充"
 
 #: job_manager/job-dashboard.php:67
 msgid "Mark filled"
-msgstr ""
+msgstr "标记已填充"
 
 #: job_manager/job-dashboard.php:70
 msgid "Duplicate"
-msgstr ""
+msgstr "复制"
 
 #: job_manager/job-dashboard.php:74
 #: wp-job-manager-resumes/candidate-dashboard.php:80
 msgid "Relist"
-msgstr ""
+msgstr "重新登录"
 
 #: job_manager/job-dashboard.php:84
 msgid "Continue Submission"
@@ -2920,19 +2846,19 @@ msgstr "继续提交"
 #: wp-job-manager-bookmarks/my-bookmarks.php:33
 #: wp-job-manager-resumes/candidate-dashboard.php:85
 msgid "Delete"
-msgstr ""
+msgstr "删去"
 
 #: job_manager/job-dashboard.php:114
 msgid "Add Job"
-msgstr "添加工作"
+msgstr "添加作业"
 
 #: job_manager/job-pagination.php:23
 msgid "Previous"
-msgstr ""
+msgstr "以前的"
 
 #: job_manager/job-pagination.php:41
 msgid "Next"
-msgstr "下一页"
+msgstr "下一个"
 
 #: job_manager/job-preview.php:29
 msgid "Submit Listing"
@@ -2944,39 +2870,40 @@ msgstr "编辑列表"
 
 #: job_manager/job-preview.php:31
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 #: job_manager/job-submit.php:24
 msgid "Job Details"
-msgstr "工作详情"
+msgstr "工作详细信息"
 
 #: job_manager/job-submit.php:49
 msgid "Company Details"
-msgstr ""
+msgstr "公司详细信息"
 
 #: kirki/controls/php/class-kirki-control-background.php:48
 msgid "Background Color"
-msgstr ""
+msgstr "背景色"
 
 #: kirki/controls/php/class-kirki-control-background.php:54
 msgid "Background Image"
-msgstr ""
+msgstr "背景图像"
 
 #: kirki/controls/php/class-kirki-control-background.php:59
 #: kirki/controls/php/class-kirki-control-base.php:132
 #: kirki/controls/php/class-kirki-control-repeater.php:408
 #: kirki/controls/php/class-kirki-control-repeater.php:413
 msgid "No File Selected"
-msgstr "没有文件被选择"
+msgstr "未选择文件"
 
 #: kirki/controls/php/class-kirki-control-background.php:62
 #: kirki/controls/php/class-kirki-control-base.php:133
 #: kirki/controls/php/class-kirki-control-repeater.php:386
 #: kirki/controls/php/class-kirki-control-repeater.php:418
 #: kirki/controls/php/class-kirki-control-repeater.php:443
-#: kirki/controls/views/image.php:37 kirki/field/class-kirki-field-image.php:50
+#: kirki/controls/views/image.php:37
+#: kirki/field/class-kirki-field-image.php:50
 msgid "Remove"
-msgstr "移除"
+msgstr "去除"
 
 #: kirki/controls/php/class-kirki-control-background.php:63
 #: kirki/controls/php/class-kirki-control-base.php:135
@@ -2985,76 +2912,72 @@ msgstr "选择文件"
 
 #: kirki/controls/php/class-kirki-control-background.php:70
 msgid "Background Repeat"
-msgstr ""
+msgstr "背景重复"
 
 #: kirki/controls/php/class-kirki-control-background.php:72
 msgid "No Repeat"
-msgstr ""
+msgstr "不重复"
 
 #: kirki/controls/php/class-kirki-control-background.php:73
-#, fuzzy
 msgid "Repeat All"
-msgstr "显示所有简历"
+msgstr "全部重复"
 
 #: kirki/controls/php/class-kirki-control-background.php:74
 msgid "Repeat Horizontally"
-msgstr ""
+msgstr "水平重复"
 
 #: kirki/controls/php/class-kirki-control-background.php:75
 msgid "Repeat Vertically"
-msgstr ""
+msgstr "垂直重复"
 
 #: kirki/controls/php/class-kirki-control-background.php:81
 msgid "Background Position"
-msgstr ""
+msgstr "背景位置"
 
 #: kirki/controls/php/class-kirki-control-background.php:83
 #: kirki/controls/php/class-kirki-control-dimensions.php:114
 msgid "Left Top"
-msgstr ""
+msgstr "左上"
 
 #: kirki/controls/php/class-kirki-control-background.php:84
 #: kirki/controls/php/class-kirki-control-dimensions.php:115
 msgid "Left Center"
-msgstr ""
+msgstr "左居中"
 
 #: kirki/controls/php/class-kirki-control-background.php:85
 #: kirki/controls/php/class-kirki-control-dimensions.php:116
 msgid "Left Bottom"
-msgstr ""
+msgstr "左下（Left Bottom）"
 
 #: kirki/controls/php/class-kirki-control-background.php:86
 #: kirki/controls/php/class-kirki-control-dimensions.php:117
-#, fuzzy
 msgid "Right Top"
-msgstr "不是现在"
+msgstr "右上"
 
 #: kirki/controls/php/class-kirki-control-background.php:87
 #: kirki/controls/php/class-kirki-control-dimensions.php:118
-#, fuzzy
 msgid "Right Center"
-msgstr "不是现在"
+msgstr "右居中"
 
 #: kirki/controls/php/class-kirki-control-background.php:88
 #: kirki/controls/php/class-kirki-control-dimensions.php:119
-#, fuzzy
 msgid "Right Bottom"
-msgstr "不是现在"
+msgstr "右下角"
 
 #: kirki/controls/php/class-kirki-control-background.php:89
 #: kirki/controls/php/class-kirki-control-dimensions.php:120
 msgid "Center Top"
-msgstr ""
+msgstr "居中顶部"
 
 #: kirki/controls/php/class-kirki-control-background.php:90
 #: kirki/controls/php/class-kirki-control-dimensions.php:121
 msgid "Center Center"
-msgstr ""
+msgstr "居中"
 
 #: kirki/controls/php/class-kirki-control-background.php:91
 #: kirki/controls/php/class-kirki-control-dimensions.php:122
 msgid "Center Bottom"
-msgstr ""
+msgstr "底部居中"
 
 #: kirki/controls/php/class-kirki-control-background.php:97
 msgid "Background Size"
@@ -3062,48 +2985,48 @@ msgstr "背景大小"
 
 #: kirki/controls/php/class-kirki-control-background.php:100
 msgid "Cover"
-msgstr ""
+msgstr "掩蔽"
 
 #: kirki/controls/php/class-kirki-control-background.php:103
 msgid "Contain"
-msgstr ""
+msgstr "包含"
 
 #: kirki/controls/php/class-kirki-control-background.php:106
 msgid "Auto"
-msgstr ""
+msgstr "汽车"
 
 #: kirki/controls/php/class-kirki-control-background.php:113
 msgid "Background Attachment"
-msgstr ""
+msgstr "背景附件"
 
 #: kirki/controls/php/class-kirki-control-background.php:116
 msgid "Scroll"
-msgstr ""
+msgstr "纸卷"
 
 #: kirki/controls/php/class-kirki-control-background.php:119
 msgid "Fixed"
-msgstr "固定"
+msgstr "固定的"
 
 #: kirki/controls/php/class-kirki-control-base.php:136
 msgid "Standard Fonts"
-msgstr ""
+msgstr "标准字体"
 
 #: kirki/controls/php/class-kirki-control-base.php:137
 msgid "Google Fonts"
-msgstr ""
+msgstr "谷歌字体"
 
 #: kirki/controls/php/class-kirki-control-base.php:138
 msgid "CSS Defaults"
-msgstr ""
+msgstr "CSS默认值"
 
 #: kirki/controls/php/class-kirki-control-base.php:139
 msgid "Default Browser Font-Family"
-msgstr ""
+msgstr "默认浏览器字体系列"
 
 #: kirki/controls/php/class-kirki-control-dimension.php:41
 #: kirki/controls/php/class-kirki-control-dimensions.php:138
 msgid "Invalid Value"
-msgstr ""
+msgstr "无效的值"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:123
 #: kirki/controls/php/class-kirki-control-typography.php:102
@@ -3112,12 +3035,12 @@ msgstr "字体大小"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:124
 msgid "Font Weight"
-msgstr "宽体字"
+msgstr "字体粗细"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:125
 #: kirki/controls/php/class-kirki-control-typography.php:110
 msgid "Line Height"
-msgstr ""
+msgstr "线条高度"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:126
 msgid "Font Style"
@@ -3126,27 +3049,27 @@ msgstr "字体样式"
 #: kirki/controls/php/class-kirki-control-dimensions.php:127
 #: kirki/controls/php/class-kirki-control-typography.php:118
 msgid "Letter Spacing"
-msgstr ""
+msgstr "字母间距"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:128
 #: kirki/controls/php/class-kirki-control-typography.php:126
 msgid "Word Spacing"
-msgstr ""
+msgstr "单词间距"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:129
 #: kirki/field/class-kirki-field-spacing.php:32
 msgid "Top"
-msgstr ""
+msgstr "顶部"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:130
 #: kirki/field/class-kirki-field-spacing.php:33
 msgid "Bottom"
-msgstr ""
+msgstr "底部"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:133
 #: kirki/controls/php/class-kirki-control-typography.php:151
 msgid "Center"
-msgstr ""
+msgstr "居中"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:134
 msgid "Size"
@@ -3154,49 +3077,50 @@ msgstr "大小"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:135
 msgid "Spacing"
-msgstr ""
+msgstr "间距"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:136
 msgid "Width"
-msgstr ""
+msgstr "宽度"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:137
 msgid "Height"
-msgstr ""
+msgstr "身高"
 
 #: kirki/controls/php/class-kirki-control-repeater.php:77
 msgid "row"
-msgstr ""
+msgstr "一行"
 
 #. translators: %s represents the label of the row.
 #: kirki/controls/php/class-kirki-control-repeater.php:86
 msgid "Add new %s"
-msgstr ""
+msgstr "添加新%s"
 
 #: kirki/controls/php/class-kirki-control-repeater.php:121
 msgid "Select a Page"
-msgstr ""
+msgstr "选择页面"
 
-#. translators: %s represents the number of rows we're limiting the repeater to
+#. translators: %s represents the number of rows we're limiting the repeater
+#. to
 #. allow.
 #: kirki/controls/php/class-kirki-control-repeater.php:227
 msgid "Limit: %s rows"
-msgstr ""
+msgstr "限制：%s行"
 
 #: kirki/controls/php/class-kirki-control-repeater.php:376
 #: kirki/controls/php/class-kirki-control-repeater.php:381
 msgid "No Image Selected"
-msgstr ""
+msgstr "未选择图像"
 
 #: kirki/controls/php/class-kirki-control-repeater.php:387
 #: kirki/controls/php/class-kirki-control-repeater.php:391
 msgid "Add Image"
-msgstr ""
+msgstr "添加图像"
 
 #: kirki/controls/php/class-kirki-control-repeater.php:387
 #: kirki/controls/php/class-kirki-control-repeater.php:389
 msgid "Change Image"
-msgstr ""
+msgstr "更改图像"
 
 #: kirki/controls/php/class-kirki-control-repeater.php:419
 #: kirki/controls/php/class-kirki-control-repeater.php:423
@@ -3206,7 +3130,7 @@ msgstr "添加文件"
 #: kirki/controls/php/class-kirki-control-repeater.php:419
 #: kirki/controls/php/class-kirki-control-repeater.php:421
 msgid "Change File"
-msgstr "选择文件"
+msgstr "更改文件"
 
 #: kirki/controls/php/class-kirki-control-slider.php:67
 msgid "Reset"
@@ -3214,108 +3138,110 @@ msgstr "重置"
 
 #: kirki/controls/php/class-kirki-control-typography.php:82
 msgid "Font Family"
-msgstr "字体"
+msgstr "字体系列"
 
 #: kirki/controls/php/class-kirki-control-typography.php:83
 #: kirki/controls/php/class-kirki-control-typography.php:88
 msgid "Select Font Family"
-msgstr "字体样式和颜色"
+msgstr "选择字体系列"
 
 #: kirki/controls/php/class-kirki-control-typography.php:87
-#, fuzzy
 msgid "Backup Font"
-msgstr "重置字体样式和颜色"
+msgstr "备份字体"
 
 #: kirki/controls/php/class-kirki-control-typography.php:93
 msgid "Variant"
-msgstr ""
+msgstr "变种"
 
 #: kirki/controls/php/class-kirki-control-typography.php:134
 msgid "Text Align"
-msgstr ""
+msgstr "文本对齐"
 
 #: kirki/controls/php/class-kirki-control-typography.php:139
 #: kirki/controls/php/class-kirki-control-typography.php:181
 #: kirki/controls/php/class-kirki-control-typography.php:197
 msgid "Inherit"
-msgstr ""
+msgstr "继承"
 
 #: kirki/controls/php/class-kirki-control-typography.php:163
 msgid "Justify"
-msgstr ""
+msgstr "证明正当"
 
 #: kirki/controls/php/class-kirki-control-typography.php:173
 msgid "Text Transform"
-msgstr ""
+msgstr "文本转换"
 
 #: kirki/controls/php/class-kirki-control-typography.php:176
 #: kirki/controls/php/class-kirki-control-typography.php:192
 msgid "None"
-msgstr ""
+msgstr "没有一个"
 
 #: kirki/controls/php/class-kirki-control-typography.php:177
 msgid "Capitalize"
-msgstr ""
+msgstr "资本化"
 
 #: kirki/controls/php/class-kirki-control-typography.php:178
 msgid "Uppercase"
-msgstr ""
+msgstr "大写字母"
 
 #: kirki/controls/php/class-kirki-control-typography.php:179
 msgid "Lowercase"
-msgstr ""
+msgstr "小写字母"
 
 #: kirki/controls/php/class-kirki-control-typography.php:180
 #: kirki/controls/php/class-kirki-control-typography.php:196
 msgid "Initial"
-msgstr ""
+msgstr "最初的"
 
 #: kirki/controls/php/class-kirki-control-typography.php:189
 msgid "Text Decoration"
-msgstr ""
+msgstr "文本装饰"
 
 #: kirki/controls/php/class-kirki-control-typography.php:193
 msgid "Underline"
-msgstr ""
+msgstr "强调"
 
 #: kirki/controls/php/class-kirki-control-typography.php:194
 msgid "Overline"
-msgstr ""
+msgstr "过线（Overline）"
 
 #: kirki/controls/php/class-kirki-control-typography.php:195
 msgid "Line-Through"
-msgstr ""
+msgstr "线路贯通"
 
 #: kirki/controls/php/class-kirki-control-typography.php:205
 msgid "Margin Top"
-msgstr ""
+msgstr "顶部边距"
 
 #: kirki/controls/php/class-kirki-control-typography.php:213
 msgid "Margin Bottom"
-msgstr ""
+msgstr "页边距底部"
 
 #: kirki/controls/views/image.php:34 kirki/controls/views/image.php:39
 #: kirki/field/class-kirki-field-image.php:47
 #: kirki/field/class-kirki-field-image.php:52
 msgid "Select image"
-msgstr ""
+msgstr "选择图像"
 
-#: kirki/controls/views/image.php:35 kirki/field/class-kirki-field-image.php:48
+#: kirki/controls/views/image.php:35
+#: kirki/field/class-kirki-field-image.php:48
 msgid "Change image"
-msgstr ""
+msgstr "更改图像"
 
-#: kirki/controls/views/image.php:38 kirki/field/class-kirki-field-image.php:51
+#: kirki/controls/views/image.php:38
+#: kirki/field/class-kirki-field-image.php:51
 msgid "No image selected"
-msgstr ""
+msgstr "未选择图像"
 
-#: kirki/controls/views/image.php:40 kirki/field/class-kirki-field-image.php:53
+#: kirki/controls/views/image.php:40
+#: kirki/field/class-kirki-field-image.php:53
 msgid "Choose image"
-msgstr ""
+msgstr "选择图像"
 
 #. translators: %s represents the field ID where the error occurs.
 #: kirki/core/class-kirki-field.php:248
 msgid "Typo found in field %s - setting instead of settings."
-msgstr ""
+msgstr "在字段%s中发现打字-设置而不是设置。"
 
 #. translators: %1$s represents the field ID where the error occurs. %2$s is
 #. the URL in the documentation site.
@@ -3323,32 +3249,32 @@ msgstr ""
 msgid ""
 "Config not defined for field %1$s - See %2$s for details on how to properly "
 "add fields."
-msgstr ""
+msgstr "未为字段%1$s定义配置-有关如何正确添加字段的详细信息，请参阅%2$s。"
 
 #. translators: %1$s represents the field ID where the error occurs.
 #: kirki/core/class-kirki-field.php:375
 msgid "\"partial_refresh\" invalid entry in field %s"
-msgstr ""
+msgstr "“partial_refresh”字段%s中的条目无效"
 
 #. translators: The field ID where the error occurs.
 #: kirki/core/class-kirki-field.php:498 kirki/core/class-kirki-field.php:509
 msgid ""
 "\"output\" invalid format in field %s. The \"output\" argument should be "
 "defined as an array of arrays."
-msgstr ""
+msgstr "字段%s中的“输出”格式无效。“output”参数应定义为数组数组。"
 
 #: kirki/core/class-kirki-init.php:289
 msgid ""
-"We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::"
-"get_variables() instead."
-msgstr ""
+"We detected you're using Kirki_Init::get_variables(). Please use "
+"Kirki_Util::get_variables() instead."
+msgstr "我们检测到您正在使用Kirki_Init:：get_variables（）。请改用Kirki_Util:：get_variables（）。"
 
 #: kirki/core/class-kirki-init.php:365
 msgid ""
-"Your theme uses a Font Awesome field for icons. To avoid issues with missing "
-"icons on your frontend we recommend you install the official Font Awesome "
+"Your theme uses a Font Awesome field for icons. To avoid issues with missing"
+" icons on your frontend we recommend you install the official Font Awesome "
 "plugin."
-msgstr ""
+msgstr "您的主题使用“字体真棒”字段作为图标。为了避免前端缺少图标的问题，我们建议您安装官方的Font Awesome插件。"
 
 #: kirki/core/class-kirki-init.php:368
 msgid "Install Plugin"
@@ -3356,24 +3282,23 @@ msgstr "安装插件"
 
 #: kirki/core/class-kirki-init.php:369
 msgid "Don't show this again"
-msgstr "不再显示"
+msgstr "不再显示此内容"
 
 #: kirki/core/class-kirki.php:237
 msgid ""
 "Kirki fields should not be added on customize_register. Please add them "
 "directly, or on init."
-msgstr ""
+msgstr "不应在customize_reregister上添加Kirki字段。请直接或在初始化时添加它们。"
 
 #: kirki/deprecated/functions.php:19
-#, fuzzy
 msgid "%1$s or %2$s"
-msgstr "Kommentar%1$s"
+msgstr "%1$s或%2$s"
 
 #: kirki/field/class-kirki-field-color.php:52
 msgid ""
 "Do not use \"alpha\" as an argument in color controls. Use "
 "\"choices[alpha]\" instead."
-msgstr ""
+msgstr "不要在颜色控件中使用“alpha”作为参数。改用“choices[alpha]”。"
 
 #. translators: %1$s represents the field ID where the error occurs. %2%s is
 #. buttonset/image.
@@ -3381,217 +3306,215 @@ msgstr ""
 msgid ""
 "Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
 "v0.8. Use the \"radio-%2$s\" type instead."
-msgstr ""
+msgstr "字段%1$s出错。自Kirki v0.8以来，“mode”参数已被弃用。请改用“radio-%2$s”类型。"
 
 #: kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
 msgid "Customizing"
-msgstr ""
+msgstr "自定义"
 
 #. translators: The title.
 #: kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
-#, fuzzy
 msgid "Customizing &#9656; %s"
-msgstr "%s job"
+msgstr "自定义&#9656；%s"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:146
 msgid "Help us improve Kirki."
-msgstr ""
+msgstr "帮助我们改进Kirki。"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:147
 msgid ""
-"Help us begin a dialogue with theme developers, collaborate and improve both "
-"the theme you are using and the Kirki framework by agreeing to send "
+"Help us begin a dialogue with theme developers, collaborate and improve both"
+" the theme you are using and the Kirki framework by agreeing to send "
 "anonymous data. <strong>The data is completely anonymous and we will never "
 "collect any identifyable information about you or your website.</strong>"
 msgstr ""
+"通过同意发送匿名数据，帮助我们开始与主题开发人员对话，合作并改进您正在使用的主题和Kirki框架<strong>数据完全匿名，我们永远不会收集关于您或您的网站的任何可识别信息。</strong>"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:151
 msgid "Data that will be sent"
-msgstr ""
+msgstr "将发送的数据"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:156
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP版本"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:160
-#, fuzzy
 msgid "Theme Name"
-msgstr "更新"
+msgstr "主题名称"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:164
-#, fuzzy
 msgid "Theme Author"
-msgstr "输入作者："
+msgstr "主题作者"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:168
-#, fuzzy
 msgid "Theme URI"
-msgstr "主题 设置向导"
+msgstr "主题URI"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:172
 msgid "Field Types Used"
-msgstr ""
+msgstr "使用的字段类型"
 
 #. translators: %1$s: URL to the server plugin code. %2$s: URL to the stats
 #. page.
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:182
 msgid ""
-"We believe in complete transparency. You can see the code used on our server "
-"<a href=\"%1$s\" rel=\"nofollow\">here</a>, and the results of the "
-"statistics we're gathering on <a href=\"%2$s\" rel=\"nofollow\">this page</"
-"a>."
+"We believe in complete transparency. You can see the code used on our server"
+" <a href=\"%1$s\" rel=\"nofollow\">here</a>, and the results of the "
+"statistics we're gathering on <a href=\"%2$s\" rel=\"nofollow\">this "
+"page</a>."
 msgstr ""
+"我们相信完全透明。您可以在这里查看服务器<a href=“%1$s”rel=“nofollow”>上使用的代码</a>，以及我们在<a "
+"href=”%2$s“rel=“no follow“>这个页面上收集的统计数据的结果</a>。"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:193
 msgid "I agree"
-msgstr "同意并继续"
+msgstr "我同意"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:194
 msgid "No thanks"
-msgstr ""
+msgstr "不，谢谢"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:195
 msgid "Show me the data"
-msgstr "显示我的数据"
+msgstr "显示数据"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:196
 msgid "Collapse data"
-msgstr ""
+msgstr "折叠数据"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:198
 #: kirki/modules/webfonts/class-kirki-fonts.php:199
 msgid "Ultra-Light 100"
-msgstr ""
+msgstr "超轻100"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:200
 msgid "Ultra-Light 100 Italic"
-msgstr ""
+msgstr "超轻100斜体"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:201
 msgid "Light 200"
-msgstr ""
+msgstr "灯200"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:202
 msgid "Light 200 Italic"
-msgstr ""
+msgstr "浅色200斜体"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:203
 msgid "Book 300"
-msgstr ""
+msgstr "第300册"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:204
 msgid "Book 300 Italic"
-msgstr ""
+msgstr "书300斜体"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:205
 #: kirki/modules/webfonts/class-kirki-fonts.php:206
 msgid "Normal 400"
-msgstr ""
+msgstr "正常400"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:207
 msgid "Normal 400 Italic"
-msgstr ""
+msgstr "普通400斜体"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:208
 msgid "Medium 500"
-msgstr ""
+msgstr "中等500"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:209
 msgid "Medium 500 Italic"
-msgstr ""
+msgstr "中等500斜体"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:210
 #: kirki/modules/webfonts/class-kirki-fonts.php:211
 msgid "Semi-Bold 600"
-msgstr ""
+msgstr "半加粗600"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:212
 msgid "Semi-Bold 600 Italic"
-msgstr ""
+msgstr "半加粗600斜体"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:213
 msgid "Bold 700"
-msgstr ""
+msgstr "加粗700"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:214
 msgid "Bold 700 Italic"
-msgstr ""
+msgstr "Bold 700斜体"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:215
 #: kirki/modules/webfonts/class-kirki-fonts.php:216
 msgid "Extra-Bold 800"
-msgstr ""
+msgstr "额外加粗800"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:217
 msgid "Extra-Bold 800 Italic"
-msgstr ""
+msgstr "额外加粗800斜体"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:218
 #: kirki/modules/webfonts/class-kirki-fonts.php:219
 msgid "Ultra-Bold 900"
-msgstr ""
+msgstr "Ultra Bold 900"
 
 #: kirki/modules/webfonts/class-kirki-fonts.php:220
 msgid "Ultra-Bold 900 Italic"
-msgstr ""
+msgstr "Ultra Bold 900斜体"
 
 #: kirki/upgrade-notifications.php:30
-#, fuzzy
 msgid "Important Upgrade Notice:"
-msgstr "升级"
+msgstr "重要升级通知："
 
 #: search-fields/split-jobs-job_listing_category.php:33
 #: search-fields/split-resume-resume_category.php:33 sidebar-jobs.php:193
 #: wp-job-manager-alerts/alert-form.php:60
-#, fuzzy
 msgid "Any category"
-msgstr "分类"
+msgstr "任何类别"
 
 #: search-fields/split-jobs-job_types.php:5
 #: wp-job-manager-alerts/alert-form.php:67
 msgid "Job Type"
-msgstr "工作类型"
+msgstr "作业类型"
 
 #: search-fields/split-jobs-rate.php:7 search-fields/split-resume-rate.php:7
 msgid "Select min and max rate range"
-msgstr ""
+msgstr "选择最小和最大速率范围"
 
 #: search-fields/split-jobs-rate.php:19 search-fields/split-resume-rate.php:19
 msgid "Enable Rate Filter"
-msgstr "启用按薪酬过滤"
+msgstr "启用速率过滤器"
 
 #: search-fields/split-jobs-salary.php:7
 msgid "Select min and max salary range"
-msgstr ""
+msgstr "选择最低和最高工资范围"
 
 #: search-fields/split-jobs-salary.php:20
 msgid "Enable Salary Filter"
-msgstr "启用按薪水过滤"
+msgstr "启用薪资筛选器"
 
 #: search-fields/split-radius.php:2
 msgid "Radius"
-msgstr ""
+msgstr "半径"
 
-#: search-fields/split-radius.php:6 sidebar-jobs.php:135 sidebar-resumes.php:74
+#: search-fields/split-radius.php:6 sidebar-jobs.php:135
+#: sidebar-resumes.php:74
 msgid "Radius around selected destination"
-msgstr ""
+msgstr "选定目的地周围的半径"
 
 #: search-fields/split-radius.php:18 sidebar-jobs.php:130
 #: sidebar-resumes.php:69
 msgid "Search by Radius"
-msgstr "搜索周边"
+msgstr "按半径搜索"
 
 #: search-fields/split-resume-resume_skill.php:14 sidebar-resumes.php:99
 msgid "Choose a skill"
-msgstr "选择一个技能"
+msgstr "选择一项技能"
 
 #: search.php:20
 msgid "Search Results for: %s"
-msgstr "%s 的搜索结果"
+msgstr "搜索结果：%s"
 
 #: searchform.php:12
 msgid "To search type and hit enter"
-msgstr "搜索类型并按回车"
+msgstr "要搜索类型并点击enter"
 
 #: sidebar-jobs.php:32 wp-job-manager-alerts/my-alerts.php:13
 msgid "Keywords"
@@ -3599,220 +3522,216 @@ msgstr "关键词"
 
 #: sidebar-jobs.php:64 sidebar-resumes.php:18
 msgid "Region"
-msgstr ""
+msgstr "区域"
 
 #: sidebar-jobs.php:155
 msgid "Job type"
-msgstr "工作类型"
+msgstr "作业类型"
 
 #: sidebar-jobs.php:172
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #: sidebar-jobs.php:212
 msgid "Filter by Salary"
-msgstr "按薪水过滤"
+msgstr "按薪资筛选"
 
 #: sidebar-jobs.php:231 sidebar-resumes.php:129
 msgid "Filter by Rate"
-msgstr "按薪酬过滤"
+msgstr "按速率筛选"
 
 #: sidebar-jobs.php:246
 msgid "Filter by tag:"
-msgstr "按标签过滤"
+msgstr "按标签筛选："
 
-#: sidebar-resumes.php:32 template-home-old.php:39 template-home-resumes.php:65
-#: template-home.php:64
-#, fuzzy
+#: sidebar-resumes.php:32 template-home-old.php:39
+#: template-home-resumes.php:65 template-home.php:64
 msgid "All Regions"
-msgstr "显示所有简历"
+msgstr "所有地区"
 
 #: sidebar-resumes.php:97
 msgid "Filter by Skills"
-msgstr "按技能过滤"
+msgstr "按技能筛选"
 
 #: sidebar-resumes.php:116
 msgid "Filter by Categories"
-msgstr "按分类过滤"
+msgstr "按类别筛选"
 
 #: sidebar.php:20 sidebar.php:38 sidebar.php:57
 msgid "Archives"
-msgstr ""
+msgstr "档案"
 
 #: sidebar.php:27 sidebar.php:45 sidebar.php:64
 msgid "Meta"
-msgstr ""
+msgstr "元"
 
 #: single-job_listing.php:80
 msgid "This position has been filled"
-msgstr "此职位已招满"
+msgstr "此职位已被填补"
 
 #: single-job_listing.php:82
 msgid "Applications have closed"
-msgstr "申请已关闭"
+msgstr "应用程序已关闭"
 
 #: single-job_listing.php:122
 msgid "This listing has expired."
-msgstr "列表已过期"
+msgstr "此列表已过期。"
 
 #: single-job_listing.php:179
 msgid "Job Overview"
-msgstr "职位概述"
+msgstr "工作概述"
 
 #: single-resume.php:106 single-resume.php:116 single-resume.php:125
 #: wp-job-manager-resumes/contact-details.php:16
 msgid "Send Message"
-msgstr ""
+msgstr "发送消息"
 
 #: single-resume.php:114
 msgid "Your message to "
-msgstr "您的信息发送至 "
+msgstr "您的邮件发送至"
 
 #: single-resume.php:130 single-resume.php:133
 msgid "Login to Send Message"
-msgstr "登录后发送信息"
+msgstr "登录发送消息"
 
 #: single-resume.php:178
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:15
 #: wp-job-manager-resumes/content-single-resume.php:89
 msgid "Education"
-msgstr ""
+msgstr "教育"
 
 #: single-resume.php:185 single-resume.php:204
 #: wp-job-manager-resumes/content-single-resume.php:96
 #: wp-job-manager-resumes/content-single-resume.php:115
-#, fuzzy
 msgid "%s at %s"
-msgstr "%s anmeldelse af %s"
+msgstr "%%s（位于%s）"
 
 #: single-resume.php:197 wp-job-manager-resumes/content-single-resume.php:108
 msgid "Experience"
-msgstr ""
+msgstr "经验"
 
 #: single.php:63
 msgid "Post navigation"
-msgstr "博客导航"
+msgstr "后导航"
 
 #: template-contact.php:79 template-parts/content-page.php:67
 msgid "Pages:"
-msgstr ""
+msgstr "页："
 
 #: template-dashboard.php:23
 msgid "You do have an email address, right?"
-msgstr ""
+msgstr "你确实有电子邮件地址，对吗？"
 
 #: template-dashboard.php:26
 msgid "You need to enter a password to login."
-msgstr ""
+msgstr "您需要输入密码才能登录。"
 
 #: template-dashboard.php:29
 msgid ""
 "We don't have any users with that email address. Maybe you used a different "
 "one when signing up?"
-msgstr ""
+msgstr "我们没有任何用户使用该电子邮件地址。也许你在注册时使用了另一个？"
 
 #: template-dashboard.php:35 template-dashboard.php:84
 msgid ""
 "The password you entered wasn't quite right. <a href='%s'>Did you forget "
 "your password</a>?"
-msgstr ""
+msgstr "你输入的密码不太正确<a href=“%s”>您忘记密码了吗？"
 
 #: template-dashboard.php:54
 msgid "The email address you entered is not valid."
-msgstr ""
+msgstr "您输入的电子邮件地址无效。"
 
 #: template-dashboard.php:57
 msgid "An account exists with this email address."
-msgstr ""
+msgstr "此电子邮件地址存在帐户。"
 
 #: template-dashboard.php:60
 msgid "Registering new users is currently not allowed."
-msgstr ""
+msgstr "当前不允许注册新用户。"
 
 #: template-dashboard.php:63
 msgid "Please check reCAPTCHA checbox to register."
-msgstr ""
+msgstr "请检查reCAPTCHA复选框进行注册。"
 
 #: template-dashboard.php:66
 msgid "You're a bot, aren't you?."
-msgstr ""
+msgstr "你是个机器人，不是吗？。"
 
 #: template-dashboard.php:69
 msgid "Please accept the Privacy Policy to register account."
-msgstr ""
+msgstr "请接受隐私政策注册帐户。"
 
 #: template-dashboard.php:72
 msgid "Please provide your first name"
-msgstr ""
+msgstr "请提供您的名字"
 
 #: template-dashboard.php:75
 msgid "Please provide your last name"
-msgstr ""
+msgstr "请提供您的姓氏"
 
 #: template-dashboard.php:78
 msgid "Please provide your user login"
-msgstr ""
+msgstr "请提供您的用户登录"
 
 #: template-dashboard.php:81
 msgid "You have forgot about password."
-msgstr ""
+msgstr "您忘记了密码。"
 
 #: template-dashboard.php:163
 msgid "You have successfully registered to %s."
-msgstr ""
+msgstr "您已成功注册到%s。"
 
 #: template-dashboard.php:168
 msgid ""
 "You have successfully registered to <strong>%s</strong>. We have emailed "
 "your password to the email address you entered."
-msgstr ""
+msgstr "您已成功注册到<strong>%s</strong>。我们已将您的密码通过电子邮件发送到您输入的电子邮件地址。"
 
 #: template-dashboard.php:226
 msgid "Dashboard Navigation"
-msgstr "导航"
+msgstr "仪表板导航"
 
 #: template-dashboard.php:230
 msgid "Main"
-msgstr ""
+msgstr "主要的"
 
 #: template-dashboard.php:239
 msgid "Messages"
-msgstr "消息"
+msgstr "信息"
 
 #: template-dashboard.php:251
 msgid "Bookmarks"
-msgstr ""
+msgstr "书签"
 
 #: template-dashboard.php:262
 msgid "Manage Jobs"
-msgstr "管理工作"
+msgstr "管理作业"
 
 #: template-dashboard.php:278
 msgid "Submit Job"
-msgstr "提交工作"
+msgstr "提交作业"
 
 #: template-dashboard.php:295
-#, fuzzy
 msgid "Manage Resumes"
-msgstr "%s cver"
+msgstr "管理简历"
 
 #: template-dashboard.php:311
 #: wp-job-manager-resumes/candidate-dashboard.php:112
-#, fuzzy
 msgid "Add Resume"
-msgstr "%s cver"
+msgstr "添加简历"
 
 #: template-dashboard.php:321
 msgid "My Applications"
-msgstr ""
+msgstr "我的应用程序"
 
 #: template-dashboard.php:335
 msgid "Job Alerts"
-msgstr "工作提醒"
+msgstr "作业警报"
 
 #: template-dashboard.php:345
 msgid "Account"
-msgstr "账号"
+msgstr "账户"
 
 #: template-dashboard.php:347
 msgid "My Profile"
@@ -3820,19 +3739,19 @@ msgstr "我的个人资料"
 
 #: template-dashboard.php:358
 msgid "My Orders"
-msgstr ""
+msgstr "我的订单"
 
 #: template-dashboard.php:368
 msgid "My Subscriptions"
-msgstr ""
+msgstr "我的订阅"
 
 #: template-dashboard.php:407
 msgid "Howdy,"
-msgstr ""
+msgstr "你好，"
 
 #: template-dashboard.php:414
 msgid "Approved Bookings"
-msgstr ""
+msgstr "批准的预订"
 
 #: template-dashboard.php:418
 msgid "Pending Bookings"
@@ -3840,31 +3759,31 @@ msgstr "待定预订"
 
 #: template-dashboard.php:422
 msgid "Cancelled Bookings"
-msgstr ""
+msgstr "取消的预订"
 
 #: template-dashboard.php:428
 msgid "Bookings"
-msgstr ""
+msgstr "预订"
 
 #: template-dashboard.php:441
 msgid "Home"
-msgstr ""
+msgstr "家"
 
 #: template-home-old.php:32
 msgid "keywords"
-msgstr "关键词"
+msgstr "关键字"
 
 #: template-home-old.php:52 template-home-resumes.php:79
 msgid "city, province or region"
-msgstr "地点"
+msgstr "城市、省或地区"
 
 #: template-home-old.php:77 template-home-resumes.php:105
 msgid "All categories"
-msgstr "显示所有简历"
+msgstr "所有类别"
 
 #: template-home-old.php:100
 msgid " Or browse job offers by <a href=\"%s\">category</a>"
-msgstr ""
+msgstr "或按<a href=“%s”>类别浏览工作机会</a>"
 
 #: template-home-old.php:111
 msgid "We have %s job offer for you!"
@@ -3873,11 +3792,11 @@ msgstr[0] ""
 
 #: template-home-resumes.php:53
 msgid "What candidate are you looking for?"
-msgstr ""
+msgstr "你在找什么候选人？"
 
 #: template-home-resumes.php:61 template-home.php:60
 msgid "Where?"
-msgstr "在那里？"
+msgstr "哪里"
 
 #: template-home-resumes.php:117 template-home.php:116
 msgid "Search"
@@ -3897,181 +3816,179 @@ msgstr "你在找什么工作？"
 
 #: template-home.php:53
 msgid "Job title, Skill, Industry"
-msgstr "职位名称、关键词或者公司名称"
+msgstr "职位、技能、行业"
 
 #: template-home.php:78
 msgid "City, State or Zip"
-msgstr "地点"
+msgstr "城市、州或邮编"
 
 #: template-home.php:104
 msgid "All Categories"
-msgstr "显示所有简历"
+msgstr "所有类别"
 
 #: template-jobpackages.php:144 template-resumepackages.php:145
 #: woocommerce/content-product.php:128 woocommerce/content-product.php:153
 msgid "Add to cart"
-msgstr ""
+msgstr "添加到购物车"
 
 #: template-login.php:55 template-login.php:75
 msgid "Change password"
-msgstr ""
+msgstr "更改密码"
 
 #: template-login.php:56
 msgid "You may change your password if you are so inclined."
-msgstr ""
+msgstr "如果你愿意，你可以更改密码。"
 
 #: template-login.php:73 woocommerce/myaccount/dashboard.php:23
 msgid "<h2 class=\"my-acc-h2\">Hello <strong>%1$s</strong></h2>"
-msgstr ""
+msgstr "<h2 class=“my-acc-h2”>你好<strong>%1$s</strong></h2>"
 
 #: template-login.php:74
 msgid "Log out"
-msgstr ""
+msgstr "注销"
 
 #: template-login.php:80
 msgid ""
-"<a href=\"%s\" class=\"button margin-bottom-15\"><i class=\"fa fa-user\"></"
-"i> Candidate Dashboard </a>"
+"<a href=\"%s\" class=\"button margin-bottom-15\"><i class=\"fa fa-"
+"user\"></i> Candidate Dashboard </a>"
 msgstr ""
+"<a href=“%s”class=“button margin-bottom-15”><i class=“fa fa "
+"user”></i>候选人仪表板</a>"
 
 #: template-login.php:86
 msgid ""
-"<a href=\"%s\" class=\"button  margin-bottom-15\"><i class=\"fa fa-user\"></"
-"i> Employer Dashboard </a>"
+"<a href=\"%s\" class=\"button  margin-bottom-15\"><i class=\"fa fa-"
+"user\"></i> Employer Dashboard </a>"
 msgstr ""
+"<a href=“%s”class=“button margin-bottom-15”><i class=“fa-fa用户”></i>雇主仪表板</a>"
 
 #: template-parts/button-job.php:2
 msgid "Post a Job, It's Free!"
-msgstr "免费发布职位"
+msgstr "发布一份工作，它是免费的！"
 
 #: template-parts/button-resume.php:2
-#, fuzzy
 msgid "Post a Resume, It's Free!"
-msgstr "%s cver"
+msgstr "发布简历，这是免费的！"
 
 #: template-parts/content-gallery.php:37 template-parts/content-quote.php:33
 #: template-parts/content-standard.php:20 template-parts/content-video.php:23
 #: template-parts/content.php:22
 msgid "Read More"
-msgstr "更多"
+msgstr "阅读更多"
 
 #: template-parts/content-none.php:15
 msgid "Nothing Found"
-msgstr "没有找到"
+msgstr "未找到任何内容"
 
 #: template-parts/content-none.php:22
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布你的第一篇文章了吗<a href=“%1$s”>从这里开始</a>。"
 
 #: template-parts/content-none.php:26
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
-msgstr ""
+msgstr "抱歉，但没有与您的搜索词匹配的内容。请使用其他关键字重试。"
 
 #: template-parts/content-none.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr ""
+msgstr "看来我们可以；找不到您想要的；我们正在寻找。也许搜索会有所帮助。"
 
 #: template-parts/jobs-related.php:41
 msgid "Related Jobs"
-msgstr "相关职位"
+msgstr "相关作业"
 
 #: template-resumepackages.php:124
 msgid "Unlimited number of resumes"
-msgstr "不限制简历数量"
+msgstr "简历数量不限"
 
 #: woocommerce/cart/cart.php:29 woocommerce/cart/cart.php:61
 msgid "Product"
-msgstr ""
+msgstr "产品"
 
 #: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:81
 msgid "Price"
-msgstr ""
+msgstr "价格"
 
 #: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:87
 msgid "Quantity"
-msgstr ""
+msgstr "量"
 
 #: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:105
 msgid "Total"
-msgstr ""
+msgstr "全部的"
 
 #: woocommerce/cart/cart.php:76
-#, fuzzy
 msgid "Available on backorder"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "可延期订购"
 
 #: woocommerce/cart/cart.php:116
-#, fuzzy
 msgid "Remove this item"
-msgstr "%d vare"
+msgstr "删除此项目"
 
 #: woocommerce/cart/cart.php:135
 msgid "Coupon"
-msgstr ""
+msgstr "息票"
 
 #: woocommerce/cart/cart.php:135
 msgid "Coupon code"
-msgstr ""
+msgstr "优惠代码"
 
 #: woocommerce/cart/cart.php:135
 msgid "Apply Coupon"
-msgstr ""
+msgstr "使用优惠券"
 
 #: woocommerce/cart/cart.php:141
-#, fuzzy
 msgid "Update Cart"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "更新购物车"
 
 #: woocommerce/checkout/thankyou.php:30
 msgid ""
-"Unfortunately your order cannot be processed as the originating bank/"
-"merchant has declined your transaction."
-msgstr ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction."
+msgstr "很遗憾，您的订单无法处理，因为发起银行/商户拒绝了您的交易。"
 
 #: woocommerce/checkout/thankyou.php:34
 msgid "Please attempt your purchase again or go to your account page."
-msgstr ""
+msgstr "请再次尝试购买或转到您的帐户页面。"
 
 #: woocommerce/checkout/thankyou.php:36
 msgid "Please attempt your purchase again."
-msgstr ""
+msgstr "请再次尝试购买。"
 
 #: woocommerce/checkout/thankyou.php:41
 msgid "Pay"
-msgstr ""
+msgstr "支付"
 
 #: woocommerce/checkout/thankyou.php:43
 msgid "My account"
-msgstr ""
+msgstr "我的帐户"
 
 #: woocommerce/checkout/thankyou.php:50 woocommerce/checkout/thankyou.php:93
 msgid "Thank you. Your order has been received."
-msgstr ""
+msgstr "非常感谢。您的订单已收到。"
 
 #: woocommerce/checkout/thankyou.php:55
 msgid "Order number:"
-msgstr ""
+msgstr "订单号："
 
 #: woocommerce/checkout/thankyou.php:60
 msgid "Date:"
-msgstr "日期:"
+msgstr "日期："
 
 #: woocommerce/checkout/thankyou.php:66
 msgid "Email:"
-msgstr ""
+msgstr "电子邮件："
 
 #: woocommerce/checkout/thankyou.php:72
 msgid "Total:"
-msgstr ""
+msgstr "总计："
 
 #: woocommerce/checkout/thankyou.php:78
 msgid "Payment method:"
-msgstr ""
+msgstr "付款方式："
 
 #: woocommerce/myaccount/dashboard.php:31
 msgid ""
@@ -4079,29 +3996,31 @@ msgid ""
 "your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
 "account details%2$s."
 msgstr ""
+"在您的帐户仪表板中，您可以查看%1$s最近的订单%2$s，管理您的%3$s发货和账单地址%2$s和%4$s，并输入您的密码和帐户详细信息%2$s。"
 
 #: woocommerce/myaccount/dashboard.php:46
 msgid ""
-"To check your Job Listings and Applications visit %1$sEmployer Dashboard%2$s."
-msgstr ""
+"To check your Job Listings and Applications visit %1$sEmployer "
+"Dashboard%2$s."
+msgstr "要查看工作列表和应用程序，请访问%1$s雇主仪表板%2$s。"
 
 #: woocommerce/myaccount/dashboard.php:54
 msgid ""
 "To check your Resumes and Past Applications visit %1$sCandidate "
 "Dashboard%2$s."
-msgstr ""
+msgstr "要查看您的简历和过去的申请，请访问%1$s合并仪表板%2$s。"
 
 #: woocommerce/myaccount/dashboard.php:62
 msgid "To check your Job Listings visit %1$sEmployer Dashboard%2$s."
-msgstr ""
+msgstr "要查看工作列表，请访问%1$s雇主仪表板%2$s。"
 
 #: woocommerce/myaccount/dashboard.php:69
 msgid "To check your Resumes visit %1$sCandidate Dashboard%2$s."
-msgstr ""
+msgstr "要查看简历，请访问%1$s合并仪表板%2$s。"
 
 #: woocommerce/single-product/rating.php:36
 msgid "Rated %s out of 5"
-msgstr ""
+msgstr "评分%s（共5分）"
 
 #: woocommerce/single-product/rating.php:40
 msgid "%s review"
@@ -4110,199 +4029,188 @@ msgstr[0] "%s anmeldelse"
 
 #: woocommerce/single-product/related.php:27
 msgid "Related Products"
-msgstr ""
+msgstr "相关产品"
 
 #: woocommerce/single-product/review.php:37
 msgid "Rated %d out of 5"
-msgstr ""
+msgstr "评分%d（共5分）"
 
 #: woocommerce/single-product/review.php:46
 msgid "Your comment is awaiting approval"
-msgstr ""
+msgstr "您的评论正在等待批准"
 
 #: woocommerce/single-product/review.php:52
 msgid "verified owner"
-msgstr ""
+msgstr "经验证的所有者"
 
 #: woocommerce/single-product/tabs/description.php:25
-#, fuzzy
 msgid "Product Description"
-msgstr "描述"
+msgstr "产品描述"
 
 #. translators: 1: reviews count 2: product name
 #: woocommerce/single-product-reviews.php:34
-#, fuzzy
 msgid "%1$s review for %2$s"
 msgid_plural "%1$s reviews for %2$s"
 msgstr[0] "%s anmeldelse af %s"
 
 #: woocommerce/single-product-reviews.php:36
-#, fuzzy
 msgid "Reviews"
-msgstr "%s anmeldelse"
+msgstr "评论"
 
 #: woocommerce/single-product-reviews.php:58
-#, fuzzy
 msgid "There are no reviews yet."
-msgstr "%s anmeldelse af %s"
+msgstr "还没有评论。"
 
 #: woocommerce/single-product-reviews.php:64
 #: woocommerce/single-product-reviews.php:68
-#, fuzzy
 msgid "Add Review"
-msgstr "%s anmeldelse"
+msgstr "添加审阅"
 
 #: woocommerce/single-product-reviews.php:73
-#, fuzzy
 msgid "Add a review"
-msgstr "%s anmeldelse"
+msgstr "添加评论"
 
 #: woocommerce/single-product-reviews.php:73
-#, fuzzy
 msgid "Be the first to review"
-msgstr "%s anmeldelse af %s"
+msgstr "第一个回顾"
 
 #: woocommerce/single-product-reviews.php:74
-#, fuzzy
 msgid "Leave a Reply to %s"
-msgstr "留下一个项目评级"
+msgstr "给%s留言"
 
 #: woocommerce/single-product-reviews.php:78
-#, fuzzy
 msgid "Name"
-msgstr "职位名称、关键词或者公司名称"
+msgstr "名称"
 
 #: woocommerce/single-product-reviews.php:80
 #: wp-job-manager-alerts/my-alerts.php:71
 #: wp-job-manager-applications/job-applications.php:74
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:18
 msgid "Email"
-msgstr ""
+msgstr "电子邮件"
 
 #: woocommerce/single-product-reviews.php:89
 msgid "Your Rating"
-msgstr "留下一个项目评级"
+msgstr "您的评分"
 
 #: woocommerce/single-product-reviews.php:90
 msgid "Rate&hellip;"
-msgstr ""
+msgstr "费率&hellip；"
 
 #: woocommerce/single-product-reviews.php:91
 msgid "Perfect"
-msgstr ""
+msgstr "完美的"
 
 #: woocommerce/single-product-reviews.php:92
 msgid "Good"
-msgstr "很好"
+msgstr "好的"
 
 #: woocommerce/single-product-reviews.php:93
 msgid "Average"
-msgstr ""
+msgstr "平均的"
 
 #: woocommerce/single-product-reviews.php:94
 msgid "Not that bad"
-msgstr ""
+msgstr "没那么糟"
 
 #: woocommerce/single-product-reviews.php:95
 msgid "Very Poor"
-msgstr ""
+msgstr "非常差"
 
 #: woocommerce/single-product-reviews.php:99
-#, fuzzy
 msgid "Your Review"
-msgstr "%s anmeldelse"
+msgstr "您的评论"
 
 #: woocommerce/single-product-reviews.php:109
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
-msgstr ""
+msgstr "只有已购买此产品的登录客户才能留下评论。"
 
 #: wp-job-manager-alerts/alert-form.php:5
-#, fuzzy
 msgid "Add New Alert"
-msgstr "作为新用户:"
+msgstr "添加新警报"
 
 #: wp-job-manager-alerts/alert-form.php:8
 #: wp-job-manager-alerts/my-alerts.php:11
 msgid "Alert Name"
-msgstr ""
+msgstr "警报名称"
 
 #: wp-job-manager-alerts/alert-form.php:10
 msgid "Enter a name for your alert"
-msgstr ""
+msgstr "输入警报的名称"
 
 #: wp-job-manager-alerts/alert-form.php:14
 msgid "Keyword"
-msgstr ""
+msgstr "关键字"
 
 #: wp-job-manager-alerts/alert-form.php:16
 msgid "Optionally add a keyword to match jobs against"
-msgstr ""
+msgstr "（可选）添加关键字以匹配作业"
 
 #: wp-job-manager-alerts/alert-form.php:21
-#, fuzzy
 msgid "Job Region"
-msgstr "工作类型"
+msgstr "工作区域"
 
 #: wp-job-manager-alerts/alert-form.php:33
 msgid "Any region"
-msgstr ""
+msgstr "任何地区"
 
 #: wp-job-manager-alerts/alert-form.php:42
 msgid "Optionally define a location to search against"
-msgstr ""
+msgstr "（可选）定义要搜索的位置"
 
 #: wp-job-manager-alerts/alert-form.php:69
 msgid "Any job type"
-msgstr "任意工作类型"
+msgstr "任何作业类型"
 
 #: wp-job-manager-alerts/alert-form.php:79
 msgid "Email Frequency"
-msgstr ""
+msgstr "电子邮件频率"
 
 #: wp-job-manager-alerts/alert-form.php:82
 #: wp-job-manager-alerts/my-alerts.php:51
 msgid "Daily"
-msgstr ""
+msgstr "每日的"
 
 #: wp-job-manager-alerts/alert-form.php:83
 #: wp-job-manager-alerts/my-alerts.php:54
 msgid "Weekly"
-msgstr ""
+msgstr "每周的"
 
 #: wp-job-manager-alerts/alert-form.php:84
 #: wp-job-manager-alerts/my-alerts.php:57
 msgid "Fortnightly"
-msgstr ""
+msgstr "半月刊"
 
 #: wp-job-manager-alerts/alert-form.php:91
 msgid "Save alert"
-msgstr ""
+msgstr "保存警报"
 
 #: wp-job-manager-alerts/my-alerts.php:1
 msgid ""
-"Your job alerts are shown in the table below. Your alerts will be sent to %s."
-msgstr ""
+"Your job alerts are shown in the table below. Your alerts will be sent to "
+"%s."
+msgstr "您的工作通知如下表所示。您的警报将发送到%s。"
 
 #: wp-job-manager-alerts/my-alerts.php:12
 msgid "Date Created"
-msgstr ""
+msgstr "创建日期"
 
 #: wp-job-manager-alerts/my-alerts.php:15
 msgid "Frequency"
-msgstr ""
+msgstr "频率"
 
 #: wp-job-manager-alerts/my-alerts.php:23
 msgid "You do not have any job alerts."
-msgstr ""
+msgstr "您没有任何作业通知。"
 
 #: wp-job-manager-alerts/my-alerts.php:61
 msgid "Disabled"
-msgstr ""
+msgstr "残废"
 
 #: wp-job-manager-alerts/my-alerts.php:61
 msgid "Enabled"
-msgstr ""
+msgstr "启用"
 
 #: wp-job-manager-alerts/my-alerts.php:67
 msgid "Show Results"
@@ -4310,20 +4218,20 @@ msgstr "显示结果"
 
 #: wp-job-manager-alerts/my-alerts.php:109
 msgid "Add alert"
-msgstr ""
+msgstr "添加警报"
 
 #: wp-job-manager-applications/application-form-login.php:1
 msgid "You need to be signed in to apply for this position."
-msgstr ""
+msgstr "你需要登录才能申请这个职位。"
 
 #: wp-job-manager-applications/application-form.php:24
 #: wp-job-manager-resumes/apply-with-resume.php:36
 msgid "Send application"
-msgstr ""
+msgstr "发送应用程序"
 
 #: wp-job-manager-applications/job-applications.php:20
 msgid "The job applications for \"%s\" are listed below."
-msgstr ""
+msgstr "下面列出了“%s”的工作申请。"
 
 #: wp-job-manager-applications/job-applications.php:21
 msgid "Download CSV"
@@ -4331,188 +4239,179 @@ msgstr "下载CSV"
 
 #: wp-job-manager-applications/job-applications.php:27
 msgid "Filter by status"
-msgstr "过滤状态"
+msgstr "按状态筛选"
 
 #: wp-job-manager-applications/job-applications.php:37
 msgid "Newest first"
-msgstr ""
+msgstr "最新的优先"
 
 #: wp-job-manager-applications/job-applications.php:38
 msgid "Sort by name"
-msgstr ""
+msgstr "按名称排序"
 
 #: wp-job-manager-applications/job-applications.php:39
-#, fuzzy
 msgid "Sort by rating"
-msgstr "留下一个项目评级"
+msgstr "按评级排序"
 
 #: wp-job-manager-applications/job-applications.php:74
 msgid "Your job application for %s"
-msgstr ""
+msgstr "您的%s工作申请"
 
 #: wp-job-manager-applications/job-applications.php:74
-#, fuzzy
 msgid "Hello %s"
-msgstr "%s job"
+msgstr "你好，%s"
 
 #: wp-job-manager-applications/job-applications.php:80
-#, fuzzy
 msgid "View Resume"
-msgstr "%s cver"
+msgstr "查看简历"
 
 #: wp-job-manager-applications/job-applications.php:89
 #: wp-job-manager-bookmarks/my-bookmarks.php:8
 msgid "Notes"
-msgstr ""
+msgstr "笔记"
 
 #: wp-job-manager-applications/job-applications.php:90
 msgid "Details"
-msgstr "详情"
+msgstr "细节"
 
 #: wp-job-manager-applications/job-applications.php:107
 msgid "Application status"
-msgstr "申请状态"
+msgstr "应用程序状态"
 
 #: wp-job-manager-applications/job-applications.php:118
-#, fuzzy
 msgid "Rating (out of 5)"
-msgstr "留下一个项目评级"
+msgstr "评级（满分5）"
 
 #: wp-job-manager-applications/job-applications.php:125
 msgid "Delete this application"
-msgstr ""
+msgstr "删除此应用程序"
 
 #: wp-job-manager-applications/job-applications.php:126
 msgid "Save changes"
-msgstr ""
+msgstr "保存更改"
 
 #: wp-job-manager-applications/past-applications.php:3
 msgid "Job"
-msgstr "职位"
+msgstr "工作"
 
 #: wp-job-manager-applications/past-applications.php:4
 msgid "Date Applied"
-msgstr ""
+msgstr "申请日期"
 
 #: wp-job-manager-applications/past-applications.php:6
 msgid "Application Message"
-msgstr ""
+msgstr "应用程序消息"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:9
 msgid "Current"
-msgstr "当前"
+msgstr "现在的"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:12
 msgid "Past"
-msgstr ""
+msgstr "过去的"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:22
 msgid "Cover letter"
-msgstr ""
+msgstr "求职信"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:36
 msgid "Submit Application"
-msgstr "提交"
+msgstr "提交申请"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:36
 msgid "Clicking submit will submit your full profile to %s."
-msgstr ""
+msgstr "单击“提交”将向%s提交您的完整配置文件。"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook.php:3
 msgid "Apply with Facebook"
-msgstr ""
+msgstr "使用Facebook申请"
 
 #: wp-job-manager-bookmarks/bookmark-form.php:5
 msgid "Remove Bookmark"
-msgstr ""
+msgstr "除去书签"
 
 #: wp-job-manager-bookmarks/bookmark-form.php:8
-#, fuzzy
 msgid "This %s is bookmarked!"
-msgstr "%s job"
+msgstr "此%s已添加书签！"
 
 #: wp-job-manager-bookmarks/bookmark-form.php:11
-#, fuzzy
 msgid "Bookmark This %s"
-msgstr "%s anmeldelse af %s"
+msgstr "将此%s标记为书签"
 
 #: wp-job-manager-bookmarks/bookmark-form.php:16
 msgid "Bookmark Details"
-msgstr ""
+msgstr "书签详细信息"
 
 #: wp-job-manager-bookmarks/bookmark-form.php:19
 msgid "Notes:"
-msgstr ""
+msgstr "笔记："
 
 #: wp-job-manager-bookmarks/bookmark-form.php:23
-#, fuzzy
 msgid "Update Bookmark"
-msgstr "Der er en opdatering tilgængelig til:%1$s."
+msgstr "更新书签"
 
 #: wp-job-manager-bookmarks/bookmark-form.php:23
 msgid "Add Bookmark"
-msgstr ""
+msgstr "添加书签"
 
 #: wp-job-manager-bookmarks/logged-out-bookmark-form.php:2
 msgid "Login to bookmark"
-msgstr "登录后收藏"
+msgstr "登录书签"
 
 #: wp-job-manager-bookmarks/my-bookmarks.php:7
 msgid "Bookmark"
-msgstr ""
+msgstr "书签"
 
 #: wp-job-manager-bookmarks/my-bookmarks.php:49
 msgid "You currently have no bookmarks"
-msgstr ""
+msgstr "您当前没有书签"
 
 #: wp-job-manager-resumes/account-signin.php:10
 msgid "You are currently signed in as %s."
-msgstr ""
+msgstr "您当前以%s身份登录。"
 
 #: wp-job-manager-resumes/account-signin.php:29
 msgid ""
-"If you don&rsquo;t have an account you can create one below by entering your "
-"email address. A password will be automatically emailed to you."
-msgstr ""
+"If you don&rsquo;t have an account you can create one below by entering your"
+" email address. A password will be automatically emailed to you."
+msgstr "如果您不这样做；我没有一个帐户，您可以在下面输入您的电子邮件地址创建一个帐户。密码将自动通过电子邮件发送给您。"
 
 #: wp-job-manager-resumes/account-signin.php:33
 msgid "You must sign in to submit a resume."
-msgstr ""
+msgstr "您必须登录才能提交简历。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:9
 msgid ""
-"Apply using your online resume; just enter a short message and choose one of "
-"your resumes to email your application."
-msgstr ""
+"Apply using your online resume; just enter a short message and choose one of"
+" your resumes to email your application."
+msgstr "使用在线简历申请；只需输入一条短信，然后选择一份简历，就可以通过电子邮件发送申请。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:11
-#, fuzzy
 msgid "Online resume"
-msgstr "%s cver"
+msgstr "在线简历"
 
 #: wp-job-manager-resumes/apply-with-resume.php:13
-#, fuzzy
 msgid "Choose a resume..."
-msgstr "%s cver"
+msgstr "选择简历。。。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:22
 msgid "Message"
-msgstr ""
+msgstr "消息"
 
 #: wp-job-manager-resumes/apply-with-resume.php:42
 msgid ""
 "You can apply to this job and others using your online resume. Click the "
 "link below to submit your online resume and email your application to this "
 "employer."
-msgstr ""
+msgstr "您可以使用在线简历申请这份工作和其他工作。单击下面的链接提交您的在线简历，并通过电子邮件将您的申请发送给该雇主。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:45
 msgid "Submit resume and apply"
-msgstr "提交建立和申请职位"
+msgstr "提交简历并申请"
 
 #: wp-job-manager-resumes/candidate-dashboard-login.php:3
 msgid "You need to be signed in to manage your resumes."
-msgstr ""
+msgstr "您需要登录才能管理您的简历。"
 
 #: wp-job-manager-resumes/candidate-dashboard.php:6
 msgid "Your resume can be viewed, edited or removed below."
@@ -4521,99 +4420,99 @@ msgstr[0] "Dit CV kan ses, redigeres eller fjernes nedenfor."
 
 #: wp-job-manager-resumes/candidate-dashboard.php:27
 msgid "You do not have any active resume listings."
-msgstr ""
+msgstr "您没有任何活动的简历列表。"
 
 #: wp-job-manager-resumes/candidate-dashboard.php:53
 msgid "Expires %s"
-msgstr "到期时间 %s"
+msgstr "过期%s"
 
 #: wp-job-manager-resumes/candidate-dashboard.php:72
 msgid "Hide"
-msgstr ""
+msgstr "隐藏"
 
 #: wp-job-manager-resumes/candidate-dashboard.php:76
 msgid "Publish"
-msgstr ""
+msgstr "出版"
 
 #: wp-job-manager-resumes/contact-details.php:13
 msgid "Contact"
-msgstr ""
+msgstr "联系"
 
 #: wp-job-manager-resumes/form-fields/repeated-field.php:45
 msgid "Add URL"
-msgstr ""
+msgstr "添加URL"
 
 #. Theme Name of the plugin/theme
 msgid "WorkScout"
-msgstr ""
+msgstr "WorkScout公司"
 
 #. Theme URI of the plugin/theme
 msgid "http://workscout.in/"
-msgstr ""
+msgstr "http://workscout.in/"
 
 #. Description of the plugin/theme
 msgid "WordPress Job Board Theme"
-msgstr ""
+msgstr "WordPress工作板主题"
 
 #. Author of the plugin/theme
 msgid "Purethemes"
-msgstr ""
+msgstr "Purethemes公司"
 
 #. Author URI of the plugin/theme
 msgid "http://purethemes.net/"
-msgstr ""
+msgstr "http://purethemes.net/"
 
 #. Template Name of the plugin/theme
 msgid "Dashboard Page"
-msgstr "个人主页"
+msgstr "仪表板页面"
 
 #. Template Name of the plugin/theme
 msgid "Page with Jobs Search (old version)"
-msgstr ""
+msgstr "包含职位搜索的页面（旧版本）"
 
 #. Template Name of the plugin/theme
 msgid "Page with Resumes Search"
-msgstr "简历页搜索"
+msgstr "包含简历搜索的页面"
 
 #. Template Name of the plugin/theme
 msgid "Page with Jobs Search"
-msgstr "职位搜索页"
+msgstr "包含职位搜索的页面"
 
 #. Template Name of the plugin/theme
 msgid "Job Categories Page Template"
-msgstr ""
+msgstr "作业类别页面模板"
 
 #. Template Name of the plugin/theme
 msgid "Page Template Job Packages (WooCommerce)"
-msgstr ""
+msgstr "页面模板工作包（WooCommerce）"
 
 #. Template Name of the plugin/theme
 msgid "Page with Jobs Filters No Map"
-msgstr ""
+msgstr "包含作业过滤器的页面没有映射"
 
 #. Template Name of the plugin/theme
 msgid "Page with Jobs Filters"
-msgstr "职位过滤页"
+msgstr "包含作业筛选器的页面"
 
 #. Template Name of the plugin/theme
 msgid "Page Template Login"
-msgstr "登录页模板"
+msgstr "页面模板登录"
 
 #. Template Name of the plugin/theme
 msgid "Page Template Resume Packages (WooCommerce)"
-msgstr ""
+msgstr "页面模板简历包（WooCommerce）"
 
 #. Template Name of the plugin/theme
 msgid "Page Template with Revolution Slider"
-msgstr ""
+msgstr "带旋转滑块的页面模板"
 
 #. Template Name of the plugin/theme
 msgid "Resumes With Map - Split Page"
-msgstr ""
+msgstr "带地图的简历-拆分页面"
 
 #. Template Name of the plugin/theme
 msgid "Jobs With Map - Split Page"
-msgstr ""
+msgstr "带地图的作业-拆分页面"
 
 #: comments.php:30
 msgctxt "comments title"
@@ -4625,14 +4524,13 @@ msgstr[0] "Kommentar%1$s"
 #: inc/class-tgm-plugin-activation.php:3033
 msgctxt "plugin A *and* plugin B"
 msgid "and"
-msgstr ""
+msgstr "和"
 
 #. translators: 1: install status, 2: update status
 #: inc/class-tgm-plugin-activation.php:2427
-#, fuzzy
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
-msgstr "Kommentar%1$s"
+msgstr "%1$s，%2$s"
 
 #. translators: 1: number of plugins.
 #: inc/class-tgm-plugin-activation.php:2473
@@ -4644,26 +4542,27 @@ msgstr[0] "Alle <span class=\"count\">(%s)</span>"
 #: inc/class-tgm-plugin-activation.php:2567
 msgctxt "as in: \"version nr unknown\""
 msgid "unknown"
-msgstr ""
+msgstr "未知的"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:24
 #: wp-job-manager-resumes/apply-with-resume.php:27
 msgctxt "default cover letter"
 msgid "To whom it may concern,"
-msgstr ""
+msgstr "对于可能涉及的人员，"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:27
 msgctxt "default cover letter"
 msgid ""
 "I am very interested in the %s position at %s. I believe my skills and work "
 "experience make me an ideal candidate for this role. I look forward to "
-"speaking with you soon about this position. Thank you for your consideration."
-msgstr ""
+"speaking with you soon about this position. Thank you for your "
+"consideration."
+msgstr "我对%s在%s的职位很感兴趣。我相信我的技能和工作经验使我成为这个职位的理想人选。我期待着很快与你谈谈这个职位。谢谢你的考虑。"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:30
 msgctxt "default cover letter"
 msgid "Best regards,"
-msgstr ""
+msgstr "顺致敬意，"
 
 #: wp-job-manager-resumes/apply-with-resume.php:29
 msgctxt "default cover letter"
@@ -4671,9 +4570,9 @@ msgid ""
 "I am very interested in the %s position at %s. I believe my skills and work "
 "experience make me an ideal candidate for this role. I look forward to "
 "speaking with you soon about this position."
-msgstr ""
+msgstr "我对%s在%s的职位很感兴趣。我相信我的技能和工作经验使我成为这个职位的理想人选。我期待着很快与你谈谈这个职位。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:31
 msgctxt "default cover letter"
 msgid "Thank you for your consideration."
-msgstr ""
+msgstr "谢谢你的考虑。"
