@@ -632,7 +632,7 @@ msgstr "设置搜索的默认半径，保留为空以禁用默认半径搜索。
 
 #: includes/class-workscout-core-admin.php:474
 msgid "Registration"
-msgstr "登记"
+msgstr "注册"
 
 #: includes/class-workscout-core-admin.php:475
 msgid "Settings for users registration and login."
