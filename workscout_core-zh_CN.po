@@ -1769,7 +1769,7 @@ msgstr "用户名"
 #: templates/account/login-form.php:27
 #: templates/account/registration-form.php:49
 msgid "Password"
-msgstr "暗语"
+msgstr "密码"
 
 #: templates/account/login-form.php:32
 msgid "Remember Me"
