@@ -1,7 +1,12 @@
+# #-#-#-#-#  zh_CN.po (WorkScout 2.0.8)  #-#-#-#-#
 # <!=Copyright (C) 2020 Purethemes
 # This file is distributed under the ThemeForest.=!>
+# #-#-#-#-#  workscout_core_zh_CN.po (WorkScout-Core - WorkScout WPJM Plugin by Purethemes)  #-#-#-#-#
+#
+#, fuzzy
 msgid ""
 msgstr ""
+"#-#-#-#-#  zh_CN.po (WorkScout 2.0.8)  #-#-#-#-#\n"
 "Project-Id-Version: WorkScout 2.0.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2020-02-26 21:37:09+00:00\n"
@@ -14,6 +19,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.0.1\n"
+"#-#-#-#-#  workscout_core_zh_CN.po (WorkScout-Core - WorkScout WPJM Plugin "
+"by Purethemes)  #-#-#-#-#\n"
+"Project-Id-Version: WorkScout-Core - WorkScout WPJM Plugin by Purethemes\n"
+"POT-Creation-Date: 2020-02-24 23:19+0100\n"
+"PO-Revision-Date: 2022-11-15 17:16+0800\n"
+"Last-Translator: Song Jian <songjian@c.com>\n"
+"Language-Team: Language workscout\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-WPHeader: workscout-core.php\n"
 
 #: 404.php:21
 msgid "Oops! That page can&rsquo;t be found."
@@ -25,14 +52,16 @@ msgstr "浏览职位"
 
 #: archive-job_listing.php:104 template-parts/archive-jobs-regular.php:38
 msgid ""
-"We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job "
-"offer</em> for you"
+"We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job offer</"
+"em> for you"
 msgid_plural ""
-"We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job "
-"offers</em> for you"
-msgstr[0] "有 <em class=\"count_jobs\">%s</em> <em class=\"job_text\">个工作机会</em>"
+"We have <em class=\"count_jobs\">%s</em> <em class=\"job_text\">job offers</"
+"em> for you"
+msgstr[0] ""
+"有 <em class=\"count_jobs\">%s</em> <em class=\"job_text\">个工作机会</em>"
 
-#: archive-job_listing.php:111
+#: archive-job_listing.php:111 shortcodes/imagebox.php:48
+#: vc_map/counterbox.php:55
 msgid "Jobs"
 msgstr "乔布斯"
 
@@ -43,7 +72,7 @@ msgstr "乔布斯"
 #: taxonomy-resume_category.php:140 taxonomy-resume_region.php:140
 #: taxonomy-resume_skill.php:140 template-home-old.php:32
 #: template-jobs-no-map.php:70 template-jobs.php:85
-#: template-parts/archive-jobs-regular.php:93
+#: template-parts/archive-jobs-regular.php:93 shortcodes/jobs_searchbox.php:45
 msgid "job title, keywords or company name"
 msgstr "职位、关键字或公司名称"
 
@@ -63,6 +92,8 @@ msgstr "编辑"
 
 #: archive-resume.php:72 resumes.php:21
 #: template-parts/archive-resumes-regular.php:22
+#: shortcodes/resumes_searchbox.php:80
+#, php-format
 msgid "We have %s resumes in our database"
 msgstr "我们的数据库中有%s份简历"
 
@@ -74,6 +105,7 @@ msgstr "显示所有简历"
 #: archive-resume.php:117 resumes.php:76
 #: search-fields/split-resume-keywords.php:7 template-home-resumes.php:54
 #: template-parts/archive-resumes-regular.php:78
+#: shortcodes/resumes_searchbox.php:39
 msgid "Search freelancer services (e.g. logo design)"
 msgstr "搜索自由职业者服务（如徽标设计）"
 
@@ -105,7 +137,8 @@ msgstr "介绍"
 msgid "Plugins"
 msgstr "插件"
 
-#: envato_setup/envato_setup.php:399
+#: envato_setup/envato_setup.php:399 vc_map/box.php:13 vc_map/iconbox.php:24
+#: vc_map/infobanner.php:29 vc_map/pricing_table.php:63
 msgid "Content"
 msgstr "所容纳之物"
 
@@ -147,7 +180,9 @@ msgid ""
 "It looks like you may have recently upgraded to this theme. Great! This "
 "setup wizard will help ensure all the default settings are correct. It will "
 "also show some information about your new website and support options."
-msgstr "看起来您最近可能已升级到此主题。太棒了此安装向导将帮助确保所有默认设置都正确。它还将显示有关您的新网站和支持选项的一些信息。"
+msgstr ""
+"看起来您最近可能已升级到此主题。太棒了此安装向导将帮助确保所有默认设置都正"
+"确。它还将显示有关您的新网站和支持选项的一些信息。"
 
 #: envato_setup/envato_setup.php:626 envato_setup/envato_setup.php:669
 msgid "Let's Go!"
@@ -159,8 +194,7 @@ msgstr "现在不行"
 
 #: envato_setup/envato_setup.php:634
 msgid ""
-"It looks like you have already run the setup wizard. Below are some options:"
-" "
+"It looks like you have already run the setup wizard. Below are some options: "
 msgstr "看起来您已经运行了安装向导。以下是一些选项："
 
 #: envato_setup/envato_setup.php:638
@@ -182,14 +216,18 @@ msgid ""
 "the required WordPress plugins, default content, logo and tell you a little "
 "about Help &amp; Support options. It should only take 5 minutes."
 msgstr ""
-"感谢您从ThemeForest中选择%s主题。此快速设置向导将帮助您配置新网站。此向导将安装所需的WordPress插件、默认内容、徽标，并告诉您有关帮助和；支持选项。只需5分钟。"
+"感谢您从ThemeForest中选择%s主题。此快速设置向导将帮助您配置新网站。此向导将安"
+"装所需的WordPress插件、默认内容、徽标，并告诉您有关帮助和；支持选项。只需5分"
+"钟。"
 
 #: envato_setup/envato_setup.php:666
 msgid ""
 "No time right now? If you don't want to go through the wizard, you can skip "
 "and return to the WordPress dashboard. Come back anytime if you change your "
 "mind!"
-msgstr "现在没有时间？如果您不想完成向导，可以跳过并返回WordPress仪表板。如果你改变主意，随时回来！"
+msgstr ""
+"现在没有时间？如果您不想完成向导，可以跳过并返回WordPress仪表板。如果你改变主"
+"意，随时回来！"
 
 #: envato_setup/envato_setup.php:713
 msgid ""
@@ -209,8 +247,7 @@ msgstr "您的网站需要一些基本插件。将安装或更新以下插件：
 
 #: envato_setup/envato_setup.php:821
 msgid ""
-"Good news! All plugins are already installed and up to date. Please "
-"continue."
+"Good news! All plugins are already installed and up to date. Please continue."
 msgstr "好消息！所有插件都已安装并更新。请继续。"
 
 #: envato_setup/envato_setup.php:824
@@ -300,16 +337,19 @@ msgid ""
 "would like to install the default demo content as well you can select it "
 "below. Otherwise just choose the upgrade option to ensure everything is up "
 "to date."
-msgstr "您似乎已经在此网站上安装了内容。如果你想安装默认的演示内容，你可以在下面选择它。否则，只需选择升级选项以确保一切都是最新的。"
+msgstr ""
+"您似乎已经在此网站上安装了内容。如果你想安装默认的演示内容，你可以在下面选择"
+"它。否则，只需选择升级选项以确保一切都是最新的。"
 
 #: envato_setup/envato_setup.php:1000
 msgid ""
 "It's time to insert some default content for your new WordPress website. "
 "Choose what you would like inserted below and click Continue. It is "
-"recommended to leave everything selected. Once inserted, this content can be"
-" managed from the WordPress admin dashboard. "
+"recommended to leave everything selected. Once inserted, this content can be "
+"managed from the WordPress admin dashboard. "
 msgstr ""
-"是时候为你的新WordPress网站插入一些默认内容了。选择要在下面插入的内容，然后单击“继续”。建议选择所有选项。插入后，可以从WordPress管理面板管理此内容。"
+"是时候为你的新WordPress网站插入一些默认内容了。选择要在下面插入的内容，然后单"
+"击“继续”。建议选择所有选项。插入后，可以从WordPress管理面板管理此内容。"
 
 #: envato_setup/envato_setup.php:1007
 msgid "Item"
@@ -364,8 +404,9 @@ msgid ""
 "from the Appearance > Customize area in your dashboard. Try %sEnvato "
 "Studio%s if you need a new logo designed."
 msgstr ""
-"请在下面添加您的徽标。为获得最佳效果，徽标应为透明PNG（200 x "
-"40像素）。可以随时从仪表板的“外观”>“自定义”区域更改徽标。如果需要设计新徽标，请尝试%sEnvato Studio%s。"
+"请在下面添加您的徽标。为获得最佳效果，徽标应为透明PNG（200 x 40像素）。可以随"
+"时从仪表板的“外观”>“自定义”区域更改徽标。如果需要设计新徽标，请尝试%sEnvato "
+"Studio%s。"
 
 #: envato_setup/envato_setup.php:2445
 msgid "Upload New Logo"
@@ -376,7 +417,9 @@ msgid ""
 "Please choose the color scheme for this website. The color scheme (along "
 "with font colors &amp; styles) can be changed at any time from the "
 "Appearance > Customize area in your dashboard."
-msgstr "请选择此网站的配色方案。可以随时从仪表板的“外观”>“自定义”区域更改配色方案（以及字体颜色和样式）。"
+msgstr ""
+"请选择此网站的配色方案。可以随时从仪表板的“外观”>“自定义”区域更改配色方案（以"
+"及字体颜色和样式）。"
 
 #: envato_setup/envato_setup.php:2545
 msgid "Theme Updates"
@@ -387,7 +430,9 @@ msgid ""
 "Please login using your ThemeForest account to enable Theme Updates. We "
 "update themes when a new feature is added or a bug is fixed. It is highly "
 "recommended to enable Theme Updates."
-msgstr "请使用您的ThemeForest帐户登录以启用主题更新。当添加新功能或修复错误时，我们会更新主题。强烈建议启用主题更新。"
+msgstr ""
+"请使用您的ThemeForest帐户登录以启用主题更新。当添加新功能或修复错误时，我们会"
+"更新主题。强烈建议启用主题更新。"
 
 #: envato_setup/envato_setup.php:2588
 msgid "Login with Envato"
@@ -519,19 +564,21 @@ msgstr "分配作者"
 #: envato_setup/importer/wordpress-importer.php:267
 msgid ""
 "To make it easier for you to edit and save the imported content, you may "
-"want to reassign the author of the imported item to an existing user of this"
-" site. For example, you may want to import all the entries as "
-"<code>admin</code>s entries."
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
 msgstr ""
-"为了便于编辑和保存导入的内容，您可能需要将导入项目的作者重新分配给此网站的现有用户。例如，您可能希望将所有条目导入为<code>admin</code>s条目。"
+"为了便于编辑和保存导入的内容，您可能需要将导入项目的作者重新分配给此网站的现"
+"有用户。例如，您可能希望将所有条目导入为<code>admin</code>s条目。"
 
 #: envato_setup/importer/wordpress-importer.php:269
 msgid ""
 "If a new user is created by WordPress, a new password will be randomly "
-"generated and the new user&#8217;s role will be set as %s. Manually changing"
-" the new user&#8217;s details will be necessary."
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
 msgstr ""
-"如果WordPress创建了一个新用户，将随机生成一个新密码，新用户&#8217；s角色将被设置为%s。手动更改新用户&#8217；的详细信息将是必需的。"
+"如果WordPress创建了一个新用户，将随机生成一个新密码，新用户&#8217；s角色将被"
+"设置为%s。手动更改新用户&#8217；的详细信息将是必需的。"
 
 #: envato_setup/importer/wordpress-importer.php:279
 msgid "Import Attachments"
@@ -542,7 +589,7 @@ msgid "Download and import file attachments"
 msgstr "下载和导入文件附件"
 
 #: envato_setup/importer/wordpress-importer.php:286
-#: woocommerce/single-product-reviews.php:83
+#: woocommerce/single-product-reviews.php:83 templates/my-account.php:119
 msgid "Submit"
 msgstr "提交"
 
@@ -636,7 +683,9 @@ msgid ""
 "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
 "the posts, pages, comments, custom fields, categories, and tags into this "
 "site."
-msgstr "你好！上传您的WordPress扩展RSS（WXR）文件，我们&#8217；我会将帖子、页面、评论、自定义字段、类别和标签导入此网站。"
+msgstr ""
+"你好！上传您的WordPress扩展RSS（WXR）文件，我们&#8217；我会将帖子、页面、评"
+"论、自定义字段、类别和标签导入此网站。"
 
 #: envato_setup/importer/wordpress-importer.php:1056
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
@@ -644,9 +693,11 @@ msgstr "选择要上载的WXR（.xml）文件，然后单击上载文件并导�
 
 #: envato_setup/importer/wordpress-importer.php:1131
 msgid ""
-"Import <strong>posts, pages, comments, custom fields, categories, and "
-"tags</strong> from a WordPress export file."
-msgstr "从WordPress导出文件导入<strong>帖子、页面、评论、自定义字段、类别和标签</strong>。"
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"从WordPress导出文件导入<strong>帖子、页面、评论、自定义字段、类别和标签</"
+"strong>。"
 
 #: footer-old.php:41
 msgid "Follow us"
@@ -750,6 +801,8 @@ msgstr "没有匹配的结果"
 
 #: header-dashboard.php:129 header-dashboard.php:134 header-dashboard.php:172
 #: header.php:145 header.php:150 header.php:189
+#: templates/account/login-section.php:47
+#: templates/account/login-section.php:52
 msgid "Log In"
 msgstr "登录"
 
@@ -761,6 +814,9 @@ msgid "Register"
 msgstr "登记"
 
 #: header-dashboard.php:184 header.php:201
+#: templates/account/login-section.php:46
+#: templates/account/login-section.php:51
+#: templates/account/login-section.php:60
 msgid "Sign Up"
 msgstr "注册"
 
@@ -976,7 +1032,7 @@ msgstr "插件"
 msgid "Source"
 msgstr "来源"
 
-#: inc/class-tgm-plugin-activation.php:2634
+#: inc/class-tgm-plugin-activation.php:2634 vc_map/iconbox.php:47
 msgid "Type"
 msgstr "类型"
 
@@ -1060,9 +1116,11 @@ msgstr "%1$s的安装失败。"
 
 #: inc/class-tgm-plugin-activation.php:3592
 msgid ""
-"The installation and activation process is starting. This process may take a"
-" while on some hosts, so please be patient."
-msgstr "安装和激活过程正在启动。在某些主机上，此过程可能需要一段时间，因此请耐心等待。"
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"安装和激活过程正在启动。在某些主机上，此过程可能需要一段时间，因此请耐心等"
+"待。"
 
 #. translators: 1: plugin name.
 #: inc/class-tgm-plugin-activation.php:3594
@@ -1092,7 +1150,8 @@ msgstr "安装并激活插件%1$s（%2$d/%3$d）"
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
-msgstr "安装过程正在启动。在某些主机上，此过程可能需要一段时间，因此请耐心等待。"
+msgstr ""
+"安装过程正在启动。在某些主机上，此过程可能需要一段时间，因此请耐心等待。"
 
 #. translators: 1: plugin name.
 #: inc/class-tgm-plugin-activation.php:3602
@@ -1173,9 +1232,11 @@ msgstr "布局"
 
 #: inc/cmb2-meta-boxes.php:180 inc/cmb2-meta-boxes.php:208
 msgid ""
-"You can choose a sidebar from the list below. Sidebars can be created in the"
-" Theme Options and configured in the Appearance -> Widgets."
-msgstr "您可以从下面的列表中选择一个侧边栏。边栏可以在主题选项中创建，并在外观->小部件中配置。"
+"You can choose a sidebar from the list below. Sidebars can be created in the "
+"Theme Options and configured in the Appearance -> Widgets."
+msgstr ""
+"您可以从下面的列表中选择一个侧边栏。边栏可以在主题选项中创建，并在外观->小部"
+"件中配置。"
 
 #: inc/cmb2-meta-boxes.php:186 inc/cmb2-meta-boxes.php:227
 msgid "Layout "
@@ -1206,7 +1267,9 @@ msgstr "标题栏状态"
 #: inc/cmb2-meta-boxes.php:303 inc/cmb2-meta-boxes.php:314
 #: inc/cmb2-meta-boxes.php:325 inc/customizer/layout.php:34
 #: kirki/controls/php/class-kirki-control-switch.php:52
-#: kirki/field/class-kirki-field-switch.php:39
+#: kirki/field/class-kirki-field-switch.php:39 vc_map/carousel.php:32
+#: vc_map/spotlight_jobs.php:131 vc_map/spotlight_resumes.php:95
+#: vc_map/spotlight_resumes.php:104 vc_map/testimonials_carousel.php:21
 msgid "On"
 msgstr "在…上"
 
@@ -1215,7 +1278,9 @@ msgstr "在…上"
 #: inc/cmb2-meta-boxes.php:304 inc/cmb2-meta-boxes.php:315
 #: inc/cmb2-meta-boxes.php:326 inc/customizer/layout.php:35
 #: kirki/controls/php/class-kirki-control-switch.php:56
-#: kirki/field/class-kirki-field-switch.php:40
+#: kirki/field/class-kirki-field-switch.php:40 vc_map/carousel.php:31
+#: vc_map/spotlight_jobs.php:130 vc_map/spotlight_resumes.php:94
+#: vc_map/spotlight_resumes.php:103 vc_map/testimonials_carousel.php:20
 msgid "Off"
 msgstr "关"
 
@@ -1286,10 +1351,16 @@ msgid "Set which elements of posts meta data you want to display"
 msgstr "设置要显示的帖子元数据元素"
 
 #: inc/customizer/blog.php:44 inc/customizer/blog.php:60
+#: vc_map/pricing_woo_tables.php:46 vc_map/recent_blog.php:52
+#: vc_map/spotlight_jobs.php:30 vc_map/spotlight_resumes.php:30
+#: vc_map/testimonials_carousel.php:46 vc_map/testimonials_wide.php:30
 msgid "Author"
 msgstr "著者"
 
-#: inc/customizer/blog.php:45 inc/customizer/blog.php:61
+#: inc/customizer/blog.php:45 inc/customizer/blog.php:61 vc_map/jobs.php:27
+#: vc_map/pricing_woo_tables.php:44 vc_map/recent_blog.php:50
+#: vc_map/spotlight_jobs.php:28 vc_map/spotlight_resumes.php:28
+#: vc_map/testimonials_carousel.php:44 vc_map/testimonials_wide.php:28
 msgid "Date"
 msgstr "日期"
 
@@ -1299,7 +1370,7 @@ msgstr "标签"
 
 #: inc/customizer/blog.php:47 inc/customizer/blog.php:63
 #: template-home-resumes.php:93 template-home.php:92
-#: wp-job-manager-alerts/alert-form.php:48
+#: wp-job-manager-alerts/alert-form.php:48 vc_map/jobs.php:69
 msgid "Categories"
 msgstr "类别"
 
@@ -1342,12 +1413,13 @@ msgid "Set which share buttons you want to display on single post"
 msgstr "设置要在单个帖子上显示的共享按钮"
 
 #: inc/customizer/blog.php:95 inc/customizer/jobs.php:307
+#: templates/my-account.php:95
 msgid "Facebook"
 msgstr "脸谱网"
 
 #: inc/customizer/blog.php:96 inc/customizer/jobs.php:308
 #: job_manager/content-single-job_listing.php:120 single-job_listing.php:149
-#: template-parts/content-single.php:39
+#: template-parts/content-single.php:39 templates/my-account.php:92
 msgid "Twitter"
 msgstr "啁啾"
 
@@ -1436,6 +1508,7 @@ msgid "\"Add new\" counter "
 msgstr "“添加新”计数器"
 
 #: inc/customizer/footer.php:44 inc/customizer/footer.php:90
+#: vc_map/iconbox.php:36 vc_map/iconbox.php:43
 msgid "Icon"
 msgstr "偶像"
 
@@ -1491,8 +1564,7 @@ msgstr "标题样式"
 
 #: inc/customizer/header.php:38
 #: kirki/controls/php/class-kirki-control-base.php:134
-#: kirki/controls/views/image.php:36
-#: kirki/field/class-kirki-field-image.php:49
+#: kirki/controls/views/image.php:36 kirki/field/class-kirki-field-image.php:49
 msgid "Default"
 msgstr "违约"
 
@@ -1705,10 +1777,10 @@ msgstr "公司"
 
 #: inc/customizer/jobs.php:172 inc/customizer/jobs.php:289
 #: job_manager/content-single-job_listing.php:188
-#: search-fields/split-location.php:8 sidebar-jobs.php:109
-#: sidebar-jobs.php:118 sidebar-resumes.php:49 sidebar-resumes.php:58
-#: single-job_listing.php:229 wp-job-manager-alerts/alert-form.php:40
-#: wp-job-manager-alerts/my-alerts.php:14
+#: search-fields/split-location.php:8 sidebar-jobs.php:109 sidebar-jobs.php:118
+#: sidebar-resumes.php:49 sidebar-resumes.php:58 single-job_listing.php:229
+#: wp-job-manager-alerts/alert-form.php:40
+#: wp-job-manager-alerts/my-alerts.php:14 vc_map/jobs.php:91
 msgid "Location"
 msgstr "地方"
 
@@ -1731,7 +1803,7 @@ msgid "Deadline"
 msgstr "最后期限"
 
 #: inc/customizer/jobs.php:177 job_manager/content-job_listing.php:79
-#: job_manager/content-job_listing.php:204
+#: job_manager/content-job_listing.php:204 shortcodes/spotlight_jobs.php:229
 msgid "Expires"
 msgstr "到期"
 
@@ -1877,12 +1949,12 @@ msgid "Enable Typed words effect"
 msgstr "启用键入文字效果"
 
 #: inc/customizer/jobs_home.php:41 inc/customizer/resume_home.php:42
-#: wp-job-manager-alerts/my-alerts.php:79
+#: wp-job-manager-alerts/my-alerts.php:79 vc_map/recent_blog.php:41
 msgid "Enable"
 msgstr "使可能"
 
 #: inc/customizer/jobs_home.php:42 inc/customizer/resume_home.php:43
-#: wp-job-manager-alerts/my-alerts.php:79
+#: wp-job-manager-alerts/my-alerts.php:79 vc_map/recent_blog.php:40
 msgid "Disable"
 msgstr "使残废"
 
@@ -2202,7 +2274,8 @@ msgid ""
 msgstr "选中复选框可在WooCommerce“我的帐户”菜单中隐藏该元素"
 
 #: inc/customizer/shop.php:46 template-dashboard.php:233
-#: template-dashboard.php:442
+#: template-dashboard.php:442 templates/account/logged_section.php:23
+#: templates/account/login-section.php:28
 msgid "Dashboard"
 msgstr "仪表板"
 
@@ -2223,6 +2296,7 @@ msgid "Account details"
 msgstr "帐户详细信息"
 
 #: inc/customizer/shop.php:51 template-dashboard.php:373
+#: templates/account/logged_section.php:38
 msgid "Logout"
 msgstr "注销"
 
@@ -2307,6 +2381,8 @@ msgid "Checkout &rarr;"
 msgstr "签出&rarr；"
 
 #: inc/registration.php:22 woocommerce/myaccount/form-login.php:85
+#: templates/account/login-form.php:20
+#: templates/account/registration-form.php:41
 msgid "Username"
 msgstr "用户名"
 
@@ -2316,7 +2392,8 @@ msgstr "电子邮件地址"
 
 #: inc/registration.php:38 inc/registration.php:86
 #: woocommerce/myaccount/form-login.php:52
-#: woocommerce/myaccount/form-login.php:100
+#: woocommerce/myaccount/form-login.php:100 templates/account/login-form.php:27
+#: templates/account/registration-form.php:49
 msgid "Password"
 msgstr "暗语"
 
@@ -2334,7 +2411,8 @@ msgstr "用户名或电子邮件地址"
 
 #: inc/registration.php:95 template-dashboard.php:179 template-login.php:97
 #: woocommerce/myaccount/form-login.php:34
-#: woocommerce/myaccount/form-login.php:61
+#: woocommerce/myaccount/form-login.php:61 templates/account/login-form.php:36
+#: templates/account/login-section.php:68
 msgid "Login"
 msgstr "登录"
 
@@ -2382,19 +2460,24 @@ msgstr "Captcha失败！请重试"
 msgid "You forgot about captcha"
 msgstr "你忘了captcha"
 
-#: inc/registration.php:380
+#: inc/registration.php:380 includes/class-workscout-core-registration.php:1481
+#, php-format
 msgid "New user registration on your site %s:"
 msgstr "在站点%s上注册新用户："
 
 #: inc/registration.php:381 inc/registration.php:387
+#: includes/class-workscout-core-registration.php:1482
+#, php-format
 msgid "Username: %s"
 msgstr "用户名：%s"
 
-#: inc/registration.php:382
+#: inc/registration.php:382 includes/class-workscout-core-registration.php:1483
+#, php-format
 msgid "E-mail: %s"
 msgstr "电子邮件：%s"
 
-#: inc/registration.php:384
+#: inc/registration.php:384 includes/class-workscout-core-registration.php:1486
+#, php-format
 msgid "[%s] New User Registration"
 msgstr "[%s]新用户注册"
 
@@ -2426,7 +2509,7 @@ msgstr "[%s]您的用户名和密码信息"
 msgid "Password changed successfully"
 msgstr "密码更改成功"
 
-#: inc/registration.php:434
+#: inc/registration.php:434 templates/my-account.php:183
 msgid "New Password"
 msgstr "新密码"
 
@@ -2434,7 +2517,7 @@ msgstr "新密码"
 msgid "Password Confirm"
 msgstr "密码确认"
 
-#: inc/registration.php:445
+#: inc/registration.php:445 templates/my-account.php:135
 msgid "Change Password"
 msgstr "修改密码"
 
@@ -2454,7 +2537,7 @@ msgstr "此用户名已注册。"
 msgid "This email address is already registered."
 msgstr "此电子邮件地址已注册。"
 
-#: inc/registration.php:593
+#: inc/registration.php:593 includes/class-workscout-core-registration.php:199
 msgid "Wrong username or password."
 msgstr "用户名或密码错误。"
 
@@ -2467,6 +2550,7 @@ msgid "You forgot about captcha!"
 msgstr "你忘了captcha！"
 
 #: inc/template-tags.php:21 inc/template-tags.php:55
+#: shortcodes/latest_from_blog.php:216
 msgid "By"
 msgstr "通过"
 
@@ -2552,7 +2636,7 @@ msgstr "作者：%s"
 msgid "Contact Page"
 msgstr "联系人页面"
 
-#: inc/theme-options.php:66
+#: inc/theme-options.php:66 includes/class-workscout-core-admin.php:199
 msgid "General"
 msgstr "全体的"
 
@@ -2587,6 +2671,7 @@ msgstr "最新评论标题"
 #: inc/woocommerce.php:32 template-jobpackages.php:122
 #: woocommerce/content-product.php:83
 #: woocommerce/single-product/tabs/description.php:38
+#: shortcodes/pricing_woo_tables.php:88
 msgid "Unlimited number of jobs"
 msgstr "无限数量的作业"
 
@@ -2595,6 +2680,7 @@ msgstr "无限数量的作业"
 #: woocommerce/content-product.php:111
 #: woocommerce/single-product/tabs/description.php:42
 #: woocommerce/single-product/tabs/description.php:66
+#: shortcodes/pricing_woo_tables.php:92
 msgid "This plan includes "
 msgstr "该计划包括"
 
@@ -2608,6 +2694,7 @@ msgstr[0] "%s job"
 #: inc/woocommerce.php:42 template-jobpackages.php:133
 #: woocommerce/content-product.php:94
 #: woocommerce/single-product/tabs/description.php:49
+#: shortcodes/pricing_woo_tables.php:96
 msgid "Jobs are posted "
 msgstr "已发布作业"
 
@@ -2650,6 +2737,9 @@ msgstr "颜色"
 #: template-parts/jobs-related.php:98
 #: wp-job-manager-resumes/content-resume.php:44
 #: wp-job-manager-resumes/content-single-resume.php:26
+#: shortcodes/spotlight_jobs.php:174 shortcodes/spotlight_resumes.php:135
+#: workscout-core-template-functions.php:220
+#: workscout-core-template-functions.php:241
 msgid "/ hour"
 msgstr "/小时"
 
@@ -2658,11 +2748,12 @@ msgid "I want to register as"
 msgstr "我想注册为"
 
 #: inc/wp-job-manager.php:64 inc/wp-job-manager.php:68
-#: template-dashboard.php:288
+#: template-dashboard.php:288 templates/account/registration-form.php:24
 msgid "Candidate"
 msgstr "候选人"
 
 #: inc/wp-job-manager.php:66 template-dashboard.php:255
+#: templates/account/registration-form.php:29
 msgid "Employer"
 msgstr "雇用者"
 
@@ -2670,8 +2761,7 @@ msgstr "雇用者"
 msgid "<strong>ERROR</strong>: You must include a role."
 msgstr "<strong>错误</strong>：必须包含角色。"
 
-#: job_manager/account-signin.php:4
-#: wp-job-manager-resumes/account-signin.php:6
+#: job_manager/account-signin.php:4 wp-job-manager-resumes/account-signin.php:6
 msgid "Welcome to"
 msgstr "欢迎使用"
 
@@ -2694,7 +2784,9 @@ msgid ""
 "If you don&rsquo;t have an account you can %screate one below by entering "
 "your email address/username. Your account details will be confirmed via "
 "email."
-msgstr "如果您不这样做；t没有帐户，您可以通过输入您的电子邮件地址/用户名在下面%screate一个帐户。您的帐户详细信息将通过电子邮件确认。"
+msgstr ""
+"如果您不这样做；t没有帐户，您可以通过输入您的电子邮件地址/用户名在下"
+"面%screate一个帐户。您的帐户详细信息将通过电子邮件确认。"
 
 #: job_manager/account-signin.php:25
 msgid "optionally"
@@ -2729,12 +2821,14 @@ msgstr "新"
 #: job_manager/content-job_listing.php:72
 #: job_manager/content-job_listing.php:197
 #: job_manager/content-single-job_listing.php:181 single-job_listing.php:221
+#: shortcodes/spotlight_jobs.php:222
 msgid "Closed"
 msgstr "关闭"
 
 #: job_manager/content-job_listing.php:72
 #: job_manager/content-job_listing.php:197
 #: job_manager/content-single-job_listing.php:181 single-job_listing.php:221
+#: shortcodes/spotlight_jobs.php:222
 msgid "Closes"
 msgstr "关闭"
 
@@ -2785,9 +2879,9 @@ msgstr "浏览"
 msgid "Maximum file size: %s."
 msgstr "最大文件大小：%s。"
 
-#: job_manager/form-fields/text-field.php:21
-#: search-fields/split-location.php:9 sidebar-jobs.php:119
-#: sidebar-resumes.php:59 template-home-resumes.php:81 template-home.php:80
+#: job_manager/form-fields/text-field.php:21 search-fields/split-location.php:9
+#: sidebar-jobs.php:119 sidebar-resumes.php:59 template-home-resumes.php:81
+#: template-home.php:80
 msgid "Find My Location"
 msgstr "查找我的位置"
 
@@ -2802,6 +2896,7 @@ msgid "Apply for job"
 msgstr "申请工作"
 
 #: job_manager/job-application.php:12 template-parts/jobs-related.php:133
+#: shortcodes/spotlight_jobs.php:243
 msgid "Apply For This Job"
 msgstr "申请此工作"
 
@@ -2817,7 +2912,7 @@ msgstr "您的列表如下表所示。"
 msgid "You do not have any active listings."
 msgstr "您没有任何活动列表。"
 
-#: job_manager/job-dashboard.php:46
+#: job_manager/job-dashboard.php:46 vc_map/search_jobs.php:35
 msgid "Show"
 msgstr "显示"
 
@@ -2900,8 +2995,7 @@ msgstr "未选择文件"
 #: kirki/controls/php/class-kirki-control-repeater.php:386
 #: kirki/controls/php/class-kirki-control-repeater.php:418
 #: kirki/controls/php/class-kirki-control-repeater.php:443
-#: kirki/controls/views/image.php:37
-#: kirki/field/class-kirki-field-image.php:50
+#: kirki/controls/views/image.php:37 kirki/field/class-kirki-field-image.php:50
 msgid "Remove"
 msgstr "去除"
 
@@ -3173,6 +3267,8 @@ msgstr "文本转换"
 
 #: kirki/controls/php/class-kirki-control-typography.php:176
 #: kirki/controls/php/class-kirki-control-typography.php:192
+#: vc_map/box_job_categories.php:88 vc_map/box_job_categories_full.php:100
+#: vc_map/box_resume_categories.php:52 vc_map/box_resume_categories_full.php:99
 msgid "None"
 msgstr "没有一个"
 
@@ -3223,18 +3319,15 @@ msgstr "页边距底部"
 msgid "Select image"
 msgstr "选择图像"
 
-#: kirki/controls/views/image.php:35
-#: kirki/field/class-kirki-field-image.php:48
+#: kirki/controls/views/image.php:35 kirki/field/class-kirki-field-image.php:48
 msgid "Change image"
 msgstr "更改图像"
 
-#: kirki/controls/views/image.php:38
-#: kirki/field/class-kirki-field-image.php:51
+#: kirki/controls/views/image.php:38 kirki/field/class-kirki-field-image.php:51
 msgid "No image selected"
 msgstr "未选择图像"
 
-#: kirki/controls/views/image.php:40
-#: kirki/field/class-kirki-field-image.php:53
+#: kirki/controls/views/image.php:40 kirki/field/class-kirki-field-image.php:53
 msgid "Choose image"
 msgstr "选择图像"
 
@@ -3265,16 +3358,20 @@ msgstr "字段%s中的“输出”格式无效。“output”参数应定义为�
 
 #: kirki/core/class-kirki-init.php:289
 msgid ""
-"We detected you're using Kirki_Init::get_variables(). Please use "
-"Kirki_Util::get_variables() instead."
-msgstr "我们检测到您正在使用Kirki_Init:：get_variables（）。请改用Kirki_Util:：get_variables（）。"
+"We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::"
+"get_variables() instead."
+msgstr ""
+"我们检测到您正在使用Kirki_Init:：get_variables（）。请改用Kirki_Util:："
+"get_variables（）。"
 
 #: kirki/core/class-kirki-init.php:365
 msgid ""
-"Your theme uses a Font Awesome field for icons. To avoid issues with missing"
-" icons on your frontend we recommend you install the official Font Awesome "
+"Your theme uses a Font Awesome field for icons. To avoid issues with missing "
+"icons on your frontend we recommend you install the official Font Awesome "
 "plugin."
-msgstr "您的主题使用“字体真棒”字段作为图标。为了避免前端缺少图标的问题，我们建议您安装官方的Font Awesome插件。"
+msgstr ""
+"您的主题使用“字体真棒”字段作为图标。为了避免前端缺少图标的问题，我们建议您安"
+"装官方的Font Awesome插件。"
 
 #: kirki/core/class-kirki-init.php:368
 msgid "Install Plugin"
@@ -3288,7 +3385,8 @@ msgstr "不再显示此内容"
 msgid ""
 "Kirki fields should not be added on customize_register. Please add them "
 "directly, or on init."
-msgstr "不应在customize_reregister上添加Kirki字段。请直接或在初始化时添加它们。"
+msgstr ""
+"不应在customize_reregister上添加Kirki字段。请直接或在初始化时添加它们。"
 
 #: kirki/deprecated/functions.php:19
 msgid "%1$s or %2$s"
@@ -3306,7 +3404,8 @@ msgstr "不要在颜色控件中使用“alpha”作为参数。改用“choices
 msgid ""
 "Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
 "v0.8. Use the \"radio-%2$s\" type instead."
-msgstr "字段%1$s出错。自Kirki v0.8以来，“mode”参数已被弃用。请改用“radio-%2$s”类型。"
+msgstr ""
+"字段%1$s出错。自Kirki v0.8以来，“mode”参数已被弃用。请改用“radio-%2$s”类型。"
 
 #: kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
 msgid "Customizing"
@@ -3323,12 +3422,14 @@ msgstr "帮助我们改进Kirki。"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:147
 msgid ""
-"Help us begin a dialogue with theme developers, collaborate and improve both"
-" the theme you are using and the Kirki framework by agreeing to send "
+"Help us begin a dialogue with theme developers, collaborate and improve both "
+"the theme you are using and the Kirki framework by agreeing to send "
 "anonymous data. <strong>The data is completely anonymous and we will never "
 "collect any identifyable information about you or your website.</strong>"
 msgstr ""
-"通过同意发送匿名数据，帮助我们开始与主题开发人员对话，合作并改进您正在使用的主题和Kirki框架<strong>数据完全匿名，我们永远不会收集关于您或您的网站的任何可识别信息。</strong>"
+"通过同意发送匿名数据，帮助我们开始与主题开发人员对话，合作并改进您正在使用的"
+"主题和Kirki框架<strong>数据完全匿名，我们永远不会收集关于您或您的网站的任何可"
+"识别信息。</strong>"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:151
 msgid "Data that will be sent"
@@ -3358,13 +3459,14 @@ msgstr "使用的字段类型"
 #. page.
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:182
 msgid ""
-"We believe in complete transparency. You can see the code used on our server"
-" <a href=\"%1$s\" rel=\"nofollow\">here</a>, and the results of the "
-"statistics we're gathering on <a href=\"%2$s\" rel=\"nofollow\">this "
-"page</a>."
+"We believe in complete transparency. You can see the code used on our server "
+"<a href=\"%1$s\" rel=\"nofollow\">here</a>, and the results of the "
+"statistics we're gathering on <a href=\"%2$s\" rel=\"nofollow\">this page</"
+"a>."
 msgstr ""
-"我们相信完全透明。您可以在这里查看服务器<a href=“%1$s”rel=“nofollow”>上使用的代码</a>，以及我们在<a "
-"href=”%2$s“rel=“no follow“>这个页面上收集的统计数据的结果</a>。"
+"我们相信完全透明。您可以在这里查看服务器<a href=“%1$s”rel=“nofollow”>上使用的"
+"代码</a>，以及我们在<a href=”%2$s“rel=“no follow“>这个页面上收集的统计数据的"
+"结果</a>。"
 
 #: kirki/modules/telemetry/class-kirki-modules-telemetry.php:193
 msgid "I agree"
@@ -3494,8 +3596,7 @@ msgstr "启用薪资筛选器"
 msgid "Radius"
 msgstr "半径"
 
-#: search-fields/split-radius.php:6 sidebar-jobs.php:135
-#: sidebar-resumes.php:74
+#: search-fields/split-radius.php:6 sidebar-jobs.php:135 sidebar-resumes.php:74
 msgid "Radius around selected destination"
 msgstr "选定目的地周围的半径"
 
@@ -3517,10 +3618,11 @@ msgid "To search type and hit enter"
 msgstr "要搜索类型并点击enter"
 
 #: sidebar-jobs.php:32 wp-job-manager-alerts/my-alerts.php:13
+#: vc_map/jobs.php:98
 msgid "Keywords"
 msgstr "关键词"
 
-#: sidebar-jobs.php:64 sidebar-resumes.php:18
+#: sidebar-jobs.php:64 sidebar-resumes.php:18 vc_map/imagebox.php:41
 msgid "Region"
 msgstr "区域"
 
@@ -3544,8 +3646,9 @@ msgstr "按速率筛选"
 msgid "Filter by tag:"
 msgstr "按标签筛选："
 
-#: sidebar-resumes.php:32 template-home-old.php:39
-#: template-home-resumes.php:65 template-home.php:64
+#: sidebar-resumes.php:32 template-home-old.php:39 template-home-resumes.php:65
+#: template-home.php:64 shortcodes/jobs_searchbox.php:52
+#: shortcodes/resumes_searchbox.php:45
 msgid "All Regions"
 msgstr "所有地区"
 
@@ -3583,6 +3686,7 @@ msgstr "工作概述"
 
 #: single-resume.php:106 single-resume.php:116 single-resume.php:125
 #: wp-job-manager-resumes/contact-details.php:16
+#: templates/account/single_message.php:125
 msgid "Send Message"
 msgstr "发送消息"
 
@@ -3618,21 +3722,26 @@ msgstr "后导航"
 msgid "Pages:"
 msgstr "页："
 
-#: template-dashboard.php:23
+#: template-dashboard.php:23 includes/class-workscout-core-registration.php:188
+#: includes/class-workscout-core-registration.php:1105
 msgid "You do have an email address, right?"
 msgstr "你确实有电子邮件地址，对吗？"
 
-#: template-dashboard.php:26
+#: template-dashboard.php:26 includes/class-workscout-core-registration.php:192
+#: includes/class-workscout-core-registration.php:1108
 msgid "You need to enter a password to login."
 msgstr "您需要输入密码才能登录。"
 
 #: template-dashboard.php:29
+#: includes/class-workscout-core-registration.php:1112
 msgid ""
 "We don't have any users with that email address. Maybe you used a different "
 "one when signing up?"
 msgstr "我们没有任何用户使用该电子邮件地址。也许你在注册时使用了另一个？"
 
 #: template-dashboard.php:35 template-dashboard.php:84
+#: includes/class-workscout-core-registration.php:1118
+#, php-format
 msgid ""
 "The password you entered wasn't quite right. <a href='%s'>Did you forget "
 "your password</a>?"
@@ -3686,7 +3795,9 @@ msgstr "您已成功注册到%s。"
 msgid ""
 "You have successfully registered to <strong>%s</strong>. We have emailed "
 "your password to the email address you entered."
-msgstr "您已成功注册到<strong>%s</strong>。我们已将您的密码通过电子邮件发送到您输入的电子邮件地址。"
+msgstr ""
+"您已成功注册到<strong>%s</strong>。我们已将您的密码通过电子邮件发送到您输入的"
+"电子邮件地址。"
 
 #: template-dashboard.php:226
 msgid "Dashboard Navigation"
@@ -3696,11 +3807,11 @@ msgstr "仪表板导航"
 msgid "Main"
 msgstr "主要的"
 
-#: template-dashboard.php:239
+#: template-dashboard.php:239 templates/account/logged_section.php:28
 msgid "Messages"
 msgstr "信息"
 
-#: template-dashboard.php:251
+#: template-dashboard.php:251 templates/account/dashboard.php:135
 msgid "Bookmarks"
 msgstr "书签"
 
@@ -3769,19 +3880,22 @@ msgstr "预订"
 msgid "Home"
 msgstr "家"
 
-#: template-home-old.php:32
+#: template-home-old.php:32 shortcodes/jobs_searchbox.php:45
 msgid "keywords"
 msgstr "关键字"
 
 #: template-home-old.php:52 template-home-resumes.php:79
+#: shortcodes/jobs_searchbox.php:65 shortcodes/resumes_searchbox.php:58
 msgid "city, province or region"
 msgstr "城市、省或地区"
 
 #: template-home-old.php:77 template-home-resumes.php:105
+#: shortcodes/jobs_searchbox.php:77
 msgid "All categories"
 msgstr "所有类别"
 
-#: template-home-old.php:100
+#: template-home-old.php:100 shortcodes/jobs_searchbox.php:96
+#, php-format
 msgid " Or browse job offers by <a href=\"%s\">category</a>"
 msgstr "或按<a href=“%s”>类别浏览工作机会</a>"
 
@@ -3828,6 +3942,7 @@ msgstr "所有类别"
 
 #: template-jobpackages.php:144 template-resumepackages.php:145
 #: woocommerce/content-product.php:128 woocommerce/content-product.php:153
+#: shortcodes/pricing_woo_tables.php:104
 msgid "Add to cart"
 msgstr "添加到购物车"
 
@@ -3849,18 +3964,19 @@ msgstr "注销"
 
 #: template-login.php:80
 msgid ""
-"<a href=\"%s\" class=\"button margin-bottom-15\"><i class=\"fa fa-"
-"user\"></i> Candidate Dashboard </a>"
+"<a href=\"%s\" class=\"button margin-bottom-15\"><i class=\"fa fa-user\"></"
+"i> Candidate Dashboard </a>"
 msgstr ""
-"<a href=“%s”class=“button margin-bottom-15”><i class=“fa fa "
-"user”></i>候选人仪表板</a>"
+"<a href=“%s”class=“button margin-bottom-15”><i class=“fa fa user”></i>候选人"
+"仪表板</a>"
 
 #: template-login.php:86
 msgid ""
-"<a href=\"%s\" class=\"button  margin-bottom-15\"><i class=\"fa fa-"
-"user\"></i> Employer Dashboard </a>"
+"<a href=\"%s\" class=\"button  margin-bottom-15\"><i class=\"fa fa-user\"></"
+"i> Employer Dashboard </a>"
 msgstr ""
-"<a href=“%s”class=“button margin-bottom-15”><i class=“fa-fa用户”></i>雇主仪表板</a>"
+"<a href=“%s”class=“button margin-bottom-15”><i class=“fa-fa用户”></i>雇主仪表"
+"板</a>"
 
 #: template-parts/button-job.php:2
 msgid "Post a Job, It's Free!"
@@ -3872,7 +3988,7 @@ msgstr "发布简历，这是免费的！"
 
 #: template-parts/content-gallery.php:37 template-parts/content-quote.php:33
 #: template-parts/content-standard.php:20 template-parts/content-video.php:23
-#: template-parts/content.php:22
+#: template-parts/content.php:22 shortcodes/latest_from_blog.php:232
 msgid "Read More"
 msgstr "阅读更多"
 
@@ -3881,7 +3997,8 @@ msgid "Nothing Found"
 msgstr "未找到任何内容"
 
 #: template-parts/content-none.php:22
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "准备好发布你的第一篇文章了吗<a href=“%1$s”>从这里开始</a>。"
 
 #: template-parts/content-none.php:26
@@ -3909,6 +4026,7 @@ msgid "Product"
 msgstr "产品"
 
 #: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:81
+#: vc_map/pricing_table.php:49 vc_map/pricing_woo_tables.php:43
 msgid "Price"
 msgstr "价格"
 
@@ -3946,8 +4064,8 @@ msgstr "更新购物车"
 
 #: woocommerce/checkout/thankyou.php:30
 msgid ""
-"Unfortunately your order cannot be processed as the originating "
-"bank/merchant has declined your transaction."
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
 msgstr "很遗憾，您的订单无法处理，因为发起银行/商户拒绝了您的交易。"
 
 #: woocommerce/checkout/thankyou.php:34
@@ -3996,12 +4114,12 @@ msgid ""
 "your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
 "account details%2$s."
 msgstr ""
-"在您的帐户仪表板中，您可以查看%1$s最近的订单%2$s，管理您的%3$s发货和账单地址%2$s和%4$s，并输入您的密码和帐户详细信息%2$s。"
+"在您的帐户仪表板中，您可以查看%1$s最近的订单%2$s，管理您的%3$s发货和账单地"
+"址%2$s和%4$s，并输入您的密码和帐户详细信息%2$s。"
 
 #: woocommerce/myaccount/dashboard.php:46
 msgid ""
-"To check your Job Listings and Applications visit %1$sEmployer "
-"Dashboard%2$s."
+"To check your Job Listings and Applications visit %1$sEmployer Dashboard%2$s."
 msgstr "要查看工作列表和应用程序，请访问%1$s雇主仪表板%2$s。"
 
 #: woocommerce/myaccount/dashboard.php:54
@@ -4078,7 +4196,9 @@ msgstr "第一个回顾"
 msgid "Leave a Reply to %s"
 msgstr "给%s留言"
 
-#: woocommerce/single-product-reviews.php:78
+#: woocommerce/single-product-reviews.php:78 vc_map/box_job_categories.php:84
+#: vc_map/box_job_categories_full.php:96 vc_map/box_resume_categories.php:48
+#: vc_map/box_resume_categories_full.php:95 vc_map/jobs.php:26
 msgid "Name"
 msgstr "名称"
 
@@ -4086,6 +4206,7 @@ msgstr "名称"
 #: wp-job-manager-alerts/my-alerts.php:71
 #: wp-job-manager-applications/job-applications.php:74
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:18
+#: templates/account/registration-form.php:73
 msgid "Email"
 msgstr "电子邮件"
 
@@ -4188,8 +4309,7 @@ msgstr "保存警报"
 
 #: wp-job-manager-alerts/my-alerts.php:1
 msgid ""
-"Your job alerts are shown in the table below. Your alerts will be sent to "
-"%s."
+"Your job alerts are shown in the table below. Your alerts will be sent to %s."
 msgstr "您的工作通知如下表所示。您的警报将发送到%s。"
 
 #: wp-job-manager-alerts/my-alerts.php:12
@@ -4372,9 +4492,11 @@ msgstr "您当前以%s身份登录。"
 
 #: wp-job-manager-resumes/account-signin.php:29
 msgid ""
-"If you don&rsquo;t have an account you can create one below by entering your"
-" email address. A password will be automatically emailed to you."
-msgstr "如果您不这样做；我没有一个帐户，您可以在下面输入您的电子邮件地址创建一个帐户。密码将自动通过电子邮件发送给您。"
+"If you don&rsquo;t have an account you can create one below by entering your "
+"email address. A password will be automatically emailed to you."
+msgstr ""
+"如果您不这样做；我没有一个帐户，您可以在下面输入您的电子邮件地址创建一个帐"
+"户。密码将自动通过电子邮件发送给您。"
 
 #: wp-job-manager-resumes/account-signin.php:33
 msgid "You must sign in to submit a resume."
@@ -4382,9 +4504,11 @@ msgstr "您必须登录才能提交简历。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:9
 msgid ""
-"Apply using your online resume; just enter a short message and choose one of"
-" your resumes to email your application."
-msgstr "使用在线简历申请；只需输入一条短信，然后选择一份简历，就可以通过电子邮件发送申请。"
+"Apply using your online resume; just enter a short message and choose one of "
+"your resumes to email your application."
+msgstr ""
+"使用在线简历申请；只需输入一条短信，然后选择一份简历，就可以通过电子邮件发送"
+"申请。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:11
 msgid "Online resume"
@@ -4403,7 +4527,9 @@ msgid ""
 "You can apply to this job and others using your online resume. Click the "
 "link below to submit your online resume and email your application to this "
 "employer."
-msgstr "您可以使用在线简历申请这份工作和其他工作。单击下面的链接提交您的在线简历，并通过电子邮件将您的申请发送给该雇主。"
+msgstr ""
+"您可以使用在线简历申请这份工作和其他工作。单击下面的链接提交您的在线简历，并"
+"通过电子邮件将您的申请发送给该雇主。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:45
 msgid "Submit resume and apply"
@@ -4426,7 +4552,7 @@ msgstr "您没有任何活动的简历列表。"
 msgid "Expires %s"
 msgstr "过期%s"
 
-#: wp-job-manager-resumes/candidate-dashboard.php:72
+#: wp-job-manager-resumes/candidate-dashboard.php:72 vc_map/search_jobs.php:34
 msgid "Hide"
 msgstr "隐藏"
 
@@ -4442,7 +4568,18 @@ msgstr "联系"
 msgid "Add URL"
 msgstr "添加URL"
 
+#. #-#-#-#-#  zh_CN.po (WorkScout 2.0.8)  #-#-#-#-#
 #. Theme Name of the plugin/theme
+#: vc_map/actionbox_centered.php:13 vc_map/box.php:9
+#: vc_map/box_job_categories.php:23 vc_map/box_job_categories_full.php:17
+#: vc_map/box_resume_categories.php:17 vc_map/box_resume_categories_full.php:18
+#: vc_map/carousel.php:10 vc_map/counterbox.php:14 vc_map/counterbox.php:40
+#: vc_map/headline.php:15 vc_map/iconbox.php:13 vc_map/infobanner.php:17
+#: vc_map/jobs.php:9 vc_map/map.php:10 vc_map/pricing_table.php:14
+#: vc_map/pricing_woo_tables.php:10 vc_map/recent_blog.php:14
+#: vc_map/search_jobs.php:15 vc_map/spotlight_jobs.php:13
+#: vc_map/spotlight_resumes.php:13 vc_map/testimonials_carousel.php:13
+#: vc_map/testimonials_wide.php:13
 msgid "WorkScout"
 msgstr "WorkScout公司"
 
@@ -4462,7 +4599,9 @@ msgstr "Purethemes公司"
 msgid "http://purethemes.net/"
 msgstr "http://purethemes.net/"
 
+#. #-#-#-#-#  zh_CN.po (WorkScout 2.0.8)  #-#-#-#-#
 #. Template Name of the plugin/theme
+#: includes/class-workscout-core-admin.php:559
 msgid "Dashboard Page"
 msgstr "仪表板页面"
 
@@ -4555,9 +4694,10 @@ msgctxt "default cover letter"
 msgid ""
 "I am very interested in the %s position at %s. I believe my skills and work "
 "experience make me an ideal candidate for this role. I look forward to "
-"speaking with you soon about this position. Thank you for your "
-"consideration."
-msgstr "我对%s在%s的职位很感兴趣。我相信我的技能和工作经验使我成为这个职位的理想人选。我期待着很快与你谈谈这个职位。谢谢你的考虑。"
+"speaking with you soon about this position. Thank you for your consideration."
+msgstr ""
+"我对%s在%s的职位很感兴趣。我相信我的技能和工作经验使我成为这个职位的理想人"
+"选。我期待着很快与你谈谈这个职位。谢谢你的考虑。"
 
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:30
 msgctxt "default cover letter"
@@ -4570,9 +4710,2767 @@ msgid ""
 "I am very interested in the %s position at %s. I believe my skills and work "
 "experience make me an ideal candidate for this role. I look forward to "
 "speaking with you soon about this position."
-msgstr "我对%s在%s的职位很感兴趣。我相信我的技能和工作经验使我成为这个职位的理想人选。我期待着很快与你谈谈这个职位。"
+msgstr ""
+"我对%s在%s的职位很感兴趣。我相信我的技能和工作经验使我成为这个职位的理想人"
+"选。我期待着很快与你谈谈这个职位。"
 
 #: wp-job-manager-resumes/apply-with-resume.php:31
 msgctxt "default cover letter"
 msgid "Thank you for your consideration."
 msgstr "谢谢你的考虑。"
+
+#: includes/class-workscout-core-activities-log.php:216
+msgid " ago"
+msgstr "以前"
+
+#: includes/class-workscout-core-activities-log.php:222
+msgid "Someone bookmarked your "
+msgstr "有人为您的"
+
+#: includes/class-workscout-core-activities-log.php:222
+#: includes/class-workscout-core-activities-log.php:228
+msgid "listing"
+msgstr "表册"
+
+#: includes/class-workscout-core-activities-log.php:228
+msgid "Someone unbookmarked your"
+msgstr "有人取消了您的书签"
+
+#: includes/class-workscout-core-activities-log.php:234
+#: includes/class-workscout-core-activities-log.php:239
+#: includes/class-workscout-core-activities-log.php:248
+msgid "Listing"
+msgstr "表册"
+
+#: includes/class-workscout-core-activities-log.php:234
+msgid "was updated"
+msgstr "已更新"
+
+#: includes/class-workscout-core-activities-log.php:239
+msgid "was created."
+msgstr "已创建。"
+
+#: includes/class-workscout-core-activities-log.php:243
+#: includes/class-workscout-core-activities-log.php:255
+msgid "Your Listing"
+msgstr "您的列表"
+
+#: includes/class-workscout-core-activities-log.php:243
+msgid "was approved"
+msgstr "已批准"
+
+#: includes/class-workscout-core-activities-log.php:248
+msgid "was removed"
+msgstr "已删除"
+
+#: includes/class-workscout-core-activities-log.php:255
+msgid "has been approved!"
+msgstr "已批准！"
+
+#: includes/class-workscout-core-activities-log.php:262
+msgid "You have added listing"
+msgstr "您已添加列表"
+
+#: includes/class-workscout-core-activities-log.php:269
+msgid "Someone applied to your job "
+msgstr "有人申请了你的工作"
+
+#: includes/class-workscout-core-activities-log.php:280
+#: includes/class-workscout-core-activities-log.php:282
+msgid "You don't have any activities logged yet."
+msgstr "您尚未记录任何活动。"
+
+#: includes/class-workscout-core-admin.php:151
+msgid "WorkScout Core "
+msgstr "WorkScout核心"
+
+#: includes/class-workscout-core-admin.php:151
+msgid "WorkScout Core"
+msgstr "WorkScout核心"
+
+#: includes/class-workscout-core-admin.php:200
+msgid "General WorkScout settings."
+msgstr "常规WorkScout设置。"
+
+#: includes/class-workscout-core-admin.php:205 vc_map/pricing_table.php:41
+msgid "Currency"
+msgstr "通货"
+
+#: includes/class-workscout-core-admin.php:206
+msgid "Choose a currency used."
+msgstr "选择使用的货币。"
+
+#: includes/class-workscout-core-admin.php:210
+#: includes/class-workscout-core-wpjm-settings.php:34
+msgid "Disable Currency Symbol"
+msgstr "禁用货币符号"
+
+#: includes/class-workscout-core-admin.php:211
+#: includes/class-workscout-core-admin.php:262
+#: includes/class-workscout-core-wpjm-settings.php:35
+#: includes/class-workscout-core-wpjm-settings.php:82
+msgid "US Dollars"
+msgstr "美元"
+
+#: includes/class-workscout-core-admin.php:212
+#: includes/class-workscout-core-wpjm-settings.php:36
+msgid "United Arab Emirates Dirham"
+msgstr "阿拉伯联合酋长国迪拉姆"
+
+#: includes/class-workscout-core-admin.php:213
+#: includes/class-workscout-core-wpjm-settings.php:37
+msgid "Argentine Peso"
+msgstr "阿根廷比索"
+
+#: includes/class-workscout-core-admin.php:214
+#: includes/class-workscout-core-wpjm-settings.php:38
+msgid "Australian Dollars"
+msgstr "澳元"
+
+#: includes/class-workscout-core-admin.php:215
+#: includes/class-workscout-core-wpjm-settings.php:39
+msgid "Bangladeshi Taka"
+msgstr "孟加拉塔卡"
+
+#: includes/class-workscout-core-admin.php:216
+#: includes/class-workscout-core-wpjm-settings.php:40
+msgid "Bahraini Dinar"
+msgstr "巴林第纳尔"
+
+#: includes/class-workscout-core-admin.php:217
+#: includes/class-workscout-core-wpjm-settings.php:41
+msgid "Brazilian Real"
+msgstr "巴西雷亚尔"
+
+#: includes/class-workscout-core-admin.php:218
+#: includes/class-workscout-core-wpjm-settings.php:42
+msgid "Bulgarian Lev"
+msgstr "保加利亚列夫"
+
+#: includes/class-workscout-core-admin.php:219
+#: includes/class-workscout-core-wpjm-settings.php:43
+msgid "Canadian Dollars"
+msgstr "加拿大元"
+
+#: includes/class-workscout-core-admin.php:220
+#: includes/class-workscout-core-wpjm-settings.php:44
+msgid "Chilean Peso"
+msgstr "智利的智利比索"
+
+#: includes/class-workscout-core-admin.php:221
+#: includes/class-workscout-core-wpjm-settings.php:45
+msgid "Chinese Yuan"
+msgstr "中国元"
+
+#: includes/class-workscout-core-admin.php:222
+#: includes/class-workscout-core-wpjm-settings.php:46
+msgid "Colombian Peso"
+msgstr "哥伦比亚比索"
+
+#: includes/class-workscout-core-admin.php:223
+#: includes/class-workscout-core-wpjm-settings.php:47
+msgid "Czech Koruna"
+msgstr "捷克克朗"
+
+#: includes/class-workscout-core-admin.php:224
+#: includes/class-workscout-core-wpjm-settings.php:48
+msgid "Danish Krone"
+msgstr "丹麦克朗"
+
+#: includes/class-workscout-core-admin.php:225
+#: includes/class-workscout-core-wpjm-settings.php:49
+msgid "Dominican Peso"
+msgstr "多明尼加披索"
+
+#: includes/class-workscout-core-admin.php:226
+msgid "Moroccan Dirham"
+msgstr "摩洛哥迪拉姆"
+
+#: includes/class-workscout-core-admin.php:227
+#: includes/class-workscout-core-wpjm-settings.php:50
+msgid "Euros"
+msgstr "欧元"
+
+#: includes/class-workscout-core-admin.php:228
+msgid "Ghanaian Cedi"
+msgstr "塞地"
+
+#: includes/class-workscout-core-admin.php:229
+#: includes/class-workscout-core-wpjm-settings.php:51
+msgid "Hong Kong Dollar"
+msgstr "香港元"
+
+#: includes/class-workscout-core-admin.php:230
+#: includes/class-workscout-core-wpjm-settings.php:52
+msgid "Croatia kuna"
+msgstr "克罗地亚库纳"
+
+#: includes/class-workscout-core-admin.php:231
+#: includes/class-workscout-core-wpjm-settings.php:53
+msgid "Hungarian Forint"
+msgstr "福林"
+
+#: includes/class-workscout-core-admin.php:232
+#: includes/class-workscout-core-wpjm-settings.php:54
+msgid "Icelandic krona"
+msgstr "冰岛克朗"
+
+#: includes/class-workscout-core-admin.php:233
+#: includes/class-workscout-core-wpjm-settings.php:55
+msgid "Indonesia Rupiah"
+msgstr "印尼卢比"
+
+#: includes/class-workscout-core-admin.php:234
+#: includes/class-workscout-core-wpjm-settings.php:56
+msgid "Indian Rupee"
+msgstr "印度卢比"
+
+#: includes/class-workscout-core-admin.php:235
+#: includes/class-workscout-core-wpjm-settings.php:57
+msgid "Nepali Rupee"
+msgstr "尼泊尔卢比"
+
+#: includes/class-workscout-core-admin.php:236
+#: includes/class-workscout-core-wpjm-settings.php:58
+msgid "Israeli Shekel"
+msgstr "以色列谢克尔"
+
+#: includes/class-workscout-core-admin.php:237
+#: includes/class-workscout-core-wpjm-settings.php:59
+msgid "Japanese Yen"
+msgstr "日元"
+
+#: includes/class-workscout-core-admin.php:238
+msgid "Jordanian Dinar"
+msgstr "约旦第纳尔"
+
+#: includes/class-workscout-core-admin.php:239
+msgid "Kazakhstani tenge"
+msgstr "哈萨克斯坦坚戈"
+
+#: includes/class-workscout-core-admin.php:240
+#: includes/class-workscout-core-wpjm-settings.php:60
+msgid "Lao Kip"
+msgstr "老挝基普"
+
+#: includes/class-workscout-core-admin.php:241
+#: includes/class-workscout-core-wpjm-settings.php:61
+msgid "South Korean Won"
+msgstr "韩元"
+
+#: includes/class-workscout-core-admin.php:242
+#: includes/class-workscout-core-wpjm-settings.php:62
+msgid "Sri Lankan Rupee"
+msgstr "斯里兰卡卢比"
+
+#: includes/class-workscout-core-admin.php:243
+#: includes/class-workscout-core-wpjm-settings.php:63
+msgid "Malaysian Ringgits"
+msgstr "马来西亚林吉特"
+
+#: includes/class-workscout-core-admin.php:244
+#: includes/class-workscout-core-wpjm-settings.php:64
+msgid "Mexican Peso"
+msgstr "墨西哥比索"
+
+#: includes/class-workscout-core-admin.php:245
+#: includes/class-workscout-core-wpjm-settings.php:65
+msgid "Nigerian Naira"
+msgstr "尼日利亚奈拉"
+
+#: includes/class-workscout-core-admin.php:246
+#: includes/class-workscout-core-wpjm-settings.php:66
+msgid "Norwegian Krone"
+msgstr "挪威克朗"
+
+#: includes/class-workscout-core-admin.php:247
+#: includes/class-workscout-core-wpjm-settings.php:67
+msgid "New Zealand Dollar"
+msgstr "新西兰元"
+
+#: includes/class-workscout-core-admin.php:248
+#: includes/class-workscout-core-wpjm-settings.php:68
+msgid "Paraguayan Guaraní"
+msgstr "巴拉圭瓜拉尼"
+
+#: includes/class-workscout-core-admin.php:249
+#: includes/class-workscout-core-wpjm-settings.php:69
+msgid "Philippine Pesos"
+msgstr "菲律宾比索"
+
+#: includes/class-workscout-core-admin.php:250
+#: includes/class-workscout-core-wpjm-settings.php:70
+msgid "Polish Zloty"
+msgstr "波兰兹罗提"
+
+#: includes/class-workscout-core-admin.php:251
+#: includes/class-workscout-core-wpjm-settings.php:71
+msgid "Pounds Sterling"
+msgstr "英镑"
+
+#: includes/class-workscout-core-admin.php:252
+#: includes/class-workscout-core-wpjm-settings.php:72
+msgid "Romanian Leu"
+msgstr "罗马尼亚语Leu"
+
+#: includes/class-workscout-core-admin.php:253
+#: includes/class-workscout-core-wpjm-settings.php:73
+msgid "Russian Ruble"
+msgstr "卢布"
+
+#: includes/class-workscout-core-admin.php:254
+#: includes/class-workscout-core-wpjm-settings.php:74
+msgid "Singapore Dollar"
+msgstr "新加坡元"
+
+#: includes/class-workscout-core-admin.php:255
+#: includes/class-workscout-core-wpjm-settings.php:75
+msgid "South African rand"
+msgstr "南非兰特"
+
+#: includes/class-workscout-core-admin.php:256
+#: includes/class-workscout-core-wpjm-settings.php:76
+msgid "Swedish Krona"
+msgstr "瑞典克朗"
+
+#: includes/class-workscout-core-admin.php:257
+#: includes/class-workscout-core-wpjm-settings.php:77
+msgid "Swiss Franc"
+msgstr "瑞士法郎"
+
+#: includes/class-workscout-core-admin.php:258
+#: includes/class-workscout-core-wpjm-settings.php:78
+msgid "Taiwan New Dollars"
+msgstr "台湾新币"
+
+#: includes/class-workscout-core-admin.php:259
+#: includes/class-workscout-core-wpjm-settings.php:79
+msgid "Thai Baht"
+msgstr "泰铢"
+
+#: includes/class-workscout-core-admin.php:260
+#: includes/class-workscout-core-wpjm-settings.php:80
+msgid "Turkish Lira"
+msgstr "土耳其里拉"
+
+#: includes/class-workscout-core-admin.php:261
+#: includes/class-workscout-core-wpjm-settings.php:81
+msgid "Ukrainian Hryvnia"
+msgstr "乌克兰赫里夫尼亚"
+
+#: includes/class-workscout-core-admin.php:263
+#: includes/class-workscout-core-wpjm-settings.php:83
+msgid "Vietnamese Dong"
+msgstr "越南盾"
+
+#: includes/class-workscout-core-admin.php:264
+#: includes/class-workscout-core-wpjm-settings.php:84
+msgid "Egyptian Pound"
+msgstr "埃及镑"
+
+#: includes/class-workscout-core-admin.php:265
+#: includes/class-workscout-core-wpjm-settings.php:85
+msgid "Zambian Kwacha"
+msgstr "赞比亚夸查"
+
+#: includes/class-workscout-core-admin.php:270
+msgid "Currency position"
+msgstr "货币头寸"
+
+#: includes/class-workscout-core-admin.php:271
+msgid "Set currency symbol before or after"
+msgstr "在之前或之后设置货币符号"
+
+#: includes/class-workscout-core-admin.php:282
+msgid "Use WorkScout Private Messages to contact job owner"
+msgstr "使用WorkScout私人消息联系工作所有者"
+
+#: includes/class-workscout-core-admin.php:283
+msgid "Will add \"send message\" button to job listings"
+msgstr "将在工作列表中添加“发送消息”按钮"
+
+#: includes/class-workscout-core-admin.php:289
+msgid "Use WorkScout Private Messages to contact candidates"
+msgstr "使用WorkScout私人消息联系候选人"
+
+#: includes/class-workscout-core-admin.php:290
+msgid "Will add \"send message\" button to resumes"
+msgstr "将在简历中添加“发送消息”按钮"
+
+#: includes/class-workscout-core-admin.php:317
+msgid "Map Settings"
+msgstr "地图设置"
+
+#: includes/class-workscout-core-admin.php:318
+msgid "Settings for map usage."
+msgstr "地图使用设置。"
+
+#: includes/class-workscout-core-admin.php:323
+msgid "Restrict search results to one country (works only with Google Maps)"
+msgstr "将搜索结果限制在一个国家/地区（仅适用于谷歌地图）"
+
+#: includes/class-workscout-core-admin.php:324
+msgid ""
+"Put symbol of country you want to restrict your results to (eg. uk for "
+"United Kingdon). Leave empty to search whole world."
+msgstr "输入您希望限制结果的国家的符号（例如英国代表英国）。留空搜索整个世界。"
+
+#: includes/class-workscout-core-admin.php:330
+msgid "Listings map center point"
+msgstr "列表地图中心点"
+
+#: includes/class-workscout-core-admin.php:331
+msgid ""
+"Write latitude and longitude separated by come, for example -34.397,150.644"
+msgstr "用come分隔纬度和经度，例如-34.397150.644"
+
+#: includes/class-workscout-core-admin.php:338
+msgid "Maps Provider"
+msgstr "地图提供商"
+
+#: includes/class-workscout-core-admin.php:339
+msgid "Choose which service you want to use for maps"
+msgstr "选择要用于地图的服务"
+
+#: includes/class-workscout-core-admin.php:343
+#: includes/class-workscout-core-admin.php:361
+msgid "OpenStreetMap"
+msgstr "开放街道地图"
+
+#: includes/class-workscout-core-admin.php:344
+msgid ""
+"Google Maps <a href=\"http://www.docs.purethemes.net/workscout/knowledge-"
+"base/getting-google-maps-api-key/\">(requires API key)</a>"
+msgstr ""
+"谷歌地图<a href=“http://www.docs.purethemes.net/workscout/knowledge-base/"
+"getting-google-maps-api-key/“>（需要API密钥）</a>"
+
+#: includes/class-workscout-core-admin.php:345
+msgid ""
+"MapBox <a href=\"https://account.mapbox.com/access-tokens/create\">(requires "
+"API key)</a>"
+msgstr ""
+"地图框<a href=“https://account.mapbox.com/access-tokens/create“>（需要API密"
+"钥）</a>"
+
+#: includes/class-workscout-core-admin.php:346
+msgid ""
+"Bing <a href=\"https://www.microsoft.com/en-us/maps/choose-your-bing-maps-"
+"api\">(requires API key)</a>"
+msgstr ""
+"必应<a href=“https://www.microsoft.com/en-us/maps/choose-your-bing-maps-api“>"
+"（需要API密钥）</a>"
+
+#: includes/class-workscout-core-admin.php:347
+msgid ""
+"ThunderForest <a href=\"https://manage.thunderforest.com/\">(requires API "
+"key)</a>"
+msgstr ""
+"ThunderForest<a href=“https://manage.thunderforest.com/“>（需要API密钥）</a>"
+
+#: includes/class-workscout-core-admin.php:348
+msgid ""
+"HERE <a href=\"https://developer.here.com/lp/mapAPIs?create=Freemium-"
+"Basic&keepState=true&step=account\">(requires API key)</a>"
+msgstr ""
+"此处<a href=“https://developer.here.com/lp/mapAPIs?create=Freemium-基本"
+"&keepState=true&step=account“>（需要API密钥）</a>"
+
+#: includes/class-workscout-core-admin.php:350
+msgid "None - this will dequeue all map related scripts"
+msgstr "无-这将使所有与地图相关的脚本退出队列"
+
+#: includes/class-workscout-core-admin.php:356
+msgid "Address suggestion provider"
+msgstr "地址建议提供程序"
+
+#: includes/class-workscout-core-admin.php:357
+msgid "Choose which service you want to use for adress autocomplete"
+msgstr "选择要用于地址自动完成的服务"
+
+#: includes/class-workscout-core-admin.php:362
+msgid ""
+"Google Maps <a href=\"http://www.docs.purethemes.net/workscout/knowledge-"
+"base/getting-google-maps-api-key/\">(requires API key and Maps Provider set "
+"to Google Maps)</a>"
+msgstr ""
+"谷歌地图<a href=“http://www.docs.purethemes.net/workscout/knowledge-base/"
+"getting-google-maps-api-key/“>（需要将API密钥和地图提供商设置为Google地图）</"
+"a>"
+
+#: includes/class-workscout-core-admin.php:363
+msgid "Disable address suggestion"
+msgstr "禁用地址建议"
+
+#: includes/class-workscout-core-admin.php:371
+#: includes/class-workscout-core-admin.php:375
+#: includes/class-workscout-core-admin.php:434
+msgid "Google Maps API key"
+msgstr "谷歌地图API密钥"
+
+#: includes/class-workscout-core-admin.php:372
+msgid ""
+"Generate API key for google maps functionality (can be domain restricted)."
+msgstr "为谷歌地图功能生成API密钥（可以是域限制的）。"
+
+#: includes/class-workscout-core-admin.php:380
+msgid "MapBox Access Token"
+msgstr "MapBox访问令牌"
+
+#: includes/class-workscout-core-admin.php:381
+msgid "Generate Access Token for MapBox"
+msgstr "为MapBox生成访问令牌"
+
+#: includes/class-workscout-core-admin.php:384
+msgid "MapBox Access Token key"
+msgstr "MapBox访问令牌密钥"
+
+#: includes/class-workscout-core-admin.php:387
+msgid "MapBox Retina Tiles"
+msgstr "MapBox视网膜瓷砖"
+
+#: includes/class-workscout-core-admin.php:388
+msgid "Enable to use Retina Tiles. Might affect map loading speed."
+msgstr "启用以使用视网膜平铺。可能会影响地图加载速度。"
+
+#: includes/class-workscout-core-admin.php:394
+msgid "Bing Maps Key"
+msgstr "Bing地图键"
+
+#: includes/class-workscout-core-admin.php:395
+msgid "API key for Bing Maps"
+msgstr "Bing地图的API密钥"
+
+#: includes/class-workscout-core-admin.php:398
+msgid "Bing Maps API Key"
+msgstr "Bing地图API密钥"
+
+#: includes/class-workscout-core-admin.php:401
+#: includes/class-workscout-core-admin.php:405
+msgid "ThunderForest API Key"
+msgstr "ThunderForest API密钥"
+
+#: includes/class-workscout-core-admin.php:402
+msgid "API key for ThunderForest"
+msgstr "ThunderForest的API密钥"
+
+#: includes/class-workscout-core-admin.php:408
+#: includes/class-workscout-core-admin.php:409
+msgid "HERE App ID"
+msgstr "此处应用程序ID"
+
+#: includes/class-workscout-core-admin.php:412
+msgid "HERE Maps API Key"
+msgstr "HERE映射API密钥"
+
+#: includes/class-workscout-core-admin.php:415
+#: includes/class-workscout-core-admin.php:419
+msgid "HERE App Code"
+msgstr "HERE应用程序代码"
+
+#: includes/class-workscout-core-admin.php:416
+msgid "App code key for HERE Maps"
+msgstr "HERE地图的应用程序代码键"
+
+#: includes/class-workscout-core-admin.php:424
+msgid "Radius search settings"
+msgstr "半径搜索设置"
+
+#: includes/class-workscout-core-admin.php:430
+msgid "Google Maps API key for server side geocoding"
+msgstr "用于服务器端地理编码的谷歌地图API密钥"
+
+#: includes/class-workscout-core-admin.php:431
+msgid ""
+"Generate API key for geocoding search functionality (without any domain/key "
+"restriction)."
+msgstr "为地理编码搜索功能生成API密钥（无任何域/密钥限制）。"
+
+#: includes/class-workscout-core-admin.php:438
+msgid "Radius slider default state"
+msgstr "半径滑块默认状态"
+
+#: includes/class-workscout-core-admin.php:439
+msgid "Choose radius search slider"
+msgstr "选择半径搜索滑块"
+
+#: includes/class-workscout-core-admin.php:443
+msgid "Disabled by default"
+msgstr "默认情况下禁用"
+
+#: includes/class-workscout-core-admin.php:444
+msgid "Enabled by default"
+msgstr "默认情况下启用"
+
+#: includes/class-workscout-core-admin.php:449
+msgid "Radius search unit"
+msgstr "半径搜索单元"
+
+#: includes/class-workscout-core-admin.php:450
+msgid "Choose a unit"
+msgstr "选择单位"
+
+#: includes/class-workscout-core-admin.php:454
+msgid "km"
+msgstr "公里"
+
+#: includes/class-workscout-core-admin.php:455
+msgid "miles"
+msgstr "英里"
+
+#: includes/class-workscout-core-admin.php:460
+msgid "Default radius search value"
+msgstr "默认半径搜索值"
+
+#: includes/class-workscout-core-admin.php:461
+msgid ""
+"Set default radius for search, leave empty to disable default radius search."
+msgstr "设置搜索的默认半径，保留为空以禁用默认半径搜索。"
+
+#: includes/class-workscout-core-admin.php:474
+msgid "Registration"
+msgstr "登记"
+
+#: includes/class-workscout-core-admin.php:475
+msgid "Settings for users registration and login."
+msgstr "用户注册和登录的设置。"
+
+#: includes/class-workscout-core-admin.php:479
+msgid "Enable Forced Front End Login"
+msgstr "启用强制前端登录"
+
+#: includes/class-workscout-core-admin.php:480
+msgid ""
+"Enabling this option will redirect all wp-login request to frontend form. Be "
+"aware that on some servers or some configuration, especially with security "
+"plugins, this might cause a redirect loop, so always test this setting on "
+"different browser, while being still logged in Dashboard to have option to "
+"disable that if things go wrong."
+msgstr ""
+"启用此选项将将所有wp登录请求重定向到前端表单。请注意，在某些服务器或某些配置"
+"上，尤其是使用安全插件时，这可能会导致重定向循环，因此请始终在不同的浏览器上"
+"测试此设置，同时仍在Dashboard中登录，以便在出现问题时选择禁用此设置。"
+
+#: includes/class-workscout-core-admin.php:485
+msgid "Login/Registration Form Type"
+msgstr "登录/注册表格类型"
+
+#: includes/class-workscout-core-admin.php:486
+#: includes/class-workscout-core-admin.php:497
+#: includes/class-workscout-core-admin.php:503
+msgid "."
+msgstr "."
+
+#: includes/class-workscout-core-admin.php:489
+msgid "Ajax form in a popup"
+msgstr "弹出窗口中的Ajax表单"
+
+#: includes/class-workscout-core-admin.php:490
+msgid "Separate page"
+msgstr "单独的页面"
+
+#: includes/class-workscout-core-admin.php:496
+msgid "Enable Privacy Policy link in registration form"
+msgstr "在注册表中启用隐私政策链接"
+
+#: includes/class-workscout-core-admin.php:502
+msgid "Automatically login user after successful registration"
+msgstr "注册成功后自动登录用户"
+
+#: includes/class-workscout-core-admin.php:508
+msgid "Enable reCAPTCHA on registration form"
+msgstr "在注册表单上启用reCAPTCHA"
+
+#: includes/class-workscout-core-admin.php:509
+msgid ""
+"Check this checkbox to add reCAPTCHA to form. You need to provide API keys "
+"for that."
+msgstr "选中此复选框可将reCAPTCHA添加到表单中。您需要为此提供API密钥。"
+
+#: includes/class-workscout-core-admin.php:514
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA站点密钥"
+
+#: includes/class-workscout-core-admin.php:515
+#: includes/class-workscout-core-admin.php:521
+msgid ""
+"Get the sitekey from https://www.google.com/recaptcha/admin#list - use "
+"reCaptcha v2"
+msgstr ""
+"从获取站点密钥https://www.google.com/recaptcha/admin#list-使用reCaptcha v2"
+
+#: includes/class-workscout-core-admin.php:520
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA密钥"
+
+#: includes/class-workscout-core-admin.php:526
+msgid "Hide Role field in Registration Form"
+msgstr "隐藏注册表中的角色字段"
+
+#: includes/class-workscout-core-admin.php:527
+msgid ""
+"If hidden, set default role in Settings -> General -> New User Default Role"
+msgstr "如果隐藏，请在“设置”->“常规”->“新建用户默认角色”中设置默认角色"
+
+#: includes/class-workscout-core-admin.php:532
+msgid "Hide Username field in Registration Form"
+msgstr "隐藏注册表中的用户名字段"
+
+#: includes/class-workscout-core-admin.php:533
+msgid "Username will be generated from email address (part before @)"
+msgstr "用户名将从电子邮件地址生成（@之前的部分）"
+
+#: includes/class-workscout-core-admin.php:539
+msgid "Display First and Last name fields in registration form"
+msgstr "在注册表中显示名字和姓氏字段"
+
+#: includes/class-workscout-core-admin.php:540
+msgid "Adds optional input fields for first and last name"
+msgstr "为名字和姓氏添加可选输入字段"
+
+#: includes/class-workscout-core-admin.php:545
+msgid "Add Password pickup field to registration form"
+msgstr "将密码拾取字段添加到注册表"
+
+#: includes/class-workscout-core-admin.php:546
+msgid ""
+"Enable to add password field, when disabled it will be randomly generated "
+"and sent via email"
+msgstr "启用添加密码字段，禁用后将随机生成并通过电子邮件发送"
+
+#: includes/class-workscout-core-admin.php:553
+msgid "Pages"
+msgstr "页"
+
+#: includes/class-workscout-core-admin.php:554
+msgid "Set all pages required in WorkScout."
+msgstr "设置WorkScout中所需的所有页面。"
+
+#: includes/class-workscout-core-admin.php:560
+msgid "Main Dashboard page for user"
+msgstr "用户的主仪表板页面"
+
+#: includes/class-workscout-core-admin.php:566
+msgid "Messages Page"
+msgstr "消息页面"
+
+#: includes/class-workscout-core-admin.php:567
+msgid "Main page for user messages"
+msgstr "用户消息主页"
+
+#: includes/class-workscout-core-admin.php:573
+msgid "Past Applications Page"
+msgstr "过去的申请页面"
+
+#: includes/class-workscout-core-admin.php:574
+msgid "Page to show previous applications (requires Applications add-on)"
+msgstr "显示以前应用程序的页面（需要应用程序加载项）"
+
+#: includes/class-workscout-core-admin.php:581
+msgid "My Profile Page"
+msgstr "我的个人资料页"
+
+#: includes/class-workscout-core-admin.php:582
+msgid "Displays user profile page"
+msgstr "显示用户配置文件页面"
+
+#: includes/class-workscout-core-admin.php:587
+msgid "Lost Password Page"
+msgstr "丢失密码页面"
+
+#: includes/class-workscout-core-admin.php:588
+msgid "Select page that holds [workscout_lost_password] shortcode"
+msgstr "选择包含[workcout_lost_password]短代码的页面"
+
+#: includes/class-workscout-core-admin.php:594
+msgid "Reset Password Page"
+msgstr "重置密码页面"
+
+#: includes/class-workscout-core-admin.php:595
+msgid "Select page that holds [workscout_reset_password] shortcode"
+msgstr "选择包含[workcout_reset_password]短代码的页面"
+
+#: includes/class-workscout-core-admin.php:601
+msgid "Browse Job Categories Page"
+msgstr "浏览作业类别页面"
+
+#: includes/class-workscout-core-admin.php:602
+msgid "Select page that shows list of job categories"
+msgstr "选择显示作业类别列表的页面"
+
+#: includes/class-workscout-core-admin.php:608
+msgid "Browse Resume Categories Page"
+msgstr "浏览简历类别页面"
+
+#: includes/class-workscout-core-admin.php:609
+msgid "Select page that shows list of resume categories"
+msgstr "选择显示简历类别列表的页面"
+
+#: includes/class-workscout-core-admin.php:617
+msgid "WooCommerce Orders Page"
+msgstr "WooCommerce订单页面"
+
+#: includes/class-workscout-core-admin.php:618
+msgid "Displays orders page in dashboard menu"
+msgstr "在仪表板菜单中显示订单页面"
+
+#: includes/class-workscout-core-admin.php:623
+msgid "WooCommerce Subscription Page"
+msgstr "WooCommerce订阅页面"
+
+#: includes/class-workscout-core-admin.php:624
+msgid ""
+"Displays subscription page in dashboard menu (requires WooCommerce "
+"Subscription plugin)"
+msgstr "在仪表板菜单中显示订阅页面（需要WooCommerce订阅插件）"
+
+#: includes/class-workscout-core-admin.php:695
+msgid "Emails"
+msgstr "电子邮件"
+
+#: includes/class-workscout-core-admin.php:696
+msgid "Email settings."
+msgstr "电子邮件设置。"
+
+#: includes/class-workscout-core-admin.php:700
+msgid "\"From name\" in email"
+msgstr "电子邮件中的“发件人姓名”"
+
+#: includes/class-workscout-core-admin.php:701
+msgid ""
+"The name from who the email is received, by default it is your site name."
+msgstr "接收电子邮件的人的姓名，默认情况下是您的站点名称。"
+
+#: includes/class-workscout-core-admin.php:708
+msgid "\"From\" email "
+msgstr "“发件人”电子邮件"
+
+#: includes/class-workscout-core-admin.php:709
+msgid ""
+"This will act as the \"from\" and \"reply-to\" address. This emails should "
+"match your domain address"
+msgstr "这将作为“发件人”和“回复”地址。此电子邮件应与您的域名匹配"
+
+#: includes/class-workscout-core-admin.php:717
+msgid "Registration/Welcome email for new users"
+msgstr "新用户的注册/欢迎电子邮件"
+
+#: includes/class-workscout-core-admin.php:720
+#: includes/class-workscout-core-admin.php:760
+#: includes/class-workscout-core-admin.php:791
+msgid "Available tags are:"
+msgstr "可用的标签有："
+
+#: includes/class-workscout-core-admin.php:723
+msgid "Welcome  Email Subject"
+msgstr "欢迎电子邮件主题"
+
+#: includes/class-workscout-core-admin.php:724
+msgid "Welcome to {site_name}"
+msgstr "欢迎使用｛site_name｝"
+
+#: includes/class-workscout-core-admin.php:729
+msgid "Published notification Email Content"
+msgstr "发布的通知电子邮件内容"
+
+#: includes/class-workscout-core-admin.php:746
+msgid "Email notification about new conversation"
+msgstr "关于新对话的电子邮件通知"
+
+#: includes/class-workscout-core-admin.php:751
+msgid "Enable new conversation notification email"
+msgstr "启用新对话通知电子邮件"
+
+#: includes/class-workscout-core-admin.php:752
+msgid ""
+"Check this checkbox to enable sending emails to user when there was new "
+"conversation started"
+msgstr "选中此复选框可在开始新对话时向用户发送电子邮件"
+
+#: includes/class-workscout-core-admin.php:757
+msgid "New conversation notification email subject"
+msgstr "新对话通知电子邮件主题"
+
+#: includes/class-workscout-core-admin.php:758
+msgid "You got new conversation"
+msgstr "你有新的对话"
+
+#: includes/class-workscout-core-admin.php:764
+msgid "New conversation notification email content"
+msgstr "新对话通知电子邮件内容"
+
+#: includes/class-workscout-core-admin.php:777
+msgid "Email notification about new message"
+msgstr "关于新邮件的电子邮件通知"
+
+#: includes/class-workscout-core-admin.php:782
+msgid "Enable new message notification email"
+msgstr "启用新消息通知电子邮件"
+
+#: includes/class-workscout-core-admin.php:783
+msgid ""
+"Check this checkbox to enable sending emails to user when there was new "
+"message send"
+msgstr "选中此复选框可在有新邮件发送时向用户发送电子邮件"
+
+#: includes/class-workscout-core-admin.php:788
+msgid "New message notification email subject"
+msgstr "新邮件通知电子邮件主题"
+
+#: includes/class-workscout-core-admin.php:789
+msgid "You got new message"
+msgstr "你收到了新消息"
+
+#: includes/class-workscout-core-admin.php:795
+msgid "New message notification email content"
+msgstr "新消息通知电子邮件内容"
+
+#: includes/class-workscout-core-admin.php:876
+msgid "Plugin Settings"
+msgstr "插件设置"
+
+#: includes/class-workscout-core-admin.php:928
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: includes/class-workscout-core-admin.php:1081
+msgid "Upload an image"
+msgstr "上载图像"
+
+#: includes/class-workscout-core-admin.php:1081
+msgid "Use image"
+msgstr "使用图像"
+
+#: includes/class-workscout-core-admin.php:1081
+msgid "Upload new image"
+msgstr "上载新图像"
+
+#: includes/class-workscout-core-admin.php:1082
+msgid "Remove image"
+msgstr "删除图像"
+
+#: includes/class-workscout-core-admin.php:1296
+#: includes/class-workscout-core-admin.php:1305
+#: includes/class-workscout-core.php:528 includes/class-workscout-core.php:537
+msgid "Cheatin&#8217; huh?"
+msgstr "作弊&#8217；呵呵？"
+
+#: includes/class-workscout-core-editor.php:168
+msgid "Please upload a valid .json file"
+msgstr "请上传有效的.json文件"
+
+#: includes/class-workscout-core-editor.php:174
+msgid "Please upload a file to import"
+msgstr "请上载要导入的文件"
+
+#: includes/class-workscout-core-fields.php:58
+#: includes/class-workscout-core-fields.php:225
+msgid "Minimum rate/h"
+msgstr "最小速率/h"
+
+#: includes/class-workscout-core-fields.php:61
+#: includes/class-workscout-core-fields.php:141
+#: includes/class-workscout-core-fields.php:147
+#: includes/class-workscout-core-fields.php:228
+#: includes/class-workscout-core-fields.php:244
+msgid "e.g. 20"
+msgstr "e、 g.20"
+
+#: includes/class-workscout-core-fields.php:65
+msgid "Maximum rate/h"
+msgstr "最大速率/h"
+
+#: includes/class-workscout-core-fields.php:68
+msgid "e.g. 50"
+msgstr "e、 g.50"
+
+#: includes/class-workscout-core-fields.php:75
+msgid "Minimum Salary"
+msgstr "最低工资"
+
+#: includes/class-workscout-core-fields.php:78
+msgid "e.g. 20000"
+msgstr "e、 g.20000"
+
+#: includes/class-workscout-core-fields.php:82
+msgid "Maximum Salary"
+msgstr "最高工资"
+
+#: includes/class-workscout-core-fields.php:85
+msgid "e.g. 50000"
+msgstr "e、 g.50000"
+
+#: includes/class-workscout-core-fields.php:92
+#: includes/class-workscout-core-fields.php:131
+msgid "Hours per week"
+msgstr "每周小时数"
+
+#: includes/class-workscout-core-fields.php:95
+msgid "e.g. 40"
+msgstr "e、 g.40"
+
+#: includes/class-workscout-core-fields.php:101
+#: includes/class-workscout-core-fields.php:166
+msgid "External \"Apply for Job\" link"
+msgstr "外部“申请工作”链接"
+
+#: includes/class-workscout-core-fields.php:104
+#: includes/class-workscout-core-fields.php:168
+msgid "http://"
+msgstr "网址：//"
+
+#: includes/class-workscout-core-fields.php:108
+msgid "Header Image"
+msgstr "标题图像"
+
+#: includes/class-workscout-core-fields.php:111
+msgid "The header image size should be at least 1750x425px"
+msgstr "标头图像大小应至少为1750x425px"
+
+#: includes/class-workscout-core-fields.php:139
+#: includes/class-workscout-core-fields.php:242
+msgid "Rate/h (minimum)"
+msgstr "速率/h（最小值）"
+
+#: includes/class-workscout-core-fields.php:142
+#: includes/class-workscout-core-fields.php:156
+msgid "Put just a number"
+msgstr "只输入一个数字"
+
+#: includes/class-workscout-core-fields.php:145
+msgid "Rate/h (maximum) "
+msgstr "速率/h（最大）"
+
+#: includes/class-workscout-core-fields.php:148
+msgid ""
+"Put just a number - you can leave it empty and set only minimum rate value "
+msgstr "只输入一个数字-您可以将其保留为空，并只设置最小速率值"
+
+#: includes/class-workscout-core-fields.php:153
+msgid "Salary min"
+msgstr "最低工资"
+
+#: includes/class-workscout-core-fields.php:155
+msgid "e.g. 20.000"
+msgstr "e、 20.000克"
+
+#: includes/class-workscout-core-fields.php:159
+msgid "Salary max"
+msgstr "最高工资"
+
+#: includes/class-workscout-core-fields.php:161
+msgid "e.g. 50.000"
+msgstr "e、 50000克"
+
+#: includes/class-workscout-core-fields.php:162
+msgid ""
+"Maximum of salary range you can offer - you can leave it empty and set only "
+"minimum salary "
+msgstr "您可以提供的最大工资范围-您可以将其留空，并仅设置最低工资"
+
+#: includes/class-workscout-core-fields.php:169
+msgid ""
+"If the job applying is done on external page, here's the place to put link "
+"to that page - it will be used instead of standard Apply form"
+msgstr ""
+"如果工作申请是在外部页面上完成的，这里是放置该页面链接的地方-它将被使用而不是"
+"标准的申请表单"
+
+#: includes/class-workscout-core-fields.php:172
+msgid "Hide \"Expiration date\""
+msgstr "隐藏“到期日期”"
+
+#: includes/class-workscout-core-fields.php:176
+msgid "Hide the Listing Expiry Date  from job details"
+msgstr "从作业详细信息中隐藏列表到期日期"
+
+#: includes/class-workscout-core-fields.php:260
+#: includes/class-workscout-core-fields.php:301
+msgid "Category Icon"
+msgstr "类别图标"
+
+#: includes/class-workscout-core-fields.php:275
+#: includes/class-workscout-core-fields.php:327
+msgid "Icon will be displayed in categories grid view"
+msgstr "图标将显示在类别网格视图中"
+
+#: includes/class-workscout-core-fields.php:278
+#: includes/class-workscout-core-fields.php:331
+msgid "Custom image icon for category"
+msgstr "类别的自定义图像图标"
+
+#: includes/class-workscout-core-fields.php:280
+#: includes/class-workscout-core-fields.php:334
+msgid "This is alternative for font based icons"
+msgstr "这是基于字体的图标的替代方案"
+
+#: includes/class-workscout-core-fields.php:283
+#: includes/class-workscout-core-fields.php:338
+msgid "Background image for category header"
+msgstr "类别标题的背景图像"
+
+#: includes/class-workscout-core-fields.php:285
+msgid ""
+"Similar to the single jobs you can add image to the category header. It "
+"should be 1920px wide"
+msgstr "与单个作业类似，您可以将图像添加到类别标题中。它应该是1920px宽"
+
+#: includes/class-workscout-core-fields.php:341
+msgid ""
+"Similar to the single jobs you can add image to the category header. Put "
+"here direct link to the image. It should be 1920px wide"
+msgstr ""
+"与单个作业类似，您可以将图像添加到类别标题中。在这里直接链接到图片。它应该是"
+"1920px宽"
+
+#: includes/class-workscout-core-messages.php:156
+#: includes/class-workscout-core-messages.php:195
+msgid "Your message was successfully sent"
+msgstr "您的邮件已成功发送"
+
+#: includes/class-workscout-core-messages.php:159
+#: includes/class-workscout-core-messages.php:198
+msgid "Message couldn't be send"
+msgstr "无法发送消息"
+
+#: includes/class-workscout-core-messages.php:173
+msgid "Empty message"
+msgstr "空消息"
+
+#: includes/class-workscout-core-messages.php:181
+msgid "Whoops, we have a problem"
+msgstr "哇，我们有问题了"
+
+#: includes/class-workscout-core-messages.php:327
+msgid "Reservation for "
+msgstr "预订"
+
+#: includes/class-workscout-core-messages.php:450
+msgid "You need to be signed in to manage your messages."
+msgstr "您需要登录才能管理邮件。"
+
+#: includes/class-workscout-core-messages.php:477
+msgid "Conversation was removed"
+msgstr "对话已删除"
+
+#: includes/class-workscout-core-messages.php:479
+msgid "Conversation couldn't be removed."
+msgstr "无法删除对话。"
+
+#: includes/class-workscout-core-registration.php:162
+#: includes/class-workscout-core.php:312
+msgid "Sending user info, please wait..."
+msgstr "正在发送用户信息，请稍候。。。"
+
+#: includes/class-workscout-core-registration.php:176
+#: includes/class-workscout-core-registration.php:229
+msgid "Session token has expired, please reload the page and try again"
+msgstr "会话令牌已过期，请重新加载页面并重试"
+
+#: includes/class-workscout-core-registration.php:205
+msgid "Login successful, redirecting..."
+msgstr "登录成功，正在重定向。。。"
+
+#: includes/class-workscout-core-registration.php:219
+msgid "Registration is disabled"
+msgstr "注册被禁用"
+
+#: includes/class-workscout-core-registration.php:241
+msgid "Please fill email address"
+msgstr "请填写电子邮件地址"
+
+#: includes/class-workscout-core-registration.php:251
+msgid "This is not valid email address"
+msgstr "这不是有效的电子邮件地址"
+
+#: includes/class-workscout-core-registration.php:273
+msgid "Please provide your username"
+msgstr "请提供您的用户名"
+
+#: includes/class-workscout-core-registration.php:298
+msgid "Please provide password"
+msgstr "请提供密码"
+
+#: includes/class-workscout-core-registration.php:311
+msgid "Please accept Privacy Policy"
+msgstr "请接受隐私政策"
+
+#: includes/class-workscout-core-registration.php:338
+msgid "Wrong reCAPTCHA"
+msgstr "错误的reCAPTCHA"
+
+#: includes/class-workscout-core-registration.php:346
+msgid "You forgot about reCAPTCHA"
+msgstr "你忘记了reCAPTCHA"
+
+#: includes/class-workscout-core-registration.php:366
+msgid "You have been successfuly registered, you will be logged in a moment."
+msgstr "您已成功注册，稍后将登录。"
+
+#: includes/class-workscout-core-registration.php:368
+msgid ""
+"You have been successfuly registered,  you will be logged in a moment. "
+"Please check your email for the password."
+msgstr "您已成功注册，稍后将登录。请检查您的电子邮件以获取密码。"
+
+#: includes/class-workscout-core-registration.php:372
+msgid ""
+"You have been successfuly registered, you can <a href=\"#\" class=\"modal-"
+"login-link\">login now</a>."
+msgstr "您已成功注册，您可以立即<a href=“#”class=“modal login link”>登录</a>。"
+
+#: includes/class-workscout-core-registration.php:374
+msgid ""
+"You have been successfuly registered. Please check your email for the "
+"password."
+msgstr "您已成功注册。请检查您的电子邮件以获取密码。"
+
+#: includes/class-workscout-core-registration.php:481
+#, php-format
+msgid "%s has been deleted"
+msgstr "%s已被删除"
+
+#: includes/class-workscout-core-registration.php:503
+#: templates/my-account.php:57
+msgid "Phone"
+msgstr "电话"
+
+#: includes/class-workscout-core-registration.php:504
+msgid "Twitter "
+msgstr "啁啾"
+
+#: includes/class-workscout-core-registration.php:505
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: includes/class-workscout-core-registration.php:507
+#: templates/my-account.php:99
+msgid "Linkedin"
+msgstr "Linkedin公司"
+
+#: includes/class-workscout-core-registration.php:508
+#: templates/my-account.php:103
+msgid "Instagram"
+msgstr "一款图片分享应用"
+
+#: includes/class-workscout-core-registration.php:509
+#: templates/my-account.php:106
+msgid "YouTube"
+msgstr "YouTube网站"
+
+#: includes/class-workscout-core-registration.php:510
+#: templates/my-account.php:112
+msgid "Skype"
+msgstr "视频电话"
+
+#: includes/class-workscout-core-registration.php:511
+#: templates/my-account.php:109
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-workscout-core-registration.php:696
+msgid "Workscout_Core Avatar"
+msgstr "Workscout_核心头像"
+
+#: includes/class-workscout-core-registration.php:713
+msgid "Upload Image"
+msgstr "上载图像"
+
+#: includes/class-workscout-core-registration.php:714
+msgid "This avatar will be displayed instead of default one"
+msgstr "将显示此头像而不是默认头像"
+
+#: includes/class-workscout-core-registration.php:720
+msgid "Extra profile information"
+msgstr "额外配置文件信息"
+
+#: includes/class-workscout-core-registration.php:730
+msgid "This text will be displayed below your Name on Agents list"
+msgstr "此文本将显示在您的代理人姓名列表下方"
+
+#: includes/class-workscout-core-registration.php:789
+msgid "You are already signed in."
+msgstr "您已登录。"
+
+#: includes/class-workscout-core-registration.php:810
+msgid "Password has been changed."
+msgstr "密码已更改。"
+
+#: includes/class-workscout-core-registration.php:816
+msgid "A confirmation link has been sent to your email address."
+msgstr "确认链接已发送到您的电子邮件地址。"
+
+#: includes/class-workscout-core-registration.php:821
+msgid "Invalid password reset link."
+msgstr "密码重置链接无效。"
+
+#: includes/class-workscout-core-registration.php:834
+msgid "You need to be signed in to access your listings."
+msgstr "您需要登录才能访问您的物品。"
+
+#: includes/class-workscout-core-registration.php:861
+msgid "You need to be signed in to manage your packages."
+msgstr "您需要登录才能管理包。"
+
+#: includes/class-workscout-core-registration.php:987
+msgid "Please set a Lost Password Page in Workscout_Core Options -> Pages"
+msgstr "请在Workscout_Core选项->页面中设置丢失密码页面"
+
+#: includes/class-workscout-core-registration.php:1099
+msgid "This email is already registered"
+msgstr "此电子邮件已注册"
+
+#: includes/class-workscout-core-registration.php:1102
+msgid "This username already exists"
+msgstr "此用户名已存在"
+
+#: includes/class-workscout-core-registration.php:1127
+msgid "An unknown error occurred. Please try again later."
+msgstr "发生未知错误。请稍后再试。"
+
+#: includes/class-workscout-core-registration.php:1476
+msgid "employer"
+msgstr "雇用者"
+
+#: includes/class-workscout-core-registration.php:1479
+msgid "candidate"
+msgstr "候选人"
+
+#: includes/class-workscout-core-registration.php:1484
+#, php-format
+msgid "Role: %s"
+msgstr "角色：%s"
+
+#: includes/class-workscout-core-wpjm-settings.php:95
+msgid "Before number"
+msgstr "编号之前"
+
+#: includes/class-workscout-core-wpjm-settings.php:96
+msgid "After number"
+msgstr "编号之后"
+
+#: includes/class-workscout-core-wpjm-settings.php:102
+#: includes/class-workscout-core-wpjm-settings.php:103
+msgid "Enable Hours per week field"
+msgstr "启用每周小时字段"
+
+#: includes/class-workscout-core-wpjm-settings.php:104
+msgid ""
+"Enabling this option will show a Hours per week field in Post a Job page."
+msgstr "启用此选项将在“发布作业”页面中显示“每周小时数”字段。"
+
+#: includes/class-workscout-core-wpjm-settings.php:110
+msgid "\"Salaries\" functionality"
+msgstr "“薪水”功能"
+
+#: includes/class-workscout-core-wpjm-settings.php:111
+#: includes/class-workscout-core-wpjm-settings.php:119
+msgid "Enable filter option on Jobs page"
+msgstr "在“作业”页面上启用筛选选项"
+
+#: includes/class-workscout-core-wpjm-settings.php:112
+msgid ""
+"Enabling this option will show a salary range filter in sidebar on Jobs page "
+"and salary fields on Job posting."
+msgstr ""
+"启用此选项将在“工作”页面的侧边栏中显示薪资范围过滤器，并在“工作发布”中显示薪"
+"资字段。"
+
+#: includes/class-workscout-core-wpjm-settings.php:118
+msgid "\"Rates\" functionality"
+msgstr "“费率”功能"
+
+#: includes/class-workscout-core-wpjm-settings.php:120
+msgid ""
+"Enabling this option will show a rate range filter in sidebar on Jobs page "
+"and rate fields on Job posting."
+msgstr ""
+"启用此选项将在“作业”页面的侧边栏中显示费率范围过滤器，并在“作业发布”中显示费"
+"率字段。"
+
+#: includes/class-workscout-core-wpjm-settings.php:127
+msgid "Location field on Jobs page"
+msgstr "“作业”页面上的“位置”字段"
+
+#: includes/class-workscout-core-wpjm-settings.php:128
+msgid "Show location search field on Jobs page sidebar"
+msgstr "在“工作”页面侧边栏上显示位置搜索字段"
+
+#: includes/class-workscout-core-wpjm-settings.php:129
+#: includes/class-workscout-core-wpjm-settings.php:137
+#: includes/class-workscout-core-wpjm-settings.php:153
+msgid "Uncheck to hide"
+msgstr "取消选中以隐藏"
+
+#: includes/class-workscout-core-wpjm-settings.php:135
+msgid "Job Types field on Jobs page"
+msgstr "“作业”页面上的“作业类型”字段"
+
+#: includes/class-workscout-core-wpjm-settings.php:136
+msgid "Show Job Types field on Jobs page sidebar"
+msgstr "在“作业”页侧边栏上显示“作业类型”字段"
+
+#: includes/class-workscout-core-wpjm-settings.php:143
+msgid "My Bookmarks Page"
+msgstr "我的书签页"
+
+#: includes/class-workscout-core-wpjm-settings.php:144
+msgid ""
+"Select the page where you've used the [my_bookmarks]  shortcode. This "
+"requires Bookmarks add-on"
+msgstr "选择您使用[my_bookmarks]短代码的页面。这需要书签加载项"
+
+#: includes/class-workscout-core-wpjm-settings.php:151
+msgid "Job Tags filter on Jobs page"
+msgstr "作业页面上的作业标签过滤器"
+
+#: includes/class-workscout-core-wpjm-settings.php:152
+msgid "Show Job Tags filter on Jobs page sidebar"
+msgstr "在“作业”页面侧边栏上显示“作业标记”筛选器"
+
+#: includes/class-workscout-core-wpjm-settings.php:170
+msgid "Filter Resumes by Rate"
+msgstr "按费率筛选简历"
+
+#: includes/class-workscout-core-wpjm-settings.php:171
+msgid "Enable filter option on Resumes page"
+msgstr "在“简历”页面上启用筛选选项"
+
+#: includes/class-workscout-core-wpjm-settings.php:172
+msgid ""
+"Enabling this option will show a salary range filter in sidebar on Resumes "
+"page."
+msgstr "启用此选项将在简历页面的侧边栏中显示薪资范围过滤器。"
+
+#: includes/class-workscout-core-wpjm-settings.php:179
+#: includes/class-workscout-core-wpjm-settings.php:180
+msgid "Enable comments on Resumes"
+msgstr "启用对简历的评论"
+
+#: includes/class-workscout-core-wpjm-settings.php:181
+msgid "Check to enable comments section on Resumes."
+msgstr "选中以启用简历上的评论部分。"
+
+#: includes/class-workscout-core.php:327
+msgid "Category Title"
+msgstr "类别标题"
+
+#: includes/class-workscout-core.php:422
+msgid "Once every 5 minutes"
+msgstr "每5分钟一次"
+
+#: includes/class-workscout-core.php:427
+msgid "Once every 30 minutes"
+msgstr "每30分钟一次"
+
+#: includes/class-workscout-core.php:448
+msgid "Single listing sidebar"
+msgstr "单个列表侧边栏"
+
+#: includes/class-workscout-core.php:450 includes/class-workscout-core.php:460
+msgid "Add widgets here."
+msgstr "在此处添加小部件。"
+
+#: includes/class-workscout-core.php:458
+msgid "Listings sidebar"
+msgstr "列表侧边栏"
+
+#: includes/class-workscout-core.php:482
+msgid "Please configure Google Maps API key to use all WorkScout features."
+msgstr "请配置谷歌地图API密钥以使用所有WorkScout功能。"
+
+#: includes/class-workscout-core.php:482
+msgid "Check here how to do it."
+msgstr "在这里查看如何操作。"
+
+#: includes/class-workscout-core.php:572
+msgid "Owner"
+msgstr "物主"
+
+#: includes/class-workscout-core.php:610
+msgid "Guest"
+msgstr "客人"
+
+#: shortcodes/box_job_categories.php:159
+#: shortcodes/box_resume_categories.php:149
+msgid "Browse All Categories"
+msgstr "浏览所有类别"
+
+#: shortcodes/imagebox.php:42 vc_map/jobs.php:23 vc_map/jobs.php:105
+#: vc_map/pricing_table.php:22 vc_map/spotlight_jobs.php:27
+#: vc_map/spotlight_jobs.php:143 vc_map/spotlight_resumes.php:27
+#: vc_map/spotlight_resumes.php:116
+msgid "Featured"
+msgstr "作为特色的"
+
+#: shortcodes/jobs.php:91
+msgid "Load more listings"
+msgstr "加载更多列表"
+
+#: shortcodes/jobs.php:134
+msgid "Show More Jobs"
+msgstr "显示更多作业"
+
+#: shortcodes/jobs_searchbox.php:105
+#, php-format
+msgid "We have %s job offers for you!"
+msgstr "我们为您提供了%s份工作机会！"
+
+#: shortcodes/resumes.php:65 shortcodes/resumes.php:98
+#: shortcodes/simple_resumes.php:61
+msgid "Load more resumes"
+msgstr "加载更多简历"
+
+#: shortcodes/resumes_searchbox.php:72
+#, php-format
+msgid " Or browse resumes by <a href=\"%s\">category</a>"
+msgstr "或按<a href=“%s”>类别浏览简历</a>"
+
+#: shortcodes/spotlight_resumes.php:176
+msgid "Contact Candidate"
+msgstr "联系人候选人"
+
+#: templates/account/dashboard.php:22
+msgid "Active Job Listings"
+msgstr "活动作业列表"
+
+#: templates/account/dashboard.php:34
+msgid "Active Resumes"
+msgstr "活动简历"
+
+#: templates/account/dashboard.php:51
+msgid "Total Jobs Views"
+msgstr "总作业视图"
+
+#: templates/account/dashboard.php:65
+msgid "Resumes Views"
+msgstr "恢复视图"
+
+#: templates/account/dashboard.php:110
+msgid "Your Applications"
+msgstr "您的应用程序"
+
+#: templates/account/dashboard.php:112
+msgid "Total Applications"
+msgstr "应用程序总数"
+
+#: templates/account/dashboard.php:137
+msgid "Times Bookmarked"
+msgstr "带书签的时间"
+
+#: templates/account/dashboard.php:153
+msgid "Recent Activities"
+msgstr "最近的活动"
+
+#: templates/account/dashboard.php:168
+msgid "Clear All"
+msgstr "全部清除"
+
+#: templates/account/dashboard.php:178
+msgid "Your Resume Packages"
+msgstr "您的简历包"
+
+#: templates/account/dashboard.php:180
+msgid "Your Listing Packages"
+msgstr "您的上市包"
+
+#: templates/account/dashboard.php:197
+#, php-format
+msgid "You have %1$s listings posted out of %2$d"
+msgid_plural "You have %1$s listings posted out of %2$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/dashboard.php:199
+#, php-format
+msgid "You have %s listings posted"
+msgid_plural "You have %s listings posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/dashboard.php:203
+#, php-format
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/dashboard.php:213
+msgid "You don't have any packages yet."
+msgstr "你还没有任何包裹。"
+
+#: templates/account/logged_section.php:16
+msgid "Hi,"
+msgstr "你好"
+
+#: templates/account/login-form.php:32
+msgid "Remember Me"
+msgstr "记住我"
+
+#: templates/account/login-form.php:39
+msgid "Don't have an account?"
+msgstr "没有帐户？"
+
+#: templates/account/login-form.php:39
+msgid "Sign up now"
+msgstr "立即注册"
+
+#: templates/account/login-form.php:42
+msgid "Lost Password?"
+msgstr "密码丢失？"
+
+#: templates/account/login-section.php:33
+msgid "Log Out"
+msgstr "注销"
+
+#: templates/account/lost_password.php:28
+msgid "Email Address:"
+msgstr "电子邮件地址："
+
+#: templates/account/lost_password.php:34
+#: templates/account/reset_password.php:37
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: templates/account/messages.php:11
+msgid "Inbox"
+msgstr "收件箱"
+
+#: templates/account/messages.php:47 templates/account/single_message.php:82
+msgid "Unread"
+msgstr "未读"
+
+#: templates/account/messages.php:49
+msgid "ago"
+msgstr "以前"
+
+#: templates/account/messages.php:60
+msgid "You don't have any messages yet"
+msgstr "你还没有任何消息"
+
+#: templates/account/owner_only.php:4
+msgid "Sorry, you can't view this page, please register account to get access."
+msgstr "抱歉，您无法查看此页面，请注册帐户以获取访问权限。"
+
+#: templates/account/registration-form.php:58 templates/my-account.php:51
+msgid "First Name"
+msgstr "名字"
+
+#: templates/account/registration-form.php:65 templates/my-account.php:54
+msgid "Last Name"
+msgstr "姓"
+
+#: templates/account/registration-form.php:94
+msgid "I agree to the"
+msgstr "我同意"
+
+#: templates/account/registration-form.php:94
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: templates/account/registration-form.php:100
+msgid "Please leave this field empty"
+msgstr "请将此字段留空"
+
+#: templates/account/registration-form.php:107
+msgid "Register Your Account"
+msgstr "注册您的帐户"
+
+#: templates/account/registration-form.php:112
+msgid "Password will be generated and sent to your email address."
+msgstr "密码将生成并发送到您的电子邮件地址。"
+
+#: templates/account/reset_password.php:25
+msgid "New password"
+msgstr "新密码"
+
+#: templates/account/reset_password.php:29
+msgid "Repeat new password"
+msgstr "重复新密码"
+
+#: templates/account/single_message.php:20
+msgid "This message does not exists."
+msgstr "此消息不存在。"
+
+#: templates/account/single_message.php:44
+msgid "Delete Conversation"
+msgstr "删除对话"
+
+#: templates/account/single_message.php:122
+msgid "Your Message"
+msgstr "您的信息"
+
+#: templates/account/single_message.php:136
+msgid "It's not your converstation!"
+msgstr "这不是你的谈话！"
+
+#: templates/emails/footer.php:20
+msgid "Have a question?"
+msgstr "有问题吗？"
+
+#: templates/my-account.php:9
+msgid "Your profile has been updated."
+msgstr "您的个人资料已更新。"
+
+#: templates/my-account.php:15
+msgid "You must be logged in to edit your profile."
+msgstr "您必须登录才能编辑您的个人资料。"
+
+#: templates/my-account.php:24
+msgid "Profile Details"
+msgstr "配置文件详细信息"
+
+#: templates/my-account.php:36
+msgid "Avatar"
+msgstr "阿凡达"
+
+#: templates/my-account.php:37
+msgid "Change Avatar"
+msgstr "更改头像"
+
+#: templates/my-account.php:65
+msgid "The Email you entered is not valid or empty. Please try again."
+msgstr "您输入的电子邮件无效或为空。请重试。"
+
+#: templates/my-account.php:68
+msgid "This email is already used by another user, please try a different one."
+msgstr "此电子邮件已被其他用户使用，请尝试其他电子邮件。"
+
+#: templates/my-account.php:80
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: templates/my-account.php:83
+msgid "About me"
+msgstr "关于我"
+
+#: templates/my-account.php:119 templates/my-account.php:189
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: templates/my-account.php:143
+msgid "Your password should be at least 12 random characters long to be safe"
+msgstr "您的密码应至少为12个随机字符，以确保安全"
+
+#: templates/my-account.php:148
+msgid "Your password has been updated."
+msgstr "您的密码已更新。"
+
+#: templates/my-account.php:156
+msgid "Your current password does not match. Please retry."
+msgstr "您当前的密码不匹配。请重试。"
+
+#: templates/my-account.php:159
+msgid "The passwords do not match. Please retry.."
+msgstr "密码不匹配。请重试。。"
+
+#: templates/my-account.php:162
+msgid "A bit short as a password, don't you think?"
+msgstr "密码有点短，你不觉得吗？"
+
+#: templates/my-account.php:165
+msgid "Password may not contain the character \"\\\" (backslash)."
+msgstr "密码不能包含字符“\\”（反斜杠）。"
+
+#: templates/my-account.php:168
+msgid "An error occurred while updating your profile. Please retry."
+msgstr "更新配置文件时出错。请重试。"
+
+#: templates/my-account.php:180
+msgid "Current Password"
+msgstr "当前密码"
+
+#: templates/my-account.php:186
+msgid "Confirm New Password"
+msgstr "确认新密码"
+
+#: templates/my-account.php:202
+msgid "Delete Your Account"
+msgstr "删除您的帐户"
+
+#: vc_map/actionbox.php:9
+msgid "Action Box"
+msgstr "动作框"
+
+#: vc_map/actionbox.php:12
+msgid "Call-to-action box"
+msgstr "行动呼吁框"
+
+#: vc_map/actionbox.php:13
+msgid "workscout_core"
+msgstr "工作台核心"
+
+#: vc_map/actionbox.php:17 vc_map/actionbox_centered.php:17
+#: vc_map/box_job_categories_full.php:31
+#: vc_map/box_resume_categories_full.php:32 vc_map/search_jobs.php:20
+msgid "Wide version (use only on full-width page in full row"
+msgstr "宽版（仅用于整行的全宽页面"
+
+#: vc_map/actionbox.php:19 vc_map/actionbox_centered.php:19
+#: vc_map/box_job_categories_full.php:33
+#: vc_map/box_resume_categories_full.php:34 vc_map/search_jobs.php:22
+msgid ""
+"Setting this to wide on page with sidebar or not in the maximum wide "
+"container will cause layout break."
+msgstr "在带有侧边栏的页面上将其设置为宽或不在最大宽度容器中将导致布局中断。"
+
+#: vc_map/actionbox.php:21 vc_map/actionbox_centered.php:21
+#: vc_map/box_job_categories_full.php:35
+#: vc_map/box_resume_categories_full.php:36 vc_map/pricing_table.php:21
+#: vc_map/search_jobs.php:24
+msgid "Standard"
+msgstr "标准"
+
+#: vc_map/actionbox.php:22 vc_map/actionbox_centered.php:22
+#: vc_map/box_job_categories_full.php:36
+#: vc_map/box_resume_categories_full.php:37 vc_map/search_jobs.php:25
+msgid "Wide"
+msgstr "宽的"
+
+#: vc_map/actionbox.php:28 vc_map/actionbox_centered.php:28
+#: vc_map/box_job_categories_full.php:25
+#: vc_map/box_resume_categories_full.php:26 vc_map/counterbox.php:44
+#: vc_map/headline.php:19 vc_map/iconbox.php:17 vc_map/infobanner.php:22
+#: vc_map/jobs.php:24 vc_map/pricing_table.php:34
+#: vc_map/pricing_woo_tables.php:47 vc_map/recent_blog.php:53
+#: vc_map/spotlight_jobs.php:31 vc_map/spotlight_jobs.php:47
+#: vc_map/spotlight_resumes.php:31 vc_map/spotlight_resumes.php:47
+#: vc_map/testimonials_carousel.php:47 vc_map/testimonials_wide.php:31
+msgid "Title"
+msgstr "标题"
+
+#: vc_map/actionbox.php:35 vc_map/actionbox_centered.php:41
+#: vc_map/iconbox.php:30 vc_map/infobanner.php:35
+msgid "URL"
+msgstr "统一资源定位地址"
+
+#: vc_map/actionbox.php:37 vc_map/infobanner.php:37
+msgid "Where button will link."
+msgstr "按钮将链接到何处。"
+
+#: vc_map/actionbox.php:41 vc_map/infobanner.php:41 vc_map/pricing_table.php:75
+msgid "Button text"
+msgstr "按钮文本"
+
+#: vc_map/actionbox.php:43 vc_map/infobanner.php:43
+msgid "Button text - leave empty to hide button."
+msgstr "按钮文本-保留为空以隐藏按钮。"
+
+#: vc_map/actionbox.php:47 vc_map/actionbox_centered.php:47
+#: vc_map/box_job_categories_full.php:123
+#: vc_map/box_resume_categories_full.php:123 vc_map/carousel.php:21
+#: vc_map/counterbox.php:27 vc_map/counterbox.php:92 vc_map/flip_banner.php:61
+#: vc_map/iconbox.php:59 vc_map/imagebox.php:80 vc_map/infobanner.php:55
+#: vc_map/map.php:34 vc_map/pricing_table.php:81
+#: vc_map/pricing_woo_tables.php:15 vc_map/recent_blog.php:109
+#: vc_map/search_jobs.php:41 vc_map/testimonials_carousel.php:82
+#: vc_map/testimonials_wide.php:72
+msgid "From Visual Composer"
+msgstr "来自Visual Composer"
+
+#: vc_map/actionbox_centered.php:9
+msgid "Action Box Centered"
+msgstr "动作框居中"
+
+#: vc_map/actionbox_centered.php:12
+msgid "(Deprecated)"
+msgstr "（已弃用）"
+
+#: vc_map/actionbox_centered.php:35 vc_map/headline.php:25
+msgid "Subtitle"
+msgstr "字幕"
+
+#: vc_map/actionbox_centered.php:43
+msgid "Where it will link."
+msgstr "它将链接到哪里。"
+
+#: vc_map/box.php:6
+msgid "Notification box"
+msgstr "通知框"
+
+#: vc_map/box.php:15 vc_map/iconbox.php:26
+msgid "Enter message content."
+msgstr "输入消息内容。"
+
+#: vc_map/box.php:20
+msgid "Box type"
+msgstr "箱体类型"
+
+#: vc_map/box_job_categories.php:19
+msgid "Job categories grid"
+msgstr "工作类别网格"
+
+#: vc_map/box_job_categories.php:22 vc_map/box_resume_categories.php:16
+msgid "Grid with icons"
+msgstr "带图标的网格"
+
+#: vc_map/box_job_categories.php:29 vc_map/box_resume_categories.php:22
+msgid "Empty categories.."
+msgstr "空类别。。"
+
+#: vc_map/box_job_categories.php:41 vc_map/box_job_categories_full.php:55
+#: vc_map/box_resume_categories.php:34 vc_map/box_resume_categories_full.php:56
+#: vc_map/search_jobs.php:30
+msgid "Show jobs counter"
+msgstr "显示作业计数器"
+
+#: vc_map/box_job_categories.php:65 vc_map/box_resume_categories.php:86
+msgid "Layout of category boxes"
+msgstr "分类框布局"
+
+#: vc_map/box_job_categories.php:81 vc_map/box_job_categories_full.php:92
+#: vc_map/box_resume_categories.php:45 vc_map/box_resume_categories_full.php:92
+#: vc_map/pricing_woo_tables.php:40 vc_map/recent_blog.php:46
+#: vc_map/spotlight_jobs.php:24 vc_map/spotlight_resumes.php:24
+#: vc_map/testimonials_carousel.php:40 vc_map/testimonials_wide.php:24
+msgid "Order by"
+msgstr "订购依据"
+
+#: vc_map/box_job_categories.php:85 vc_map/box_job_categories_full.php:97
+#: vc_map/box_resume_categories.php:49 vc_map/box_resume_categories_full.php:96
+#: vc_map/jobs.php:25 vc_map/pricing_woo_tables.php:45
+#: vc_map/recent_blog.php:51 vc_map/spotlight_jobs.php:29
+#: vc_map/spotlight_resumes.php:29 vc_map/testimonials_carousel.php:45
+#: vc_map/testimonials_wide.php:29
+msgid "ID"
+msgstr "身份证件"
+
+#: vc_map/box_job_categories.php:86 vc_map/box_job_categories_full.php:98
+#: vc_map/box_resume_categories.php:50 vc_map/box_resume_categories_full.php:97
+msgid "Count"
+msgstr "计数"
+
+#: vc_map/box_job_categories.php:87 vc_map/box_job_categories_full.php:99
+#: vc_map/box_resume_categories.php:51 vc_map/box_resume_categories_full.php:98
+msgid "Slug"
+msgstr "鼻涕虫"
+
+#: vc_map/box_job_categories.php:95 vc_map/box_job_categories_full.php:106
+#: vc_map/box_resume_categories.php:59
+#: vc_map/box_resume_categories_full.php:106 vc_map/jobs.php:35
+#: vc_map/pricing_woo_tables.php:54 vc_map/recent_blog.php:62
+#: vc_map/spotlight_jobs.php:38 vc_map/spotlight_resumes.php:38
+#: vc_map/testimonials_carousel.php:54 vc_map/testimonials_wide.php:38
+msgid "Order"
+msgstr "顺序"
+
+#: vc_map/box_job_categories.php:98 vc_map/box_job_categories_full.php:110
+#: vc_map/box_resume_categories.php:62
+#: vc_map/box_resume_categories_full.php:109 vc_map/jobs.php:38
+#: vc_map/pricing_woo_tables.php:57 vc_map/recent_blog.php:66
+#: vc_map/spotlight_jobs.php:41 vc_map/spotlight_resumes.php:41
+#: vc_map/testimonials_carousel.php:57 vc_map/testimonials_wide.php:41
+msgid "Descending"
+msgstr "降序"
+
+#: vc_map/box_job_categories.php:99 vc_map/box_job_categories_full.php:111
+#: vc_map/box_resume_categories.php:63
+#: vc_map/box_resume_categories_full.php:110 vc_map/jobs.php:39
+#: vc_map/pricing_woo_tables.php:58 vc_map/recent_blog.php:67
+#: vc_map/spotlight_jobs.php:42 vc_map/spotlight_resumes.php:42
+#: vc_map/testimonials_carousel.php:58 vc_map/testimonials_wide.php:42
+msgid "Ascending"
+msgstr "提升"
+
+#: vc_map/box_job_categories.php:106 vc_map/box_job_categories_full.php:116
+#: vc_map/box_resume_categories.php:70
+#: vc_map/box_resume_categories_full.php:116 vc_map/pricing_woo_tables.php:33
+#: vc_map/recent_blog.php:20 vc_map/spotlight_jobs.php:17
+#: vc_map/spotlight_resumes.php:17 vc_map/testimonials_carousel.php:33
+#: vc_map/testimonials_wide.php:17
+msgid "Total items"
+msgstr "项目总数"
+
+#: vc_map/box_job_categories.php:109 vc_map/box_resume_categories.php:73
+#: vc_map/recent_blog.php:24 vc_map/spotlight_jobs.php:20
+#: vc_map/spotlight_resumes.php:20 vc_map/testimonials_carousel.php:36
+#: vc_map/testimonials_wide.php:20
+msgid ""
+"Set max limit for items in grid or enter -1 to display all (limited to 1000)."
+msgstr "设置网格中项目的最大限制，或输入-1以显示全部（限制为1000）。"
+
+#: vc_map/box_job_categories.php:114 vc_map/box_resume_categories.php:78
+msgid "\"Browse categories\" button"
+msgstr "“浏览类别”按钮"
+
+#: vc_map/box_job_categories.php:116
+msgid "If checked the button will be added to the end of the grid."
+msgstr "如果选中，按钮将添加到网格的末尾。"
+
+#: vc_map/box_job_categories.php:117
+msgid "Yes"
+msgstr "对"
+
+#: vc_map/box_job_categories.php:122 vc_map/box_resume_categories.php:103
+msgid "Include only"
+msgstr "仅包括"
+
+#: vc_map/box_job_categories.php:124 vc_map/box_job_categories.php:134
+#: vc_map/spotlight_jobs.php:72
+msgid "Add job categories."
+msgstr "添加作业类别。"
+
+#: vc_map/box_job_categories.php:132 vc_map/box_resume_categories.php:113
+msgid "Exclude only"
+msgstr "仅排除"
+
+#: vc_map/box_job_categories.php:143 vc_map/box_resume_categories.php:124
+msgid "Child of"
+msgstr "的孩子"
+
+#: vc_map/box_job_categories_full.php:13
+msgid "Job categories list"
+msgstr "工作类别列表"
+
+#: vc_map/box_job_categories_full.php:16
+#: vc_map/box_resume_categories_full.php:17
+msgid "Categories as list"
+msgstr "类别作为列表"
+
+#: vc_map/box_job_categories_full.php:27
+#: vc_map/box_resume_categories_full.php:28 vc_map/headline.php:21
+#: vc_map/iconbox.php:19 vc_map/spotlight_jobs.php:49
+#: vc_map/spotlight_resumes.php:49
+msgid "Enter text which will be used as title"
+msgstr "输入将用作标题的文本"
+
+#: vc_map/box_job_categories_full.php:43
+#: vc_map/box_resume_categories_full.php:44
+msgid "Hide empty"
+msgstr "隐藏为空"
+
+#: vc_map/box_job_categories_full.php:67
+#: vc_map/box_resume_categories_full.php:68
+msgid "Type "
+msgstr "类型"
+
+#: vc_map/box_job_categories_full.php:81
+#: vc_map/box_resume_categories_full.php:81
+msgid "Parent id"
+msgstr "父id"
+
+#: vc_map/box_job_categories_full.php:119
+#: vc_map/box_resume_categories_full.php:119
+msgid "Set max limit for items  (limited to 1000)."
+msgstr "设置项目的最大限制（限制为1000）。"
+
+#: vc_map/box_resume_categories.php:13
+msgid "Resumes categories grid"
+msgstr "简历类别网格"
+
+#: vc_map/box_resume_categories.php:80
+msgid "The button will be added to the end of the grid."
+msgstr "按钮将添加到网格的末尾。"
+
+#: vc_map/box_resume_categories.php:105 vc_map/box_resume_categories.php:115
+msgid "Add resume categories."
+msgstr "添加简历类别。"
+
+#: vc_map/box_resume_categories_full.php:14
+msgid "Resumes categories list"
+msgstr "简历类别列表"
+
+#: vc_map/carousel.php:6
+msgid "Client logos carousel"
+msgstr "客户徽标转盘"
+
+#: vc_map/carousel.php:9
+msgid "Carousel with logos"
+msgstr "带有徽标的旋转木马"
+
+#: vc_map/carousel.php:14
+msgid "Clients logos"
+msgstr "客户徽标"
+
+#: vc_map/carousel.php:17
+msgid "Select images from media library."
+msgstr "从媒体库中选择图像。"
+
+#: vc_map/carousel.php:28 vc_map/spotlight_jobs.php:127
+#: vc_map/spotlight_resumes.php:91 vc_map/testimonials_carousel.php:17
+msgid "Auto play"
+msgstr "自动播放"
+
+#: vc_map/carousel.php:37 vc_map/spotlight_jobs.php:136
+#: vc_map/spotlight_resumes.php:109 vc_map/testimonials_carousel.php:26
+msgid "Delay"
+msgstr "延迟"
+
+#: vc_map/carousel.php:39 vc_map/spotlight_jobs.php:138
+#: vc_map/spotlight_resumes.php:111 vc_map/testimonials_carousel.php:28
+msgid "Autoplay delay value"
+msgstr "自动播放延迟值"
+
+#: vc_map/counterbox.php:10
+msgid "Counters wraper"
+msgstr "计数器包装器"
+
+#: vc_map/counterbox.php:21
+msgid "Extra class name"
+msgstr "额外类名"
+
+#: vc_map/counterbox.php:23
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+"如果您希望以不同的方式设置特定内容元素的样式，请使用此字段添加类名，然后在css"
+"文件中引用它。"
+
+#: vc_map/counterbox.php:36
+msgid "Count up box"
+msgstr "计数框"
+
+#: vc_map/counterbox.php:39
+msgid "Box with animated number's counting"
+msgstr "带有动画数字计数的方框"
+
+#: vc_map/counterbox.php:46
+msgid "Enter text which will be used as title."
+msgstr "输入将用作标题的文本。"
+
+#: vc_map/counterbox.php:50
+msgid "Get automatic value of"
+msgstr "获取的自动值"
+
+#: vc_map/counterbox.php:52
+msgid ""
+"Ignore the next \"number\" attribute if this is set to something else then "
+"\"custom\""
+msgstr "如果下一个“number”属性设置为其他属性，则忽略该属性"
+
+#: vc_map/counterbox.php:56 vc_map/map.php:20
+msgid "Resumes"
+msgstr "简历"
+
+#: vc_map/counterbox.php:57
+msgid "Posts"
+msgstr "帖子"
+
+#: vc_map/counterbox.php:58
+msgid "Members"
+msgstr "成员"
+
+#: vc_map/counterbox.php:59
+msgid "Candidates"
+msgstr "候选人"
+
+#: vc_map/counterbox.php:60
+msgid "Employers"
+msgstr "雇主"
+
+#: vc_map/counterbox.php:66
+msgid "Value"
+msgstr "价值"
+
+#: vc_map/counterbox.php:68
+msgid "Only number (for example 2,147)."
+msgstr "只有数字（例如2147）。"
+
+#: vc_map/counterbox.php:73
+msgid "Scale"
+msgstr "规模"
+
+#: vc_map/counterbox.php:75
+msgid "Optional. For example %, degrees, k, etc."
+msgstr "可选择的例如%、度、k等。"
+
+#: vc_map/counterbox.php:79
+msgid "Width of the box"
+msgstr "盒子的宽度"
+
+#: vc_map/counterbox.php:81
+msgid "Applicable if the element is a child of \"counters\" element"
+msgstr "如果元素是“counters”元素的子元素，则适用"
+
+#: vc_map/counterbox.php:83
+msgid "One-third"
+msgstr "三分之一"
+
+#: vc_map/counterbox.php:84
+msgid "Two"
+msgstr "二"
+
+#: vc_map/counterbox.php:85
+msgid "Three"
+msgstr "三"
+
+#: vc_map/counterbox.php:86
+msgid "Four"
+msgstr "四"
+
+#: vc_map/flip_banner.php:10
+msgid "Flip Banner"
+msgstr "翻转横幅"
+
+#: vc_map/flip_banner.php:13
+msgid "Banner with text on hover"
+msgstr "悬停文本的横幅"
+
+#: vc_map/flip_banner.php:14 vc_map/imagebox.php:36
+msgid "Workscout"
+msgstr "Workscout公司"
+
+#: vc_map/flip_banner.php:18
+msgid "Visible text"
+msgstr "可见文本"
+
+#: vc_map/flip_banner.php:25
+msgid "Text displayed on hover"
+msgstr "悬停时显示的文本"
+
+#: vc_map/flip_banner.php:32
+msgid "Banner url"
+msgstr "横幅url"
+
+#: vc_map/flip_banner.php:39 vc_map/imagebox.php:59
+msgid "Background image"
+msgstr "背景图像"
+
+#: vc_map/flip_banner.php:42 vc_map/imagebox.php:62
+#: vc_map/testimonials_wide.php:68
+msgid "Select image from media library."
+msgstr "从媒体库中选择图像。"
+
+#: vc_map/flip_banner.php:46
+msgid "Overlay color"
+msgstr "外罩颜色"
+
+#: vc_map/flip_banner.php:49
+msgid "Select color."
+msgstr "选择颜色。"
+
+#: vc_map/flip_banner.php:53
+msgid "Opacity"
+msgstr "不透明度"
+
+#: vc_map/headline.php:10
+msgid "Headline"
+msgstr "大字标题"
+
+#: vc_map/headline.php:13
+msgid "Header"
+msgstr "收割台"
+
+#: vc_map/headline.php:27
+msgid "Optional  subtitle"
+msgstr "可选字幕"
+
+#: vc_map/headline.php:40
+msgid "Select element tag."
+msgstr "选择元素标记。"
+
+#: vc_map/headline.php:41
+msgid "Select text alignment."
+msgstr "选择文本对齐方式。"
+
+#: vc_map/headline.php:42
+msgid "Enter font size (add scale like px, %, em etc)."
+msgstr "输入字体大小（添加比例，如px、%、em等）。"
+
+#: vc_map/headline.php:43
+msgid "Enter line height (add scale like px, %, em etc)."
+msgstr "输入行高（添加比例，如px、%、em等）。"
+
+#: vc_map/headline.php:44
+msgid "Select color for your element."
+msgstr "选择元素的颜色。"
+
+#: vc_map/headline.php:50
+msgid "Top margin"
+msgstr "顶部边距"
+
+#: vc_map/headline.php:65
+msgid "Choose top margin (in px)"
+msgstr "选择上边距（像素）"
+
+#: vc_map/headline.php:69
+msgid "Bottom margin"
+msgstr "底部边距"
+
+#: vc_map/headline.php:84
+msgid "Choose bottom margin (in px)"
+msgstr "选择下边距（像素）"
+
+#: vc_map/headline.php:88
+msgid "URL (Link)"
+msgstr "URL（链接）"
+
+#: vc_map/headline.php:90
+msgid "Button link."
+msgstr "按钮链接。"
+
+#: vc_map/headline.php:94
+msgid "Clearfix after?"
+msgstr "清除之后？"
+
+#: vc_map/headline.php:96
+msgid ""
+"Add clearfix after headline, you might want to disable it for some elements, "
+"like the recent products carousel."
+msgstr ""
+"在标题之后添加clearfix，您可能希望对某些元素禁用它，例如最近的产品轮播。"
+
+#: vc_map/headline.php:98
+msgid "Yes, please"
+msgstr "是的，请"
+
+#: vc_map/headline.php:99
+msgid "No, thank you"
+msgstr "不，谢谢"
+
+#: vc_map/iconbox.php:9 vc_map/iconbox.php:12
+msgid "Iconbox"
+msgstr "图标框"
+
+#: vc_map/iconbox.php:32
+msgid "Iconbox link"
+msgstr "图标框链接"
+
+#: vc_map/iconbox.php:49
+msgid "Choose style"
+msgstr "选择样式"
+
+#: vc_map/imagebox.php:32
+msgid "Imagebox"
+msgstr "图像信箱"
+
+#: vc_map/imagebox.php:35
+msgid "Box displaying custom taxonomy"
+msgstr "显示自定义分类的框"
+
+#: vc_map/imagebox.php:43
+msgid "Choose region"
+msgstr "选择区域"
+
+#: vc_map/imagebox.php:50
+msgid "Or Job Type"
+msgstr "或作业类型"
+
+#: vc_map/imagebox.php:66
+msgid "Add Featured badge?"
+msgstr "添加特色徽章？"
+
+#: vc_map/imagebox.php:73
+msgid "Show counter?"
+msgstr "显示计数器？"
+
+#: vc_map/infobanner.php:9
+msgid "Same window"
+msgstr "同一窗口"
+
+#: vc_map/infobanner.php:10
+msgid "New window"
+msgstr "新建窗口"
+
+#: vc_map/infobanner.php:13
+msgid "Info Banner"
+msgstr "信息横幅"
+
+#: vc_map/infobanner.php:16
+msgid "Shows call-to-action box"
+msgstr "显示行动调用框"
+
+#: vc_map/infobanner.php:31 vc_map/pricing_table.php:65
+msgid "Put here simple UL list"
+msgstr "放在这里简单的UL列表"
+
+#: vc_map/infobanner.php:48
+msgid "Link target"
+msgstr "链接目标"
+
+#: vc_map/jobs.php:6
+msgid "Jobs (WPJM)"
+msgstr "作业（WPJM）"
+
+#: vc_map/jobs.php:13
+msgid "Per Page"
+msgstr "每页"
+
+#: vc_map/jobs.php:15
+msgid ""
+"Defaults to the ‘per page’ option in settings. This controls how many jobs "
+"get listed per page.."
+msgstr "默认为设置中的“每页”选项。这控制每页列出的作业数。。"
+
+#: vc_map/jobs.php:20
+msgid "Orderby"
+msgstr "订购人"
+
+#: vc_map/jobs.php:28 vc_map/pricing_woo_tables.php:48
+#: vc_map/recent_blog.php:54 vc_map/spotlight_jobs.php:32
+#: vc_map/spotlight_resumes.php:32 vc_map/testimonials_carousel.php:48
+#: vc_map/testimonials_wide.php:32
+msgid "Modified"
+msgstr "被改进的"
+
+#: vc_map/jobs.php:29
+msgid "Rand"
+msgstr "兰德"
+
+#: vc_map/jobs.php:31
+msgid ""
+"Defaults to ‘featured’. Supports title, ID, name, date, modified, rand, "
+"featured."
+msgstr "默认为“特色”。支持标题、ID、名称、日期、修改、品牌、特色。"
+
+#: vc_map/jobs.php:41
+msgid ""
+"Defaults to ‘desc’. Can be set to ‘asc’ or ‘desc’ to choose the sorting "
+"direction."
+msgstr "默认为“desc”。可以设置为“asc”或“desc”以选择排序方向。"
+
+#: vc_map/jobs.php:46
+msgid "Show filters (over the list)"
+msgstr "显示筛选器（在列表上）"
+
+#: vc_map/jobs.php:58
+msgid "Show pagination"
+msgstr "显示分页"
+
+#: vc_map/jobs.php:80
+msgid "Job types"
+msgstr "工作类型"
+
+#: vc_map/jobs.php:117 vc_map/spotlight_jobs.php:101
+msgid "Filled"
+msgstr "填满"
+
+#: vc_map/map.php:6
+msgid "Jobs/Resumes Map"
+msgstr "工作/简历图"
+
+#: vc_map/map.php:9
+msgid "Shows map will all jobs/resumes"
+msgstr "显示地图将显示所有作业/简历"
+
+#: vc_map/map.php:15
+msgid "Content source"
+msgstr "内容来源"
+
+#: vc_map/map.php:17
+msgid "Choose maps or resumes (if applicable)"
+msgstr "选择地图或简历（如果适用）"
+
+#: vc_map/map.php:19
+msgid "Job listings"
+msgstr "工作列表"
+
+#: vc_map/map.php:26
+msgid "Map height (in px) "
+msgstr "地图高度（像素）"
+
+#: vc_map/map.php:29
+msgid "Put just a number."
+msgstr "只输入一个数字。"
+
+#: vc_map/pricing_table.php:10 vc_map/pricing_table.php:13
+msgid "Pricing table"
+msgstr "定价表"
+
+#: vc_map/pricing_table.php:18
+msgid "Type of table"
+msgstr "表格类型"
+
+#: vc_map/pricing_table.php:27
+msgid "Custom color"
+msgstr "自定义颜色"
+
+#: vc_map/pricing_table.php:29
+msgid "Select custom background color for table."
+msgstr "为表格选择自定义背景色。"
+
+#: vc_map/pricing_table.php:36 vc_map/pricing_table.php:45
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr "输入将用作小部件标题的文本。如果不需要标题，请留空。"
+
+#: vc_map/pricing_table.php:56
+msgid "Per"
+msgstr "每"
+
+#: vc_map/pricing_table.php:69
+msgid "Button URL"
+msgstr "按钮URL"
+
+#: vc_map/pricing_woo_tables.php:6
+msgid "WooCommerce Pricing Tables"
+msgstr "WooCommerce定价表"
+
+#: vc_map/pricing_woo_tables.php:9
+msgid "Lists Products from WooCommerce"
+msgstr "列出WooCommerce的产品"
+
+#: vc_map/pricing_woo_tables.php:22
+msgid "Product types"
+msgstr "产品类型"
+
+#: vc_map/pricing_woo_tables.php:25
+msgid "Job packages"
+msgstr "工作包"
+
+#: vc_map/pricing_woo_tables.php:26
+msgid "Resume packages"
+msgstr "恢复程序包"
+
+#: vc_map/pricing_woo_tables.php:27
+msgid "Job packages subscriptions"
+msgstr "作业包订阅"
+
+#: vc_map/pricing_woo_tables.php:28
+msgid "Resume packages subscriptions"
+msgstr "恢复包订阅"
+
+#: vc_map/pricing_woo_tables.php:36
+msgid "Set max limit for items or enter -1 to display all (limited to 1000)."
+msgstr "设置项目的最大限制，或输入-1以显示全部（限制为1000）。"
+
+#: vc_map/pricing_woo_tables.php:49 vc_map/recent_blog.php:55
+#: vc_map/spotlight_jobs.php:33 vc_map/spotlight_resumes.php:33
+#: vc_map/testimonials_carousel.php:49 vc_map/testimonials_wide.php:33
+msgid "Random"
+msgstr "随机的"
+
+#: vc_map/recent_blog.php:10
+msgid "Recent blog posts"
+msgstr "最近的博客文章"
+
+#: vc_map/recent_blog.php:13
+msgid "Recent posts list"
+msgstr "最近的帖子列表"
+
+#: vc_map/recent_blog.php:28
+msgid "In how many columns will be post displayed"
+msgstr "将在多少列中发布显示"
+
+#: vc_map/recent_blog.php:36
+msgid "Masonry mode"
+msgstr "砌体模式"
+
+#: vc_map/recent_blog.php:56
+msgid "Comment count"
+msgstr "注释计数"
+
+#: vc_map/recent_blog.php:57
+msgid "Menu order"
+msgstr "菜单顺序"
+
+#: vc_map/recent_blog.php:73
+msgid "Exclude posts, leave empty to not exclude anything"
+msgstr "排除帖子，留空不排除任何内容"
+
+#: vc_map/recent_blog.php:81
+msgid "Show only this categories"
+msgstr "仅显示此类别"
+
+#: vc_map/recent_blog.php:87
+msgid "Show only this tags"
+msgstr "仅显示此标记"
+
+#: vc_map/recent_blog.php:93 vc_map/spotlight_jobs.php:153
+msgid "Limit content by"
+msgstr "限制内容"
+
+#: vc_map/recent_blog.php:96 vc_map/spotlight_jobs.php:156
+msgid "Words"
+msgstr "话"
+
+#: vc_map/recent_blog.php:97 vc_map/spotlight_jobs.php:157
+msgid "Characters"
+msgstr "字符"
+
+#: vc_map/recent_blog.php:102 vc_map/spotlight_jobs.php:162
+msgid "Limit"
+msgstr "限度"
+
+#: vc_map/recent_blog.php:104 vc_map/spotlight_jobs.php:164
+msgid "Limit number"
+msgstr "限制数量"
+
+#: vc_map/search_jobs.php:11
+msgid "Search Jobs Banner"
+msgstr "搜索工作横幅"
+
+#: vc_map/search_jobs.php:14
+msgid "Shows search box like on home page"
+msgstr "在主页上显示搜索框"
+
+#: vc_map/search_jobs.php:32
+msgid "Show or hide jobs counter"
+msgstr "显示或隐藏作业计数器"
+
+#: vc_map/spotlight_jobs.php:9
+msgid "Featured jobs carousel"
+msgstr "特色工作转盘"
+
+#: vc_map/spotlight_jobs.php:12
+msgid "Shows carousel with selected jobs"
+msgstr "显示带有选定作业的转盘"
+
+#: vc_map/spotlight_jobs.php:53
+msgid "Job Meta data"
+msgstr "作业元数据"
+
+#: vc_map/spotlight_jobs.php:70 vc_map/spotlight_resumes.php:53
+msgid "From Categories only"
+msgstr "仅来自类别"
+
+#: vc_map/spotlight_jobs.php:80
+msgid "From job types only"
+msgstr "仅来自作业类型"
+
+#: vc_map/spotlight_jobs.php:82
+msgid "Add job types."
+msgstr "添加作业类型。"
+
+#: vc_map/spotlight_jobs.php:91
+msgid "Show only this jobs"
+msgstr "仅显示此作业"
+
+#: vc_map/spotlight_jobs.php:93
+msgid "Select jobs."
+msgstr "选择作业。"
+
+#: vc_map/spotlight_jobs.php:104 vc_map/spotlight_jobs.php:146
+#: vc_map/spotlight_resumes.php:119
+msgid "Show all"
+msgstr "全部显示"
+
+#: vc_map/spotlight_jobs.php:105
+msgid "Show only filled"
+msgstr "仅显示已填充"
+
+#: vc_map/spotlight_jobs.php:106
+msgid "Hide filled"
+msgstr "隐藏已填充"
+
+#: vc_map/spotlight_jobs.php:112 vc_map/spotlight_resumes.php:76
+msgid "Visible Elements"
+msgstr "可见元素"
+
+#: vc_map/spotlight_jobs.php:114 vc_map/spotlight_resumes.php:78
+msgid ""
+"How many elements are visible at once for each screen size (desktop, "
+"netbook, tablet, mobile phone)."
+msgstr "每种屏幕尺寸（桌面、上网本、平板电脑、手机）一次可以看到多少元素。"
+
+#: vc_map/spotlight_jobs.php:116 vc_map/spotlight_resumes.php:80
+msgid "1,1,1,1"
+msgstr "1,1,1,1"
+
+#: vc_map/spotlight_jobs.php:117 vc_map/spotlight_resumes.php:81
+msgid "2,1,1,1"
+msgstr "2,1,1,1"
+
+#: vc_map/spotlight_jobs.php:118 vc_map/spotlight_resumes.php:82
+msgid "2,2,1,1"
+msgstr "2,2,1,1"
+
+#: vc_map/spotlight_jobs.php:119 vc_map/spotlight_resumes.php:83
+msgid "3,2,1,1"
+msgstr "3,2,1,1"
+
+#: vc_map/spotlight_jobs.php:120 vc_map/spotlight_resumes.php:84
+msgid "3,3,1,1"
+msgstr "3,3,1,1"
+
+#: vc_map/spotlight_jobs.php:121 vc_map/spotlight_resumes.php:85
+msgid "4,3,2,2"
+msgstr "4,3,2,2"
+
+#: vc_map/spotlight_jobs.php:147 vc_map/spotlight_resumes.php:120
+msgid "Show only featured"
+msgstr "仅显示特色"
+
+#: vc_map/spotlight_resumes.php:9
+msgid "Featured Resumes carousel"
+msgstr "特色简历转盘"
+
+#: vc_map/spotlight_resumes.php:12
+msgid "Shows carousel with selected resumes"
+msgstr "显示带有选定简历的转盘"
+
+#: vc_map/spotlight_resumes.php:55
+msgid "Add resumes categories."
+msgstr "添加简历类别。"
+
+#: vc_map/spotlight_resumes.php:65
+msgid "Show only this resumes"
+msgstr "仅显示此简历"
+
+#: vc_map/spotlight_resumes.php:67
+msgid "Select resumes."
+msgstr "选择简历。"
+
+#: vc_map/spotlight_resumes.php:100
+msgid "Candidate photo"
+msgstr "候选人照片"
+
+#: vc_map/testimonials_carousel.php:9
+msgid "Testimonials Carousel"
+msgstr "证词转盘"
+
+#: vc_map/testimonials_carousel.php:12
+msgid "Shows clients testimonials"
+msgstr "显示客户评价"
+
+#: vc_map/testimonials_carousel.php:63 vc_map/testimonials_wide.php:47
+msgid "Exclude Testomionials"
+msgstr "排除睾丸"
+
+#: vc_map/testimonials_carousel.php:72 vc_map/testimonials_wide.php:56
+msgid "Include Testomionials"
+msgstr "包括睾丸"
+
+#: vc_map/testimonials_wide.php:9
+msgid "Testimonials (old)"
+msgstr "证词（旧）"
+
+#: vc_map/testimonials_wide.php:65
+msgid "Background Image for Testomionials section"
+msgstr "睾丸部分的背景图像"
+
+#: workscout-core-template-functions.php:98
+msgid "--Choose page--"
+msgstr "--选择页面--"
+
+#: workscout-core-template-functions.php:153
+#: workscout-core-template-functions.php:169
+msgid "Anywhere"
+msgstr "在任何地方"
+
+#: workscout-core-template-functions.php:404
+msgid "company"
+msgstr "公司"
+
+#: workscout-core-template-functions.php:934
+#, php-format
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr "“%s”（文件类型%s）需要是以下文件类型之一：%s"
+
+#: workscout-core-template-functions.php:936
+#, php-format
+msgid "Uploaded files need to be one of the following file types: %s"
+msgstr "上载的文件必须是以下文件类型之一：%s"
+
+#: workscout-core.php:173
+msgid "CMB2 Plugin is missing CMB2!"
+msgstr "CMB2插件缺少CMB2！"
+
+#. Plugin Name of the plugin/theme
+msgid "WorkScout-Core - WorkScout WPJM Plugin by Purethemes"
+msgstr "WorkScout Core-Purethemes的WorkScoutWPJM插件"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.purethemes.net/"
+msgstr "http://www.purethemes.net/"
+
+#. Description of the plugin/theme
+msgid "WPJM Plugin from Purethemes.net for WorkScout theme"
+msgstr "Purethemes的WPJM插件。net for WorkScout主题"
+
+#. Author of the plugin/theme
+msgid "Purethemes.net"
+msgstr "Purethemes.net网站"

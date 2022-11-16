@@ -3,6 +3,7 @@ import uuid
 import hashlib
 import requests
 import json
+import sys
 
 def baidu_translation_api(q, from_lang:str='en', to_lang:str='zh') :
     appkey='UqwHb74UtHP4IVbIerX8'
@@ -28,7 +29,7 @@ def baidu_translation_api(q, from_lang:str='en', to_lang:str='zh') :
     return r.text
 
 
-po = polib.pofile('zh_CN.po')
+po = polib.pofile(sys.argv[1])
 
 for entry in po:
     res = baidu_translation_api(entry.msgid)
@@ -37,4 +38,4 @@ for entry in po:
     entry.msgstr = trans_result['trans_result'][0]['dst']
     print(entry.msgid, entry.msgstr)
 
-po.save('zh_CN.po')
+po.save(sys.argv[1])
