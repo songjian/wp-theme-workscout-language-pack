@@ -1,0 +1,47 @@
+# Copyright (C) 2022 Astoundify
+# This file is distributed under the same license as the WP Job Manager - Company Profiles plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Company Profiles 1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-job-"
+"manager-companies\n"
+"POT-Creation-Date: 2022-07-20T12:47:20+02:00\n"
+"PO-Revision-Date: 2022-11-18 11:46+0800\n"
+"Last-Translator: Song Jian <songjian@codereder.cn>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: wp-job-manager-companies\n"
+"X-Generator: Poedit 3.2\n"
+
+#. Plugin Name of the plugin
+msgid "WP Job Manager - Company Profiles"
+msgstr "WP工作经理-公司简介"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/astoundify/wp-job-manager-companies"
+msgstr "https://github.com/astoundify/wp-job-manager-companies"
+
+#. Description of the plugin
+msgid ""
+"Output a list of all companies that have posted a job, with a link to a "
+"company profile."
+msgstr "输出已发布工作的所有公司的列表，并带有公司简介的链接。"
+
+#. Author of the plugin
+msgid "Astoundify"
+msgstr "使人吃惊"
+
+#. Author URI of the plugin
+msgid "http://astoundify.com"
+msgstr "http://astoundify.com"
+
+#: wp-job-manager-companies.php:70
+msgid "company"
+msgstr "公司"
+
+#: wp-job-manager-companies.php:323
+msgid "Jobs at %s"
+msgstr "位于%s的作业"

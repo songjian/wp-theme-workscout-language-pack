@@ -3,44 +3,40 @@
 # This file is distributed under the ThemeForest.=!>
 # #-#-#-#-#  workscout_core_zh_CN.po (WorkScout-Core - WorkScout WPJM Plugin by Purethemes)  #-#-#-#-#
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  zh_CN.po (WorkScout 2.0.8)  #-#-#-#-#\n"
 "Project-Id-Version: WorkScout 2.0.8\n"
+"Project-Id-Version: WorkScout-Core - WorkScout WPJM Plugin by Purethemes\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
 "POT-Creation-Date: 2020-02-26 21:37:09+00:00\n"
-"PO-Revision-Date: 2022-11-14 17:45+0800\n"
-"Last-Translator: Song Jian <sj@sj-redmibook-pro-15>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0.1\n"
-"#-#-#-#-#  workscout_core_zh_CN.po (WorkScout-Core - WorkScout WPJM Plugin "
-"by Purethemes)  #-#-#-#-#\n"
-"Project-Id-Version: WorkScout-Core - WorkScout WPJM Plugin by Purethemes\n"
 "POT-Creation-Date: 2020-02-24 23:19+0100\n"
+"PO-Revision-Date: 2022-11-18 11:44+0800\n"
 "PO-Revision-Date: 2022-11-15 17:16+0800\n"
+"Last-Translator: Song Jian <sj@sj-redmibook-pro-15>\n"
 "Last-Translator: Song Jian <songjian@c.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language-Team: Language workscout\n"
 "Language: zh_CN\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2\n"
 "X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.min.js\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-WPHeader: workscout-core.php\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
 #: 404.php:21
 msgid "Oops! That page can&rsquo;t be found."
@@ -401,8 +397,8 @@ msgstr "徽标和；设计"
 msgid ""
 "Please add your logo below. For best results, the logo should be a "
 "transparent PNG ( 200 by 40 pixels). The logo can be changed at any time "
-"from the Appearance > Customize area in your dashboard. Try %sEnvato "
-"Studio%s if you need a new logo designed."
+"from the Appearance > Customize area in your dashboard. Try %sEnvato Studio"
+"%s if you need a new logo designed."
 msgstr ""
 "请在下面添加您的徽标。为获得最佳效果，徽标应为透明PNG（200 x 40像素）。可以随"
 "时从仪表板的“外观”>“自定义”区域更改徽标。如果需要设计新徽标，请尝试%sEnvato "
@@ -850,17 +846,17 @@ msgstr "插件API出现问题。"
 #: inc/class-tgm-plugin-activation.php:377
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
-msgstr[0] "Begynd at installere plugin"
+msgstr[0] "开始安装插件"
 
 #: inc/class-tgm-plugin-activation.php:382
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
-msgstr[0] "Begynd at opdatere plugin"
+msgstr[0] "开始更新插件"
 
 #: inc/class-tgm-plugin-activation.php:387
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
-msgstr[0] "Begynd at aktivere plugin"
+msgstr[0] "开始激活插件"
 
 #: inc/class-tgm-plugin-activation.php:392
 msgid "Return to Required Plugins Installer"
@@ -994,19 +990,19 @@ msgstr "建议更新"
 #: inc/class-tgm-plugin-activation.php:2477
 msgid "To Install <span class=\"count\">(%s)</span>"
 msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] "At installere <span class=\"count\">(%s)</span>"
+msgstr[0] "要安装《span类=“计数”》（%s）的步骤"
 
 #. translators: 1: number of plugins.
 #: inc/class-tgm-plugin-activation.php:2481
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] "Opdatering tilgængelig <span class=\"count\">(%s)</span>"
+msgstr[0] "更新可用的&lt；span类=“计数”&gt；（%s）"
 
 #. translators: 1: number of plugins.
 #: inc/class-tgm-plugin-activation.php:2485
 msgid "To Activate <span class=\"count\">(%s)</span>"
 msgid_plural "To Activate <span class=\"count\">(%s)</span>"
-msgstr[0] "Aktivering <span class=\"count\">(%s)</span>"
+msgstr[0] "若要激活<span class=\"count\">（%s），请执行以下操作："
 
 #: inc/class-tgm-plugin-activation.php:2575
 msgid "Installed version:"
@@ -1421,7 +1417,7 @@ msgstr "脸谱网"
 #: job_manager/content-single-job_listing.php:120 single-job_listing.php:149
 #: template-parts/content-single.php:39 templates/my-account.php:92
 msgid "Twitter"
-msgstr "啁啾"
+msgstr "推特"
 
 #: inc/customizer/blog.php:97 inc/customizer/jobs.php:309
 msgid "Google Plus"
@@ -2181,8 +2177,8 @@ msgstr "选择“浏览简历类别页”"
 
 #: inc/customizer/resume_home.php:182
 msgid ""
-"This page needs to use template named \"Job/resumes Categories Page "
-"Template\""
+"This page needs to use template named \"Job/resumes Categories Page Template"
+"\""
 msgstr "此页面需要使用名为“工作/简历类别页面模板”的模板"
 
 #: inc/customizer/resumes.php:6 inc/customizer/resumes.php:14
@@ -2248,7 +2244,7 @@ msgstr "主题相关设置"
 
 #: inc/customizer/shop.php:13
 msgid "Shop layout"
-msgstr "车间布局"
+msgstr "店铺布局"
 
 #: inc/customizer/shop.php:14
 msgid "Choose the sidebar side for shop"
@@ -2362,7 +2358,7 @@ msgstr "h1..h6字体"
 #: inc/mini_cart.php:13
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] "%d vare"
+msgstr[0] "%d项"
 
 #: inc/mini_cart.php:13
 msgid "in the shopping cart"
@@ -2543,11 +2539,11 @@ msgstr "用户名或密码错误。"
 
 #: inc/registration.php:599
 msgid "Registration successful, redirecting..."
-msgstr "注册成功，正在重定向。。。"
+msgstr "注册成功，正在重定向..."
 
 #: inc/registration.php:624
 msgid "You forgot about captcha!"
-msgstr "你忘了captcha！"
+msgstr "你忘了验证码！"
 
 #: inc/template-tags.php:21 inc/template-tags.php:55
 #: shortcodes/latest_from_blog.php:216
@@ -2945,7 +2941,7 @@ msgstr "删去"
 
 #: job_manager/job-dashboard.php:114
 msgid "Add Job"
-msgstr "添加作业"
+msgstr "发布招聘"
 
 #: job_manager/job-pagination.php:23
 msgid "Previous"
@@ -3041,7 +3037,7 @@ msgstr "左居中"
 #: kirki/controls/php/class-kirki-control-background.php:85
 #: kirki/controls/php/class-kirki-control-dimensions.php:116
 msgid "Left Bottom"
-msgstr "左下（Left Bottom）"
+msgstr "左下角"
 
 #: kirki/controls/php/class-kirki-control-background.php:86
 #: kirki/controls/php/class-kirki-control-dimensions.php:117
@@ -3179,7 +3175,7 @@ msgstr "宽度"
 
 #: kirki/controls/php/class-kirki-control-dimensions.php:137
 msgid "Height"
-msgstr "身高"
+msgstr "高度"
 
 #: kirki/controls/php/class-kirki-control-repeater.php:77
 msgid "row"
@@ -3299,7 +3295,7 @@ msgstr "强调"
 
 #: kirki/controls/php/class-kirki-control-typography.php:194
 msgid "Overline"
-msgstr "过线（Overline）"
+msgstr "过线"
 
 #: kirki/controls/php/class-kirki-control-typography.php:195
 msgid "Line-Through"
@@ -3708,7 +3704,7 @@ msgstr "教育"
 #: wp-job-manager-resumes/content-single-resume.php:96
 #: wp-job-manager-resumes/content-single-resume.php:115
 msgid "%s at %s"
-msgstr "%%s（位于%s）"
+msgstr "%s在%s处的%s"
 
 #: single-resume.php:197 wp-job-manager-resumes/content-single-resume.php:108
 msgid "Experience"
@@ -3817,11 +3813,11 @@ msgstr "书签"
 
 #: template-dashboard.php:262
 msgid "Manage Jobs"
-msgstr "管理作业"
+msgstr "管理招聘"
 
 #: template-dashboard.php:278
 msgid "Submit Job"
-msgstr "提交作业"
+msgstr "发布招聘"
 
 #: template-dashboard.php:295
 msgid "Manage Resumes"
@@ -3902,7 +3898,7 @@ msgstr "或按<a href=“%s”>类别浏览工作机会</a>"
 #: template-home-old.php:111
 msgid "We have %s job offer for you!"
 msgid_plural "We have %s job offers for you!"
-msgstr[0] ""
+msgstr[0] "我们有%s的工作机会给你！"
 
 #: template-home-resumes.php:53
 msgid "What candidate are you looking for?"
@@ -4124,8 +4120,8 @@ msgstr "要查看工作列表和应用程序，请访问%1$s雇主仪表板%2$s�
 
 #: woocommerce/myaccount/dashboard.php:54
 msgid ""
-"To check your Resumes and Past Applications visit %1$sCandidate "
-"Dashboard%2$s."
+"To check your Resumes and Past Applications visit %1$sCandidate Dashboard"
+"%2$s."
 msgstr "要查看您的简历和过去的申请，请访问%1$s合并仪表板%2$s。"
 
 #: woocommerce/myaccount/dashboard.php:62
@@ -4143,7 +4139,7 @@ msgstr "评分%s（共5分）"
 #: woocommerce/single-product/rating.php:40
 msgid "%s review"
 msgid_plural "%s reviews"
-msgstr[0] "%s anmeldelse"
+msgstr[0] "%s复查"
 
 #: woocommerce/single-product/related.php:27
 msgid "Related Products"
@@ -4151,7 +4147,7 @@ msgstr "相关产品"
 
 #: woocommerce/single-product/review.php:37
 msgid "Rated %d out of 5"
-msgstr "评分%d（共5分）"
+msgstr "评分%d（满分5分）"
 
 #: woocommerce/single-product/review.php:46
 msgid "Your comment is awaiting approval"
@@ -4169,7 +4165,7 @@ msgstr "产品描述"
 #: woocommerce/single-product-reviews.php:34
 msgid "%1$s review for %2$s"
 msgid_plural "%1$s reviews for %2$s"
-msgstr[0] "%s anmeldelse af %s"
+msgstr[0] "%1$s复查为%2$s"
 
 #: woocommerce/single-product-reviews.php:36
 msgid "Reviews"
@@ -4216,7 +4212,7 @@ msgstr "您的评分"
 
 #: woocommerce/single-product-reviews.php:90
 msgid "Rate&hellip;"
-msgstr "费率&hellip；"
+msgstr "评分和帮助"
 
 #: woocommerce/single-product-reviews.php:91
 msgid "Perfect"
@@ -4516,7 +4512,7 @@ msgstr "在线简历"
 
 #: wp-job-manager-resumes/apply-with-resume.php:13
 msgid "Choose a resume..."
-msgstr "选择简历。。。"
+msgstr "选择简历..."
 
 #: wp-job-manager-resumes/apply-with-resume.php:22
 msgid "Message"
@@ -4542,7 +4538,7 @@ msgstr "您需要登录才能管理您的简历。"
 #: wp-job-manager-resumes/candidate-dashboard.php:6
 msgid "Your resume can be viewed, edited or removed below."
 msgid_plural "Your resume(s) can be viewed, edited or removed below."
-msgstr[0] "Dit CV kan ses, redigeres eller fjernes nedenfor."
+msgstr[0] "您的简历可以在下面查看、编辑或删除。"
 
 #: wp-job-manager-resumes/candidate-dashboard.php:27
 msgid "You do not have any active resume listings."
@@ -4568,7 +4564,6 @@ msgstr "联系"
 msgid "Add URL"
 msgstr "添加URL"
 
-#. #-#-#-#-#  zh_CN.po (WorkScout 2.0.8)  #-#-#-#-#
 #. Theme Name of the plugin/theme
 #: vc_map/actionbox_centered.php:13 vc_map/box.php:9
 #: vc_map/box_job_categories.php:23 vc_map/box_job_categories_full.php:17
@@ -4593,13 +4588,12 @@ msgstr "WordPress工作板主题"
 
 #. Author of the plugin/theme
 msgid "Purethemes"
-msgstr "Purethemes公司"
+msgstr "纯主题"
 
 #. Author URI of the plugin/theme
 msgid "http://purethemes.net/"
 msgstr "http://purethemes.net/"
 
-#. #-#-#-#-#  zh_CN.po (WorkScout 2.0.8)  #-#-#-#-#
 #. Template Name of the plugin/theme
 #: includes/class-workscout-core-admin.php:559
 msgid "Dashboard Page"
@@ -4657,7 +4651,7 @@ msgstr "带地图的作业-拆分页面"
 msgctxt "comments title"
 msgid "Comments %1$s"
 msgid_plural " Comments %1$s"
-msgstr[0] "Kommentar%1$s"
+msgstr[0] "注释%1$s"
 
 #: inc/class-tgm-plugin-activation.php:1206
 #: inc/class-tgm-plugin-activation.php:3033
@@ -4702,7 +4696,7 @@ msgstr ""
 #: wp-job-manager-apply-with-facebook/apply-with-facebook-form.php:30
 msgctxt "default cover letter"
 msgid "Best regards,"
-msgstr "顺致敬意，"
+msgstr "最好的问候"
 
 #: wp-job-manager-resumes/apply-with-resume.php:29
 msgctxt "default cover letter"
@@ -5155,11 +5149,11 @@ msgstr ""
 
 #: includes/class-workscout-core-admin.php:346
 msgid ""
-"Bing <a href=\"https://www.microsoft.com/en-us/maps/choose-your-bing-maps-"
-"api\">(requires API key)</a>"
+"Bing <a href=\"https://www.microsoft.com/en-us/maps/choose-your-bing-maps-api"
+"\">(requires API key)</a>"
 msgstr ""
-"必应<a href=“https://www.microsoft.com/en-us/maps/choose-your-bing-maps-api“>"
-"（需要API密钥）</a>"
+"必应<a href=“https://www.microsoft.com/en-us/maps/choose-your-bing-maps-"
+"api“>（需要API密钥）</a>"
 
 #: includes/class-workscout-core-admin.php:347
 msgid ""
@@ -5653,7 +5647,7 @@ msgstr "删除图像"
 #: includes/class-workscout-core-admin.php:1305
 #: includes/class-workscout-core.php:528 includes/class-workscout-core.php:537
 msgid "Cheatin&#8217; huh?"
-msgstr "作弊&#8217；呵呵？"
+msgstr "作弊啊"
 
 #: includes/class-workscout-core-editor.php:168
 msgid "Please upload a valid .json file"
@@ -5674,7 +5668,7 @@ msgstr "最小速率/h"
 #: includes/class-workscout-core-fields.php:228
 #: includes/class-workscout-core-fields.php:244
 msgid "e.g. 20"
-msgstr "e、 g.20"
+msgstr "E.第20段"
 
 #: includes/class-workscout-core-fields.php:65
 msgid "Maximum rate/h"
@@ -5682,7 +5676,7 @@ msgstr "最大速率/h"
 
 #: includes/class-workscout-core-fields.php:68
 msgid "e.g. 50"
-msgstr "e、 g.50"
+msgstr "E.第50段"
 
 #: includes/class-workscout-core-fields.php:75
 msgid "Minimum Salary"
@@ -5690,7 +5684,7 @@ msgstr "最低工资"
 
 #: includes/class-workscout-core-fields.php:78
 msgid "e.g. 20000"
-msgstr "e、 g.20000"
+msgstr "e.g. 20000"
 
 #: includes/class-workscout-core-fields.php:82
 msgid "Maximum Salary"
@@ -5698,7 +5692,7 @@ msgstr "最高工资"
 
 #: includes/class-workscout-core-fields.php:85
 msgid "e.g. 50000"
-msgstr "e、 g.50000"
+msgstr "e.g. 50000"
 
 #: includes/class-workscout-core-fields.php:92
 #: includes/class-workscout-core-fields.php:131
@@ -5707,7 +5701,7 @@ msgstr "每周小时数"
 
 #: includes/class-workscout-core-fields.php:95
 msgid "e.g. 40"
-msgstr "e、 g.40"
+msgstr "e.g. 40"
 
 #: includes/class-workscout-core-fields.php:101
 #: includes/class-workscout-core-fields.php:166
@@ -5752,7 +5746,7 @@ msgstr "最低工资"
 
 #: includes/class-workscout-core-fields.php:155
 msgid "e.g. 20.000"
-msgstr "e、 20.000克"
+msgstr "e.g. 20.000"
 
 #: includes/class-workscout-core-fields.php:159
 msgid "Salary max"
@@ -5760,7 +5754,7 @@ msgstr "最高工资"
 
 #: includes/class-workscout-core-fields.php:161
 msgid "e.g. 50.000"
-msgstr "e、 50000克"
+msgstr "e.g. 50.000"
 
 #: includes/class-workscout-core-fields.php:162
 msgid ""
@@ -5937,7 +5931,7 @@ msgstr "电话"
 
 #: includes/class-workscout-core-registration.php:504
 msgid "Twitter "
-msgstr "啁啾"
+msgstr "推特"
 
 #: includes/class-workscout-core-registration.php:505
 msgid "Facebook URL"
@@ -6278,22 +6272,19 @@ msgstr "您的上市包"
 #, php-format
 msgid "You have %1$s listings posted out of %2$d"
 msgid_plural "You have %1$s listings posted out of %2$d"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "您已从%2$d中发布了%1$s清单"
 
 #: templates/account/dashboard.php:199
 #, php-format
 msgid "You have %s listings posted"
 msgid_plural "You have %s listings posted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "您已发布%s清单"
 
 #: templates/account/dashboard.php:203
 #, php-format
 msgid "listed for %s day"
 msgid_plural "listed for %s days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "列出%s天"
 
 #: templates/account/dashboard.php:213
 msgid "You don't have any packages yet."
@@ -6708,7 +6699,7 @@ msgstr "仅包括"
 #: vc_map/box_job_categories.php:124 vc_map/box_job_categories.php:134
 #: vc_map/spotlight_jobs.php:72
 msgid "Add job categories."
-msgstr "添加作业类别。"
+msgstr "添加招聘类别。"
 
 #: vc_map/box_job_categories.php:132 vc_map/box_resume_categories.php:113
 msgid "Exclude only"
@@ -6747,7 +6738,7 @@ msgstr "类型"
 #: vc_map/box_job_categories_full.php:81
 #: vc_map/box_resume_categories_full.php:81
 msgid "Parent id"
-msgstr "父id"
+msgstr "家长编号"
 
 #: vc_map/box_job_categories_full.php:119
 #: vc_map/box_resume_categories_full.php:119
@@ -6921,7 +6912,7 @@ msgstr "悬停时显示的文本"
 
 #: vc_map/flip_banner.php:32
 msgid "Banner url"
-msgstr "横幅url"
+msgstr "网站地图"
 
 #: vc_map/flip_banner.php:39 vc_map/imagebox.php:59
 msgid "Background image"
@@ -6934,7 +6925,7 @@ msgstr "从媒体库中选择图像。"
 
 #: vc_map/flip_banner.php:46
 msgid "Overlay color"
-msgstr "外罩颜色"
+msgstr "覆盖颜色"
 
 #: vc_map/flip_banner.php:49
 msgid "Select color."
@@ -7322,7 +7313,7 @@ msgstr "仅来自作业类型"
 
 #: vc_map/spotlight_jobs.php:82
 msgid "Add job types."
-msgstr "添加作业类型。"
+msgstr "添加招聘类型。"
 
 #: vc_map/spotlight_jobs.php:91
 msgid "Show only this jobs"
@@ -7417,11 +7408,11 @@ msgstr "显示客户评价"
 
 #: vc_map/testimonials_carousel.php:63 vc_map/testimonials_wide.php:47
 msgid "Exclude Testomionials"
-msgstr "排除睾丸"
+msgstr "排除证词"
 
 #: vc_map/testimonials_carousel.php:72 vc_map/testimonials_wide.php:56
 msgid "Include Testomionials"
-msgstr "包括睾丸"
+msgstr "包括证词"
 
 #: vc_map/testimonials_wide.php:9
 msgid "Testimonials (old)"
@@ -7429,7 +7420,7 @@ msgstr "证词（旧）"
 
 #: vc_map/testimonials_wide.php:65
 msgid "Background Image for Testomionials section"
-msgstr "睾丸部分的背景图像"
+msgstr "证词部分的背景图像"
 
 #: workscout-core-template-functions.php:98
 msgid "--Choose page--"
