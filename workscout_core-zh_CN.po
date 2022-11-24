@@ -1934,7 +1934,7 @@ msgstr "配置文件详细信息"
 
 #: templates/my-account.php:36
 msgid "Avatar"
-msgstr "阿凡达"
+msgstr "头像"
 
 #: templates/my-account.php:37
 msgid "Change Avatar"
