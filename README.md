@@ -1,2 +1,6 @@
-# workscout-theme-translation
-WordPress WorkScout主题翻译
+# WP主题：WorkScout语言包
+
+## 软件环境
+
+* Python3
+* gettext
